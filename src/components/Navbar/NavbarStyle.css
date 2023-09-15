@@ -121,7 +121,7 @@
         padding-top: 1rem;
         font-weight: bolder;
         padding-left: 1rem;
-        padding-right: 1rem;
+        padding-right: 0.2rem;
         justify-content: space-between;
     }
 
@@ -130,7 +130,8 @@
     }
     .Navbar-main-sub-div h1{
         font-size: 1.5rem;
-        margin-left: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
         margin-top: 0.5rem;
     
         
