@@ -1,12 +1,13 @@
 body {
   height: 100%;
-  margin: 0; /* Remove default margin to ensure full height */
-  padding: 0; /* Remove default padding to ensure full height */
+  margin: 0;
+  padding: 0;
 }
 .sidebar-main-div {
   height: 100%;
   width: 17vw;
   background-color: rgb(246, 231, 205, 0.4);
+  
   position: fixed;
   left: 0;
   top: 21vh;
@@ -45,40 +46,31 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  /* .sidebar-main-div-hide {
-    left: -50vw;
-    transition: left 0.1 ease;
-  } */
   .hide-to-right{
-    top: 21vh;
-    z-index: 3;
-    height: 100%;
-    width: 50vw;
     background-color: rgb(44, 40, 40,0.9);
     position: fixed;
-    top: 18vh;
     color: wheat;
-    /* left: 0; */
-    left: 100%;
-    transition: left 1s ease;
     border-radius: 0;
-    
+    height: 100%;
+    width: 50vw;
+    top: 18vh;
+    left: 100%;
+    z-index: 3;
+    transition: left 1s ease; 
   }
   
   .sidebar-main-div-show {
-    top: 21vh;
-    z-index: 3;
-    height: 100%;
-    width: 50vw;
     background-color: rgb(44, 40, 40,0.9);
     position: fixed;
-    /* left: 100%; */
-    left: 0;
-    top: 18vh;
     color: wheat;
     border-radius: 0 ;
     justify-content: center;
     align-items: center;
+    left: 0;
+    top: 18vh;
+    height: 100%;
+    width: 50vw;
+    z-index: 3;
     transition: left 1s ease;
   }
   

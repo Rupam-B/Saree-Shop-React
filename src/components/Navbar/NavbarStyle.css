@@ -106,6 +106,74 @@
     border-radius: 50%;
 }
 
+/* --------Li Display----- */
+.JamdaniNavData-container{
+    position: absolute;
+    top: 18vh;
+    width: 100vw;
+    height: 55vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 2vh;
+    
+}
+.JamdaniNavData-container-Not-active{
+    left: -100vw;
+    transition: left 1s ease;
+}
+.JamdaniNavData-container-active{
+    left: 0;
+    transition: left 1s ease;
+}
+
+.JamdaniNavData-container-card{
+    width: 18rem;
+    height: 50vh;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    margin-bottom: 3rem;
+    border: none;
+}
+/* .JamdaniNavData-container-card-img{
+    width: 100%;
+    height: 20rem;
+} */
+.JamdaniNavData-container-card-img{
+    width: 100%;
+    height:60vh;
+    overflow: hidden;
+}
+.JamdaniNavData-container-card-img img{
+    width: 100%;
+    height: 60vh;
+    transition: transform 0.5s ease-in-out;
+}
+.JamdaniNavData-container-card-img img:hover{
+   transform: scale(1.1);
+
+}
+.JamdaniNavData-container-card-body{
+    padding: 0;
+    padding-top: 1rem;
+
+}
+.JamdaniNavData-container-card-body-button{
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    background-color:rgb(246, 224, 185,0.8);
+    color: rgb(13, 11, 11);
+    border-radius: 10rem;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    border: none;
+}
+
 
 
 
@@ -193,6 +261,71 @@
         margin-right: 0.3rem;
     }
     
+
+
+    /* ------Drop down li----- */
+    .JamdaniNavData-container{
+        position: absolute;
+        top: 15vh;
+        width: 100vw;
+        height: 33vh;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 1rem;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-top: 2vh;
+        
+    }
+    .JamdaniNavData-container-card{
+        width: 20vw;
+        height: 30vh;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        margin-bottom: 0;
+        border: none;
+    }
+
+    .JamdaniNavData-container-card-img{
+        width: 100%;
+        height:20vh;
+        overflow: hidden;
+    }
+    .JamdaniNavData-container-card-img img{
+        width: 100%;
+        height: 20vh;
+        transition: transform 0.5s ease-in-out;
+        object-fit: cover;
+    }
+    .JamdaniNavData-container-card-img img:hover{
+       transform: scale(1.1);
+    
+    }
+    .JamdaniNavData-container-card-body{
+        padding: 0;
+        padding-top: 0.3rem;
+    
+    }
+    .JamdaniNavData-container-card-body-button{
+        width: 15vw;
+        height: 3vh;
+        font-size: 0.5rem;
+        background-color: rgb(73, 73, 198);
+        color: white;
+        border-radius: 10rem;
+        margin-bottom: 2vh;
+    }
+    .JamdaniNavData-container-card-body p{
+        font-size: 0.5rem;
+        margin-left: 0.5vw;
+        margin-bottom: 0;
+    }
+    .JamdaniNavData-container-card-body h5{
+        font-size: 0.6rem;
+        margin-left: 0.5vw;
+    }
 
     
 }
