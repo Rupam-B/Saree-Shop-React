@@ -14,10 +14,14 @@
 
     .Home-main-div{
         width: 94vw;
+        height: 20vh;
         right: 3vw;
         left: 3vw;
         position: absolute;
         margin-top: 1rem;
+    }
+    .main-background img{
+        height: 20vh;
     }
 
 }
