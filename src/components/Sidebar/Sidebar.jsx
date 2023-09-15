@@ -14,7 +14,7 @@ export const Sidebar = () => {
               <button onClick={toggleSidebarfunc} className="side-bar-mobile"><i className="fa-solid fa-bars"></i></button>
             </div>
 
-    <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-show" :"sidebar-main-div sidebar-main-div-hide" }>
+    <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-show" :"sidebar-main-div sidebar-main-div-hide hide-to-right" }>
       <div className="sidebar-items">
         <ul>
           <li><i className="fa-solid fa-house"></i> Home</li>

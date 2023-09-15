@@ -45,23 +45,39 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .sidebar-main-div-hide {
-    left: -3100vw;
+  /* .sidebar-main-div-hide {
+    left: -50vw;
     transition: left 0.1 ease;
-  }
+  } */
+  
   .sidebar-main-div-show {
     top: 21vh;
     z-index: 3;
     height: 100%;
-    width: 3100vw;
-    background-color: rgb(191, 191, 191);
+    width: 50vw;
+    background-color: rgb(44, 40, 40,0.9);
     position: fixed;
-    left: 50%;
+    left: 100%;
     top: 18vh;
+    color: wheat;
     border-radius: 0 ;
     justify-content: center;
     align-items: center;
     transition: left 1s ease;
+  }
+  .hide-to-right{
+    top: 21vh;
+    z-index: 3;
+    height: 100%;
+    width: 50vw;
+    background-color: rgb(44, 40, 40,0.9);
+    position: fixed;
+    top: 18vh;
+    color: wheat;
+    left: 0;
+    transition: left 1s ease;
+    border-radius: 0;
+    
   }
   /* ------------ */
 
