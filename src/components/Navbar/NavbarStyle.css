@@ -316,6 +316,7 @@
         color: white;
         border-radius: 10rem;
         margin-bottom: 2vh;
+        padding-bottom: 0;
     }
     .JamdaniNavData-container-card-body p{
         font-size: 0.5rem;

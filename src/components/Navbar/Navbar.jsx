@@ -147,7 +147,7 @@ const Navbar = () => {
                     <div className="card-body JamdaniNavData-container-card-body">
                       <h5 className="card-title">{items.FoodName}</h5>
                       <p className="card-text">{items.rating}</p>
-                      <button className="JamdaniNavData-container-card-body-button">Go somewhere</button>
+                      <button className="JamdaniNavData-container-card-body-button">Buy</button>
                     </div>
                   </div>
                 ))}
@@ -167,7 +167,7 @@ const Navbar = () => {
                     <div className="card-body JamdaniNavData-container-card-body">
                       <h5 className="card-title">{items.FoodName}</h5>
                       <p className="card-text">{items.rating}</p>
-                      <button className="JamdaniNavData-container-card-body-button">Go somewhere</button>
+                      <button className="JamdaniNavData-container-card-body-button">Buy</button>
                     </div>
                   </div>
                 ))}
@@ -187,7 +187,7 @@ const Navbar = () => {
                     <div className="card-body JamdaniNavData-container-card-body">
                       <h5 className="card-title">{items.FoodName}</h5>
                       <p className="card-text">{items.rating}</p>
-                      <button className="JamdaniNavData-container-card-body-button">Go somewhere</button>
+                      <button className="JamdaniNavData-container-card-body-button">Buy</button>
                     </div>
                   </div>
                 ))}
@@ -207,7 +207,7 @@ const Navbar = () => {
                     <div className="card-body JamdaniNavData-container-card-body">
                       <h5 className="card-title">{items.FoodName}</h5>
                       <p className="card-text">{items.rating}</p>
-                      <button className="JamdaniNavData-container-card-body-button">Go somewhere</button>
+                      <button className="JamdaniNavData-container-card-body-button">Buy</button>
                     </div>
                   </div>
                 ))}
@@ -227,7 +227,7 @@ const Navbar = () => {
                     <div className="card-body JamdaniNavData-container-card-body">
                       <h5 className="card-title">{items.FoodName}</h5>
                       <p className="card-text">{items.rating}</p>
-                      <button className="JamdaniNavData-container-card-body-button">Go somewhere</button>
+                      <button className="JamdaniNavData-container-card-body-button">Buy</button>
                     </div>
                   </div>
                 ))}
@@ -247,7 +247,7 @@ const Navbar = () => {
                     <div className="card-body JamdaniNavData-container-card-body">
                       <h5 className="card-title">{items.FoodName}</h5>
                       <p className="card-text">{items.rating}</p>
-                      <button className="JamdaniNavData-container-card-body-button">Go somewhere</button>
+                      <button className="JamdaniNavData-container-card-body-button">Buy</button>
                     </div>
                   </div>
                 ))}
@@ -267,7 +267,7 @@ const Navbar = () => {
                     <div className="card-body JamdaniNavData-container-card-body">
                       <h5 className="card-title">{items.FoodName}</h5>
                       <p className="card-text">{items.rating}</p>
-                      <button className="JamdaniNavData-container-card-body-button">Go somewhere</button>
+                      <button className="JamdaniNavData-container-card-body-button">Buy</button>
                     </div>
                   </div>
                 ))}
