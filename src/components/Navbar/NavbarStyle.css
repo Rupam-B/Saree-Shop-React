@@ -113,6 +113,7 @@
     .Navbar-background-color-dark{
         background-color: black;
         height: 3.5vh;
+        padding-top: 0.15rem;
     }
     .Navbar-background-color-dark p{
         font-size: 0.7rem;
