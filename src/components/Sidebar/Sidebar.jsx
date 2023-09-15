@@ -11,10 +11,10 @@ export const Sidebar = () => {
   return (
     <>
     <div className="side-bar-container-mobile">
-              <button onClick={toggleSidebarfunc} className="side-bar-mobile"><i className="fa-solid fa-bars"></i></button>
+              <button onClick={toggleSidebarfunc} className={toggleSidebar? "side-bar-mobile side-bar-mobile-active-background" :"side-bar-mobile" }><i className="fa-solid fa-bars"></i></button>
             </div>
 
-    <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-show" :"sidebar-main-div sidebar-main-div-hide hide-to-right" }>
+    <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-show" :"sidebar-main-div hide-to-right" }>
       <div className="sidebar-items">
         <ul>
           <li><i className="fa-solid fa-house"></i> Home</li>

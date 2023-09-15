@@ -95,5 +95,10 @@ body {
   .side-bar-mobile {
     border: none;
     border-radius: 4rem;
+    background-color: wheat;
+  }
+  .side-bar-mobile-active-background{
+    background-color: rgb(44, 40, 40,0.9) ;
+    color: wheat;
   }
 }
