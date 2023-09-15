@@ -46,20 +46,22 @@ body {
 
 @media screen and (max-width: 500px) {
   .sidebar-main-div-hide {
-    display: none;
+    left: -3100vw;
+    transition: left 0.1 ease;
   }
   .sidebar-main-div-show {
-    display: block;
+    top: 21vh;
     z-index: 3;
     height: 100%;
     width: 3100vw;
     background-color: rgb(191, 191, 191);
     position: fixed;
-    left: 0;
+    left: 50%;
     top: 18vh;
     border-radius: 0 ;
     justify-content: center;
     align-items: center;
+    transition: left 1s ease;
   }
   /* ------------ */
 

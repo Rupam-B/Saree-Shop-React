@@ -188,7 +188,7 @@ const FlashSaleExclusiveData = [
     {
         id: 13214,
         hotelName: "Kanjivaram",
-        src: "https://www.bharatsthali.com/cdn/shop/products/6_49cbc75f-2cb0-40b7-82ba-138f4b4026f0_360x.jpg?v=1624811961",
+        src: "https://www.bharatsthali.com/cdn/shop/products/37_3_6_fuzlhwohw74skbuj_579aed6f-df80-4070-abea-45c5632ac165_360x.jpg?v=1618487167",
         state:'Odhisa',
          rating:"4.5",
          menu:"Chicken BhunaMasala, Daal Makhni, Veg Biryani",
