@@ -7,11 +7,12 @@ const Navbar = () => {
       <div className="header Navbar-main-div">
         <div className="TopHeader Navbar-background-color-dark">
           <p className="p2 pernia-white-color text-center">
-            For customizations or personal assistance, WhatsApp us at 
-            <span className="pernia-black-color">
+          <i class="fa-solid fa-hands-praying"></i>
+          <span className="pernia-black-color">
               <a href="https://api.whatsapp.com/send?phone=917000771487&amp;text=Hi!%20Could%20you%20help%20me%20with%20a%20few%20queries!"
-                className="pernia-color-red">+91 7000771487</a>
-            </span>
+                className="pernia-color-red"> Welcome </a>
+            </span>  
+            <i class="fa-solid fa-hands-praying"></i>
           </p>
         </div>
         <div className="Content layout BreakPointContainer ">

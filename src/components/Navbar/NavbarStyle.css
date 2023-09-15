@@ -14,12 +14,13 @@
 .Navbar-background-color-dark p span a{
     text-decoration: none;
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 .pernia-white-color{
     color: white;
 }
 .pernia-color-red{
-    color: rgb(252, 4, 4, 0.9);
+    color: rgb(252, 4, 4);
 }
 .Navbar-main-sub-div{
     text-align: center;
@@ -111,10 +112,10 @@
 
     .Navbar-background-color-dark{
         background-color: black;
-        height: 2vh;
+        height: 3.5vh;
     }
     .Navbar-background-color-dark p{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         
     }
     .Navbar-main-sub-div{
