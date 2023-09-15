@@ -1,0 +1,23 @@
+.Home-main-div{
+    width: 76vw;
+    right: 3vw;
+    position: absolute;
+    margin-top: 1rem;
+}
+.main-background img{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .Home-main-div{
+        width: 94vw;
+        right: 3vw;
+        left: 3vw;
+        position: absolute;
+        margin-top: 1rem;
+    }
+
+}
