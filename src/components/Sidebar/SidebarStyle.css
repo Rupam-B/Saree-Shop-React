@@ -1,61 +1,78 @@
-
 body {
-    height: 100%;
-    margin: 0; /* Remove default margin to ensure full height */
-    padding: 0; /* Remove default padding to ensure full height */
+  height: 100%;
+  margin: 0; /* Remove default margin to ensure full height */
+  padding: 0; /* Remove default padding to ensure full height */
 }
-.sidebar-main-div{
-    height: 100%;
-    width: 17Vw;
-    background-color: rgb(246, 231, 205,0.4);
-    position:fixed ;
-    left: 0;
-    top: 18vh;
-    border-radius: 0 1rem 0 0;
+.sidebar-main-div {
+  height: 100%;
+  width: 17vw;
+  background-color: rgb(246, 231, 205, 0.4);
+  position: fixed;
+  left: 0;
+  top: 18vh;
+  border-radius: 0 1rem 0 0;
 }
-.sidebar-items ul li{
-    list-style: none;
-    margin-top: 3rem;
-    margin-left: 1rem;
-    font-size: 1.3rem;
-    font-weight: bolder;
-    position: relative;
-    
-
+.sidebar-items ul li {
+  list-style: none;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  position: relative;
 }
-.sidebar-items ul li:hover{
-    cursor: pointer;
-    transform: scale(1.02);
-}
-.sidebar-items ul li:hover::after{
-    content: '';
-    position: absolute;
-    background-color: rgba(57, 44, 46, 0.8);
-    height: 0.3vh;
-    top:100%;
-    left: 1.3rem;
-    width: 0;
-    transition: width 0.5s ease;
+.sidebar-items ul li:hover {
+  cursor: pointer;
+  transform: scale(1.02);
 }
 .sidebar-items ul li:hover::after {
-    width: 20%; 
-  }
-.sidebar-items ul li i{
-    font-size: 0.9rem;
-
+  content: "";
+  position: absolute;
+  background-color: rgba(57, 44, 46, 0.8);
+  height: 0.3vh;
+  top: 100%;
+  left: 1.3rem;
+  width: 0;
+  transition: width 0.5s ease;
 }
-/* .fa-house{
-    font-size: 1rem;
-} */
+.sidebar-items ul li:hover::after {
+  width: 20%;
+}
+.sidebar-items ul li i {
+  font-size: 0.9rem;
+}
+.side-bar-container-mobile {
+  display: none;
+}
 
+@media screen and (max-width: 500px) {
+  .sidebar-main-div-hide {
+    display: none;
+  }
+  .sidebar-main-div-show {
+    display: block;
+    z-index: 3;
+    height: 100%;
+    width: 3100vw;
+    background-color: rgb(191, 191, 191);
+    position: fixed;
+    left: 0;
+    top: 18vh;
+    border-radius: 0 ;
+    justify-content: center;
+    align-items: center;
+  }
+  /* ------------ */
 
-
-
-@media screen and (max-width:500px) {
-
-
-    .sidebar-main-div{
-        display: none;
-    }
-
+  .side-bar-container-mobile {
+    display: block;
+    position: fixed;
+    left: 0.6rem;
+    margin-top: 0.6rem;
+    z-index: 2;
+    top: 6vh;
+  }
+  .side-bar-mobile {
+    border: none;
+    border-radius: 4rem;
+  }
 }

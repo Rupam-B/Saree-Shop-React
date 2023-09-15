@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './SidebarStyle.css'
 
 export const Sidebar = () => {
+
+  const [toggleSidebar,setToggleSidebar] = useState(false)
+
+  const toggleSidebarfunc = ()=>{
+    setToggleSidebar(!toggleSidebar)
+  }
   return (
     <>
-    <div className="sidebar-main-div">
+    <div className="side-bar-container-mobile">
+              <button onClick={toggleSidebarfunc} className="side-bar-mobile"><i className="fa-solid fa-bars"></i></button>
+            </div>
+    <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-hide" : "sidebar-main-div sidebar-main-div-show" }>
       <div className="sidebar-items">
         <ul>
           <li><i className="fa-solid fa-house"></i> Home</li>

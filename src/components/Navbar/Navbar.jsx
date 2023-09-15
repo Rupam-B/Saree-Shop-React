@@ -22,9 +22,9 @@ const Navbar = () => {
               <button className=" btn Navbar-sub-div-button"> Xl </button>
               <button className=" btn Navbar-sub-div-button Navbar-sub-div-button-border-right"> M </button>
             </div>
-            <div className="side-bar-container-mobile">
+            {/* <div className="side-bar-container-mobile">
               <button className="side-bar-mobile"><i className="fa-solid fa-bars"></i></button>
-            </div>
+            </div> */}
             <h1>SUBHRA SAREE HOUSE</h1>
             <div className="Navbar-sub-div-icons">
             <i className="fa-regular fa-heart mobile-display-none"></i>

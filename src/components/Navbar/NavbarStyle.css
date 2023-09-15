@@ -27,7 +27,7 @@
 }
 .Navbar-main-sub-div{
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2vh;
     font-weight: bolder;
     display: flex;
     padding-left: 4rem;
@@ -104,9 +104,7 @@
     left: 0;
     border-radius: 50%;
 }
-.side-bar-container-mobile{
-    display: none;
-}
+
 
 
 
@@ -163,16 +161,7 @@
     .Navbar-sub-div-icons i.mobile-display-none{
         display: none;
     }
-    .side-bar-container-mobile{
-        display: block;
-        position: absolute;
-        left: 0.6rem;
-        margin-top: 0.6rem;
-    }
-    .side-bar-mobile{
-        border: none;
-        border-radius: 4rem;
-    }
+    
 
 
     
