@@ -1,6 +1,9 @@
 .Navbar-main-div{
     height: 18vh;
-    background-color: rgb(225, 225, 225,0.3);
+    background-color: rgb(236, 236, 236,0.9);
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
 
 .Navbar-background-color-dark{
@@ -113,7 +116,7 @@
     .Navbar-background-color-dark{
         background-color: black;
         height: 3.5vh;
-        padding-top: 0.15rem;
+        padding-top: 0.18rem;
     }
     .Navbar-background-color-dark p{
         font-size: 0.7rem;

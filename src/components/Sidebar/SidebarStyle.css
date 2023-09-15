@@ -1,7 +1,17 @@
+
+body {
+    height: 100%;
+    margin: 0; /* Remove default margin to ensure full height */
+    padding: 0; /* Remove default padding to ensure full height */
+}
 .sidebar-main-div{
-    height: 100vh;
-    width: 19Vw;
-    background-color: rgb(246, 231, 205,0.4)
+    height: 100%;
+    width: 17Vw;
+    background-color: rgb(246, 231, 205,0.4);
+    position:fixed ;
+    left: 0;
+    top: 18vh;
+    border-radius: 0 1rem 0 0;
 }
 .sidebar-items ul li{
     list-style: none;

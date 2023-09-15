@@ -1,3 +1,8 @@
+
+html,body {
+  margin: 0; /* Remove default margin to ensure full height */
+  padding: 0; /* Remove default padding to ensure full height */
+}
 .App {
   text-align: center;
 }
