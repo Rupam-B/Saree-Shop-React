@@ -16,7 +16,6 @@ const Navbar = () => {
     setNewid('')
   };
   const handleNavImagesin =(imgid)=>{
-    console.log(imgid)
     setImgid(imgid)
   }
   const handleNavImagesOut =()=>{

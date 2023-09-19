@@ -98,12 +98,12 @@
     }
     .main-background{
         width: 100%;
-        height: 20vh;
-        overflow: hidden;
+        height: 13vh;
+       overflow: hidden;
     }
     .main-background img{
         width: 100%;
-        height: 20vh;
+        height: 14vh;
     }
 
 
