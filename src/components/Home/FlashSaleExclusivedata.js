@@ -5,7 +5,8 @@ const FlashSaleExclusiveData = [
         rating: '4.7',
         state: 'Chhattisgarh',
         menu: "Chicken curry, Paneer Masala , Veg Pulaw",
-        src: "https://www.bharatsthali.com/cdn/shop/products/DSC8157_360x.jpg?v=1634036896",
+        src: "https://www.bharatsthali.com/cdn/shop/products/final-8_fc20d3dc-0307-4f43-bb8b-ce8a97735321_1800x1800.jpg?v=1659705866",
+        src2: "https://www.bharatsthali.com/cdn/shop/products/final-4_20aaae34-6f2c-4e82-9fdd-73f3f950a0a0_1800x1800.jpg?v=1659705866",
         data: [{
 
             id: 1331,
@@ -52,7 +53,8 @@ const FlashSaleExclusiveData = [
         state: 'Pune',
         menu: "Paneer Handi ,Mutton Biryani, Egg Fry",
         rating: "4.6",
-        src: "https://www.bharatsthali.com/cdn/shop/collections/DSC4339_b16c422e-84ca-4f54-a437-5b03682870e3_360x.jpg?v=1624790741",
+        src: "https://www.bharatsthali.com/cdn/shop/products/final-6_a1545bb3-e512-4264-8f34-b258baf5818d_1800x1800.jpg?v=1654353758",
+        src2: "https://www.bharatsthali.com/cdn/shop/products/final-2_22541d14-098a-449c-b067-28b5268d04b2_1800x1800.jpg?v=1654354024",
         data: [{
 
             id: 1341,
@@ -99,7 +101,8 @@ const FlashSaleExclusiveData = [
         state: 'Kolkata',
         rating: "4.7",
         menu: "Fish Curry, Muttor Keema , Veg Pulaw",
-        src: "https://www.bharatsthali.com/cdn/shop/products/8_e9d27bf8-f27d-42cd-ae6c-aedffc2c8e6d_360x.jpg?v=1641890695",
+        src: "https://www.bharatsthali.com/cdn/shop/files/final-1_56ca5b09-1865-4032-9e05-6b1d45bedf1c_1800x1800.jpg?v=1687516058",
+        src2: "https://www.bharatsthali.com/cdn/shop/files/final-4_94ae372d-fc7e-4044-9510-9458a6a45023_1800x1800.jpg?v=1687516094",
         data: [{
 
             id: 1351,
@@ -142,7 +145,8 @@ const FlashSaleExclusiveData = [
     {
         id: 13213,
         hotelName: "Puja Sarees",
-        src: "https://www.bharatsthali.com/cdn/shop/products/6_49cbc75f-2cb0-40b7-82ba-138f4b4026f0_360x.jpg?v=1624811961",
+        src: "https://www.bharatsthali.com/cdn/shop/products/front-1_240d55b5-6b97-4e32-a1ee-3ab94e96e550_1800x1800.jpg?v=1641458187",
+        src2: "https://www.bharatsthali.com/cdn/shop/products/final-4_5134969e-4b00-49a4-8f46-9ea64b9f3439_1800x1800.jpg?v=1641459745",
         state: 'Andhra Pradesh',
         rating: "4.6",
         menu: "Idli , Dosa , Dal Fry, Jeera Rice",
@@ -188,7 +192,8 @@ const FlashSaleExclusiveData = [
     {
         id: 13214,
         hotelName: "Kanjivaram",
-        src: "https://www.bharatsthali.com/cdn/shop/products/37_3_6_fuzlhwohw74skbuj_579aed6f-df80-4070-abea-45c5632ac165_360x.jpg?v=1618487167",
+        src: "https://www.bharatsthali.com/cdn/shop/products/final-1_0bfe1877-d78c-4b87-b279-2df7efa9f29e_1800x1800.jpg?v=1641383354",
+        src2: "https://www.bharatsthali.com/cdn/shop/products/front-1_d44c974d-08e8-4f17-963f-d9b973be6613_1800x1800.jpg?v=1641383443",
         state:'Odhisa',
          rating:"4.5",
          menu:"Chicken BhunaMasala, Daal Makhni, Veg Biryani",
@@ -234,7 +239,8 @@ const FlashSaleExclusiveData = [
     {
         id: 13215,
         hotelName: "Handloom Silk",
-        src: "https://www.bharatsthali.com/cdn/shop/files/1_bd8a74ef-915e-40c6-86df-8095e7ede581_360x.jpg?v=1683576276",
+        src: "https://www.bharatsthali.com/cdn/shop/products/DSC4306_1800x1800.jpg?v=1624792179",
+        src2: "https://www.bharatsthali.com/cdn/shop/products/DSC4307_1800x1800.jpg?v=1624790292",
         state:'Punjab',
           rating:"4.8",
           menu:"Chicken Kadhai, Chole Kulche , Butter Naan",
@@ -280,7 +286,8 @@ const FlashSaleExclusiveData = [
     {
         id: 13216,
         hotelName: "Maheshwari",
-        src: "https://www.bharatsthali.com/cdn/shop/collections/7_360x.jpg?v=1651986211",
+        src: "https://www.bharatsthali.com/cdn/shop/products/DSC4399_1800x1800.jpg?v=1624791961",
+        src2: "https://www.bharatsthali.com/cdn/shop/products/DSC4402_1800x1800.jpg?v=1624791569",
         state:'Delhi',
           rating:"4.9",
           menu:"Mutton Kasa, Chiken Korma, Sai Paneer",
@@ -326,7 +333,8 @@ const FlashSaleExclusiveData = [
     {
         id: 13217,
         hotelName: "Bandhni Silk",
-        src: "https://www.bharatsthali.com/cdn/shop/products/DSC1779_360x.jpg?v=1644411845",
+        src: "https://www.bharatsthali.com/cdn/shop/products/final-1_c0196ef2-4abe-48ab-a3b2-ddbffffa3246_720x.jpg?v=1653218390",
+        src2: "https://www.bharatsthali.com/cdn/shop/products/final-4_bbd70c1f-1ebc-4b35-899e-22735dc9c81c_1800x1800.jpg?v=1653216138",
         state:'Bhopal',
           rating:"4.7",
           menu:"Fish Fry, Chicken Rezala, Tawa Rooti",

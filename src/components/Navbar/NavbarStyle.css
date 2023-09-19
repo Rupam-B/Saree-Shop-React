@@ -111,7 +111,7 @@
     position: absolute;
     top: 18vh;
     width: 100vw;
-    height: 55vh;
+    height: 58vh;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +120,7 @@
     padding-right: 5vw;
     padding-left: 5vw;
     padding-top: 2vh;
+
     
 }
 .JamdaniNavData-container-Not-active{
@@ -133,25 +134,21 @@
 
 .JamdaniNavData-container-card{
     width: 18rem;
-    height: 50vh;
+    height: 55vh;
     margin-right: 0.3rem;
     margin-left: 0.3rem;
     margin-bottom: 3rem;
     border: none;
 }
-/* .JamdaniNavData-container-card-img{
-    width: 100%;
-    height: 20rem;
-} */
 .JamdaniNavData-container-card-img{
     width: 100%;
-    height:60vh;
+    /* height:40vh; */
     overflow: hidden;
 }
 .JamdaniNavData-container-card-img img{
     width: 100%;
-    height: 60vh;
-    transition: transform 0.5s ease-in-out;
+    /* height: 100%; */
+    transition: 0.3s ease;
 }
 .JamdaniNavData-container-card-img img:hover{
    transform: scale(1.1);
@@ -163,8 +160,8 @@
 
 }
 .JamdaniNavData-container-card-body-button{
-    width: 10vw;
-    height: 5vh;
+    width: 8vw;
+    height: 4vh;
     font-size: 1.2rem;
     background-color:rgb(246, 224, 185,0.8);
     color: rgb(13, 11, 11);
@@ -172,6 +169,24 @@
     margin-bottom: 2vh;
     padding-bottom: 1vh;
     border: none;
+    position: absolute;
+    bottom: -0.6rem;
+}
+.JamdaniNavData-container-card-body-title-p{
+    font-size: 0.7rem;
+    margin-top: 0;
+    font-weight: bolder;
+    padding-bottom: 3.5rem;
+    padding-top: 0;
+    
+}
+.JamdaniNavData-container-card-body-price-p{
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 2.5rem;
+    color: green;
 }
 
 
@@ -281,11 +296,12 @@
     }
     .JamdaniNavData-container-card{
         width: 20vw;
-        height: 30vh;
+        height: 30.9vh;
         margin-right: 1vw;
         margin-left: 1vw;
         margin-bottom: 0;
         border: none;
+        
     }
 
     .JamdaniNavData-container-card-img{
@@ -304,8 +320,11 @@
     
     }
     .JamdaniNavData-container-card-body{
+        height: 10vh;
         padding: 0;
         padding-top: 0.3rem;
+        /* padding-left: 0.2rem; */
+        padding-right: 0.3rem;
     
     }
     .JamdaniNavData-container-card-body-button{
@@ -317,16 +336,26 @@
         border-radius: 10rem;
         margin-bottom: 2vh;
         padding-bottom: 0;
+        position: absolute;
+        bottom: -0.4rem;
     }
-    .JamdaniNavData-container-card-body p{
-        font-size: 0.5rem;
+    .JamdaniNavData-container-card-body-title-p{
+        font-size: 0.3rem;
         margin-left: 0.5vw;
         margin-bottom: 0;
+        font-weight: bolder;
+        
     }
-    .JamdaniNavData-container-card-body h5{
-        font-size: 0.6rem;
+    .JamdaniNavData-container-card-body-price-p{
+        font-size: 0.4rem;
         margin-left: 0.5vw;
+        margin-bottom: 0;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 1.8rem;
+        color: green;
     }
+
 
     
 }

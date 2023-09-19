@@ -5,8 +5,38 @@
     margin-top: 1rem;
     top: 20vh;
 }
+.main-background{
+    width: 78vw;
+    height: 40vh;
+    overflow: hidden;
+}
 .main-background img{
     width: 100%;
+    height:100%;
+    object-fit: cover;
+    transition:1.5s ease;
+}
+.main-background img:hover{
+    transform: scale(1.2);
+}
+.flash-sale-container-card-body-button{
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    background-color:rgb(246, 224, 185,0.8);
+    color: rgb(13, 11, 11);
+    border-radius: 10rem;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    border: none;
+}
+.flash-sale-container-card-body-button:hover{
+    background-color:rgba(245, 211, 154, 0.8);
+    color: rgb(13, 11, 11);
+    border-radius: 10rem;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    border: none;
 }
 
 /* ---------Flash Sale Container------- */
@@ -41,7 +71,7 @@
 .flash-sale-container-card-img img{
     width: 100%;
     height: 60vh;
-    transition: transform 0.5s ease-in-out;
+    transition: 0.3s ease;
 }
 .flash-sale-container-card-img img:hover{
    transform: scale(1.1);
@@ -59,14 +89,20 @@
 
     .Home-main-div{
         width: 94vw;
-        height: 20vh;
+        /* height: 20vh; */
         right: 3vw;
         left: 3vw;
         position: absolute;
         margin-top: 1rem;
         top: 17vh;
     }
+    .main-background{
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+    }
     .main-background img{
+        width: 100%;
         height: 20vh;
     }
 
@@ -100,6 +136,17 @@
         padding: 0;
         padding-top: 1rem;
     
+    }
+    .flash-sale-container-card-body-button{
+        width: 30vw;
+        height: 5vh;
+        font-size: 1.2rem;
+        background-color:rgb(246, 224, 185,0.8);
+        color: rgb(13, 11, 11);
+        border-radius: 10rem;
+        margin-bottom: 2vh;
+        padding-bottom: 1vh;
+        border: none;
     }
 
 }

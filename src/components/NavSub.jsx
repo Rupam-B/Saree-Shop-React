@@ -1,31 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./NavbarStyle.css";
 import { NavData } from "./NavData";
 
 const Navbar = () => {
-  // States-----
-  const [newid,setNewid]=useState('')
-  const [imgid,setImgid]=useState('')
+  // const [navHover, setNavHover] = useState(false);
+  const [navHover, setNavHover] = useState(Array(NavData.length).fill(false));
+
+  const handleHover = (index) => {
+    // setNavHover(true);
+    const newNavHover = [...navHover];
+    newNavHover[index] = true;
+    setNavHover(newNavHover);
+  };
+  
+  const handleMouseLeave = (index) => {
+    // setNavHover(false);
+    const newNavHover = [...navHover];
+    newNavHover[index] = false;
+    setNavHover(newNavHover);
+  };
 
 
-  // Functions-----
-  const handleHover = (id) => {  
-    setNewid(id)
-  };
-  const handleMouseLeave = () => {
-    setNewid('')
-  };
-  const handleNavImagesin =(imgid)=>{
-    console.log(imgid)
-    setImgid(imgid)
-  }
-  const handleNavImagesOut =()=>{
-    setImgid('')
-  }
-  useEffect(()=>{
-    handleHover(newid)
-    handleNavImagesin(imgid)
-  },[newid,imgid])
 
   return (
     <>
@@ -71,17 +66,21 @@ const Navbar = () => {
                 <div  key={mainData.id}>
                   <li
                    
-                    onMouseEnter={()=>handleHover(mainData.id)}
-                    onMouseLeave={()=>handleMouseLeave(mainData.id)}
+                    onMouseEnter={()=>handleHover(index)}
+                    onMouseLeave={()=>handleMouseLeave(index)}
                   >
                     {mainData.sareeName}
                   </li>
 
                   <div
-                    onMouseEnter={()=>handleHover(mainData.id)}
-                    onMouseLeave={()=>handleMouseLeave(mainData.id)}
-                    className={newid===mainData.id ? "JamdaniNavData-container JamdaniNavData-container-active":
-                    "JamdaniNavData-container JamdaniNavData-container-Not-active"}
+                    onMouseEnter={()=>handleHover(index)}
+                    onMouseLeave={()=>handleMouseLeave(index)}
+                    className={
+                      // navHover
+                      navHover[index]
+                        ? "JamdaniNavData-container JamdaniNavData-container-active"
+                        : "JamdaniNavData-container JamdaniNavData-container-Not-active"
+                    }
                   >
                     {NavData[index].sareeData.map((items) => (
                       <div
@@ -89,8 +88,8 @@ const Navbar = () => {
                         className="card JamdaniNavData-container-card"
                       >
                         <div className="JamdaniNavData-container-card-img">
-                          <img onMouseEnter={()=>handleNavImagesin(items.id)} onMouseLeave={handleNavImagesOut}
-                            src={imgid===items.id?items.src2:items.src}
+                          <img
+                            src={items.src}
                             className="card-img-top"
                             alt="..."
                           />
