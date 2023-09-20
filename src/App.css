@@ -10,10 +10,25 @@ html,body {
   display: flex;
   flex-direction: row;
 }
+.changingScreen{
+  width: 81vw;
+    right: 2vw;
+    position: absolute;
+    margin-top: 1rem;
+    top: 20vh;
+}
 
 
 
-@media (prefers-reduced-motion: no-preference) {
+@media screen and (max-width:500px) {
+  .changingScreen{
+        width: 94vw;
+        right: 3vw;
+        left: 3vw;
+        position: absolute;
+        margin-top: 1rem;
+        top: 17vh;
+  }
   
 }
 

@@ -1,0 +1,21 @@
+.Order-main-div{
+    height: 73vh;
+    background-color: rgba(215, 163, 163, 0.1);
+    
+}
+.order-container{
+    padding: 1rem;
+}
+.order-section{
+    border: 1px solid rgb(12, 12, 12,0.1);
+    width: 80vw;
+    height: 10vh;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width:500px) {.Order-main-div{
+    height: 90vh;
+}
+    
+}

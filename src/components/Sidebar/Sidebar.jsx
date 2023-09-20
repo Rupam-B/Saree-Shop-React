@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './SidebarStyle.css'
+import { Link } from 'react-router-dom'
 
 export const Sidebar = () => {
 
@@ -17,10 +18,10 @@ export const Sidebar = () => {
     <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-show" :"sidebar-main-div hide-to-right" }>
       <div className="sidebar-items">
         <ul>
-          <li><i className="fa-solid fa-house"></i> Home</li>
-          <li><i className="fa-solid fa-address-card"></i> About</li>
-          <li><i className="fa-solid fa-phone"></i> Contact</li>
-          <li><i className="fa-brands fa-first-order-alt"></i> Orders</li>
+          <li><i className="fa-solid fa-house"></i><Link to={'/'}>Home</Link></li>
+          <li><i className="fa-solid fa-address-card"></i><Link to={'/about'}>About</Link></li>
+          <li><i className="fa-solid fa-phone"></i><Link to={'/contact'}>Contact</Link></li>
+          <li><i className="fa-brands fa-first-order-alt"></i><Link to={'/orders'}>Orders</Link></li>
         </ul>
         </div>
         </div>

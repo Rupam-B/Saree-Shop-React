@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./NavbarStyle.css";
 import { NavData } from "./NavData";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // States-----
@@ -58,10 +59,10 @@ const Navbar = () => {
             </div>
             <h1>SUBHRA SAREE HOUSE</h1>
             <div className="Navbar-sub-div-icons">
-              <i className="fa-regular fa-heart mobile-display-none"></i>
+              <Link to={'/favourites'}><i className="fa-regular fa-heart mobile-display-none"></i></Link>
+              <Link to={'/Authen'}><i className="fa-regular fa-user"></i></Link>
               <i className="fa-solid fa-magnifying-glass mobile-display-none"></i>
-              <i className="fa-solid fa-bag-shopping"></i>
-              <i className="fa-regular fa-user"></i>
+              <Link to={'/cart'} style={{textDecoration:'none',color:'black'}}><i className="fa-solid fa-bag-shopping"></i></Link>
             </div>
           </div>
           <div className="nav-items">

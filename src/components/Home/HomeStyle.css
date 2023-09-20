@@ -1,12 +1,8 @@
 .Home-main-div{
-    width: 78vw;
-    right: 3vw;
-    position: absolute;
-    margin-top: 1rem;
-    top: 20vh;
+   padding-left: 1vw;
 }
 .main-background{
-    width: 78vw;
+    width: 80vw;
     height: 40vh;
     overflow: hidden;
 }
@@ -87,23 +83,19 @@
 
 @media screen and (max-width:500px) {
 
-    .Home-main-div{
-        width: 94vw;
-        /* height: 20vh; */
-        right: 3vw;
-        left: 3vw;
-        position: absolute;
-        margin-top: 1rem;
-        top: 17vh;
-    }
+    /* .Home-main-div{
+        
+        padding-left: 2vw;
+
+    } */
     .main-background{
         width: 100%;
-        height: 13vh;
+        height: 14vh;
        overflow: hidden;
     }
     .main-background img{
         width: 100%;
-        height: 13vh;
+        height: 14vh;
     }
 
 

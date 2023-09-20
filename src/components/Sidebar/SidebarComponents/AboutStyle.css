@@ -1,0 +1,57 @@
+.About-main-div{
+    background:linear-gradient(to right, #ffffff, #f3d0f7, #ff97cc, #ff557e, #eb1212);
+    height: 73vh;
+    padding: 0;
+    padding-top: 3vh;
+    width: 100%;
+    margin: 0;
+}
+.About-main-div h1{
+    text-align: center;
+}
+.About-main-div p{
+    text-align: center;
+    color: black;
+
+}
+.About-main-div-button{
+    background-color: linear-gradient(to right, #ff0000, #ff517f, #ff97d2, #f8d1fc, #ffffff);
+    transition: background-color 1s ease-in-out;
+    border: 1px solid  #eb1212;
+
+}
+.About-main-div-button:hover{
+    background-color:  #ff5c88;
+
+}
+.About-main-div-p2{
+    text-align: center;
+ }
+
+
+
+@media screen and (max-width:500px){
+    
+    .About-main-div{
+       padding-left: 2vw;
+       height: 100vh;
+    }
+    .About-main-div h1{
+       font-size: 1.5rem;
+       padding-left: 0;   
+    }
+    .About-main-div-p{
+       font-size: 0.9rem;
+        text-wrap: wrap;   
+    }
+    .About-main-div p{
+       text-align: left;
+       margin-left: 0.5rem;   
+    }
+    
+    .About-main-div-p2{
+      text-align: center;   
+    }
+    
+
+}
