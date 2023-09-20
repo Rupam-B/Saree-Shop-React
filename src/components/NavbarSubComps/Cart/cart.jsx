@@ -1,6 +1,6 @@
 import React from 'react';
 
-const cart = () => {
+const Cart = () => {
   // const [isValid, setIsValid] = useState(false);
   // const [fillName ,setFillName] = useState('fillDetails.newname')
   // const [fillUserName,setFillUserName] = useState('fillDetails.newname')
@@ -197,4 +197,4 @@ const cart = () => {
   )
 }
 
-export default cart;
+export default Cart;
