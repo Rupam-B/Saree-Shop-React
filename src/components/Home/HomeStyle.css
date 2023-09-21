@@ -15,28 +15,25 @@
 .main-background img:hover{
     transform: scale(1.2);
 }
+.flash-sale-container-card-body a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 .flash-sale-container-card-body-button{
     display: inline-block;
     width: 8vw;
     height: 5vh;
     font-size: 1.2rem;
-    /* background-color:rgba(26, 26, 26, 0.8); */
     border: 1px solid red;
     color: rgb(250, 0, 0);
     border-radius: 10rem;
-    margin-bottom: 2vh;
-    padding-bottom: 1vh;
-    padding-top: 0.2vh;
-    text-decoration: none;
-    text-align: center;
+   
 }
 .flash-sale-container-card-body-button:hover{
-    background-color:rgb(255, 2, 2,0.1);
-    color: rgb(13, 11, 11);
-    border-radius: 10rem;
-    margin-bottom: 2vh;
-    padding-bottom: 1vh;
-    border: none;
+    background-color:rgba(255, 192, 192, 0.2);
+    border:1px solid rgb(249, 2, 2,0.5);
 }
 
 /* ---------Flash Sale Container------- */
@@ -80,8 +77,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 86.5%;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.2rem;
 }
 .flash-sale-container-card-body{
     padding: 0;
@@ -94,13 +92,10 @@
     top: 40%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .flash-sale-container-image-name{
-    /* position: absolute; */
+    padding-top: 1vh;
     background-color: rgba(0, 0, 0, 0.6);
-    /* top: 30%; */
-    /* left: 20%; */
     border-radius: 5px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -116,7 +111,7 @@
     align-items: center;
     justify-content: center;
     background: url('https://img.perniaspopupshop.com/Landing-Deal-of-the-day-Sarees-SHOP5.jpg');
-    background-size: 180%;
+    background-size: 180% 80vh;
     background-repeat: no-repeat;
 }
 .Luxury-Section-Content{
@@ -135,15 +130,16 @@
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1.5vh;
+    transition: 1s ease-in-out;
+}
+.Luxury-Section-Content button:hover{
+    transform: scale(1.1);
 }
 .Luxury-Section-Content-Overlay{
     position: absolute;
-    /* top: 0;
-    left: 0; */
-    bottom: 26vh;
     width: 98.7%;
-    height: 77vh;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -173,20 +169,29 @@
         height: 55vh;
         margin-right: 0.1rem;
         margin-left: 0.1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         border: none;
     }
     .flash-sale-container-card-img{
         width: 100%;
-        height:60vh;
+        height:46vh;
         overflow: hidden;
         
     }
     .flash-sale-container-card-img img{
         width: 100%;
-        height: 60vh;
+        height: 46vh;
         transition: transform 0.5s ease-in-out;
         object-fit: cover;
+    }
+    .Home-Elements-bg-Overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 46vh;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 0.2rem 0.2rem 0 0;
     }
     .flash-sale-container-card-img img:hover{
        transform: scale(1.1);
@@ -199,40 +204,30 @@
         justify-content: center;
     
     }
+    .flash-sale-container-card-body a{
+        display: flex;
+        justify-content: center;
+    
+    }
     .flash-sale-container-card-body-button{
         display: inline-block;
         width: 30vw;
         height: 5vh;
         font-size: 1.1rem;
         border-radius: 10rem;
-        margin-bottom: 1.5vh;
-        padding-top: 0.2vh;
-        text-align: center;
-    }
-    .Home-Elements-bg-Overlay{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 84%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border-radius: 0.2rem 0.2rem 0 0;
     }
     .flash-sale-container-image-name-center{
         width: 100%;
-        justify-content: center;
-        align-items: center;
+        
     }
     .flash-sale-container-image-name{
-
+        padding-top: 1vh;
         background-color: rgba(0, 0, 0, 0.6);
-
         border-radius: 5px;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         color: white;
         z-index: 1;
-        margin: auto
     }
     .flash-sale-container-image-name h4{
         font-size: 1.1rem;
@@ -240,12 +235,12 @@
 /* Luxury Section----- */
 .Luxury-Section{
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: url('https://img.perniaspopupshop.com/Landing-Deal-of-the-day-Sarees-SHOP5.jpg');
-    background-size: 180%;
+    background-size: 200% 35vh;
     background-repeat: no-repeat;
 }
 .Luxury-Section-Content{
@@ -278,12 +273,8 @@
     margin-top: 1.5vh;
 }
 .Luxury-Section-Content-Overlay{
-    position: absolute;
-    /* top: 0;
-    left: 0; */
-    bottom: 26.2vh;
     width: 98.7%;
-    height: 25vh;
+    height: 35vh;
     background-color: rgba(0, 0, 0, 0.3);
 }
 

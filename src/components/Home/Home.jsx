@@ -49,7 +49,9 @@ const Home = () => {
             <div key={items.id} className="card flash-sale-container-card">
               <div className="flash-sale-container-card-img">
                 <div className="flash-sale-container-image-name-center">
-                <div className="flash-sale-container-image-name"><h4>{items.hotelName}</h4></div>
+                <div className="flash-sale-container-image-name">
+                  <h4>{items.HomeSareeName}</h4>
+                </div>
                 </div>
                 <div onMouseEnter={() => handleImageChange(items.id, items.src2)}
                   onMouseLeave={() => handleImageChange(items.id)} className="Home-Elements-bg-Overlay"></div>
