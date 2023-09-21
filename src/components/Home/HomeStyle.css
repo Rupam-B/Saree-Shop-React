@@ -235,7 +235,7 @@
 /* Luxury Section----- */
 .Luxury-Section{
     width: 100%;
-    height: 35vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,7 +274,7 @@
 }
 .Luxury-Section-Content-Overlay{
     width: 98.7%;
-    height: 35vh;
+    height: 30vh;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
