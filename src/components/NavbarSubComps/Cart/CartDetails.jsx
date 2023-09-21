@@ -1,23 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const Cart = () => {
-  // const [isValid, setIsValid] = useState(false);
-  // const [fillName ,setFillName] = useState('fillDetails.newname')
-  // const [fillUserName,setFillUserName] = useState('fillDetails.newname')
-  // const [fillEmail ,setFillEmail] = useState('fillDetails.email')
-  
-
-  // const handleFormSubmit = (event) => {
-  //   if (!event.target.checkValidity()) {
-  //     setIsValid(false);
-  //     event.preventDefault();
-  //   }
-  //    else{  
-  //     setIsValid(true)
-  //     event.preventDefault();
-  //   }
-  // }
-
+const CartDetails = () => {
   return (
     <div className='page-container'>
 
@@ -197,4 +180,4 @@ const Cart = () => {
   )
 }
 
-export default Cart;
+export default CartDetails

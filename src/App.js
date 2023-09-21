@@ -8,7 +8,7 @@ import Contact from './components/Sidebar/SidebarComponents/Contact';
 import Orders from './components/Sidebar/SidebarComponents/Orders';
 import Favourite from './components/NavbarSubComps/Favourites/Favourite';
 import Authen from './components/NavbarSubComps/Authentication/Authen';
-import Cart from './components/NavbarSubComps/Cart/Cart'
+import CartDetails from './components/NavbarSubComps/Cart/CartDetails';
 
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/orders' element={<Orders/>}/>
     <Route path='/favourites' element={<Favourite/>}/>
-    <Route path='/cart' element={<Cart/>}/>
     <Route path='/authen' element={<Authen/>}/>
+    <Route path='/Cart' element={<CartDetails/>}/>
     </Routes>
     </div>
     </div>
