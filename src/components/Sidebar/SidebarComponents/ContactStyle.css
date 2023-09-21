@@ -14,11 +14,11 @@
         text-align: center;
         background-repeat: no-repeat;
         background-position-y: top;
-        background-size: 95vw 40vh;
+        background-size: 95vw 35vh;
         padding-top: 4rem;
     }
     .contact-div-content h1{
-      margin-bottom: 7rem;
+      margin-bottom: 5rem;
     }
     
 }
