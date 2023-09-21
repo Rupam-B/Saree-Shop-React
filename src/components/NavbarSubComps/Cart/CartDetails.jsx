@@ -28,7 +28,7 @@ const CartDetails = () => {
         </div>
 
         <div className="container pdng-tp">
-          <main>
+          <main style={{marginBottom:'15vh'}}>
             <div className="row g-5">
               <div style={{padding:'1rem'}} className="col-md-5 col-lg-4 order-md-last">
                 <h4 className="d-flex justify-content-between align-items-center mb-3">
@@ -183,7 +183,9 @@ const CartDetails = () => {
             </div>
           </main>
 
-          <footer className="my-5 pt-5 text-body-secondary text-center text-small">
+          <hr />
+
+          <footer className="my-5  text-body-secondary text-center text-small">
             <p className="mb-1">© 2017–2023 Subhra Saree</p>
             <ul className="list-inline">
               <li className="list-inline-item"><a href="/">Privacy</a></li>

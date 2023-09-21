@@ -9,6 +9,7 @@ import Orders from './components/Sidebar/SidebarComponents/Orders';
 import Favourite from './components/NavbarSubComps/Favourites/Favourite';
 import Authen from './components/NavbarSubComps/Authentication/Authen';
 import CartDetails from './components/NavbarSubComps/Cart/CartDetails';
+import ExtendedHomeItems from './components/Home/DisplayExtendedHomeItems/ExtendedHomeItems';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <div className='changingScreen'>
     <Routes>
     <Route path="/" element={<Home/>}/>
+    <Route path='/ExtendedHomeItems' element={<ExtendedHomeItems/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/orders' element={<Orders/>}/>

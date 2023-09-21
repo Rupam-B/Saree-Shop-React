@@ -3,7 +3,7 @@
     background-color: rgb(236, 236, 236,0.9);
     position: fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 2;
 }
 
 .Navbar-background-color-dark{
@@ -139,6 +139,7 @@
     margin-left: 0.3rem;
     margin-bottom: 3rem;
     border: none;
+    
 }
 .JamdaniNavData-container-card-img{
     width: 100%;
@@ -200,7 +201,6 @@
         background-color: rgb(236, 236, 236,0.9);
         position: fixed;
         width: 100vw;
-        z-index: 1;
     }
 
     .Navbar-background-color-dark{
@@ -352,7 +352,7 @@
         margin-bottom: 0;
         font-weight: bolder;
         position: absolute;
-        bottom: 2.7rem;
+        bottom: 2.5rem;
         color: green;
     }
 
