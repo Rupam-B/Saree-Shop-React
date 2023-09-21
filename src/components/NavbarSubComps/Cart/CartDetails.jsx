@@ -1,6 +1,22 @@
 import React from 'react'
 
 const CartDetails = () => {
+  // const [isValid, setIsValid] = useState(false);
+  // const [fillName ,setFillName] = useState('fillDetails.newname')
+  // const [fillUserName,setFillUserName] = useState('fillDetails.newname')
+  // const [fillEmail ,setFillEmail] = useState('fillDetails.email')
+  
+
+  // const handleFormSubmit = (event) => {
+  //   if (!event.target.checkValidity()) {
+  //     setIsValid(false);
+  //     event.preventDefault();
+  //   }
+  //    else{  
+  //     setIsValid(true)
+  //     event.preventDefault();
+  //   }
+  // }
   return (
     <div className='page-container'>
 

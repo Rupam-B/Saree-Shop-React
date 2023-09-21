@@ -15,11 +15,10 @@
         background-repeat: no-repeat;
         background-position-y: top;
         background-size: 95vw 40vh;
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
     .contact-div-content h1{
-      margin-bottom: 8.1rem;
-      color: blue;
+      margin-bottom: 7rem;
     }
     
 }
