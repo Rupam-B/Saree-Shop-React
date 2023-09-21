@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import { Sidebar } from './components/Sidebar/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar'
 import { Routes,Route } from 'react-router-dom'
 import About from './components/Sidebar/SidebarComponents/About';
 import Contact from './components/Sidebar/SidebarComponents/Contact';
@@ -19,7 +19,7 @@ function App() {
     <Sidebar/>
     <div className='changingScreen'>
     <Routes>
-    <Route exact path="/" element={<Home/>}/>
+    <Route path="/" element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/orders' element={<Orders/>}/>
