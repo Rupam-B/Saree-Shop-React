@@ -10,6 +10,7 @@ import Favourite from './components/NavbarSubComps/Favourites/Favourite';
 import Authen from './components/NavbarSubComps/Authentication/Authen';
 import CartDetails from './components/NavbarSubComps/Cart/CartDetails';
 import ExtendedHomeItems from './components/Home/DisplayExtendedHomeItems/ExtendedHomeItems';
+import SubFinalHome from './components/Home/DisplayExtendedHomeItems/SubExtendedDisplay/SubFinalHome';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path='/ExtendedHomeItems' element={<ExtendedHomeItems/>}/>
+    <Route path='/SubFinalHome' element={<SubFinalHome/>} />
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/orders' element={<Orders/>}/>

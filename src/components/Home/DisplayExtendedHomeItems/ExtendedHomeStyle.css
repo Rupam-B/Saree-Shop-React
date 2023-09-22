@@ -22,6 +22,9 @@
 .lower-header p{   
     margin: 0 0.5vw;
 }
+.Extended-Home-items-heading{
+    text-align: center;
+}
 
 /* container----- */
 .Extended-Home-container{
@@ -30,6 +33,80 @@
     justify-content: space-between;
     margin-top: 1rem;
     
+}
+
+/* ----------- */
+.Extended-Home-container-card-body a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.Extended-Home-container-card-body-button{
+    display: inline-block;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    /* border: 1px solid red; */
+    /* color: rgb(250, 0, 0); */
+    color: blue;
+    border-radius: 10rem;
+   
+}
+.Extended-Home-container-card-body-button:hover{
+    border:1px solid rgb(5, 5, 252,0.5);
+}
+
+/* ---------Extended Home Container------- */
+
+.Extended-Home-container-card{
+    width: 18vw;
+    height: 70vh;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    margin-bottom: 3rem;
+    border: none;
+}
+
+.Extended-Home-container-card-img{
+    width: 100%;
+    height:50vh;
+    overflow: hidden;
+}
+.Extended-Home-container-card-img img{
+    width: 100%;
+    height: 50vh;
+    transition: 0.5s ease;
+    
+    
+}
+.Extended-Home-container-card-img img:hover{
+   transform: scale(1.1);
+
+}
+.Extended-Home-container-card-body{
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Extended-Home-container-image-name-center{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+}
+.Extended-Home-container-image-name{
+    padding-top: 1vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+    z-index: 1;
 }
 
 @media screen and (max-width:500px) {
@@ -44,5 +121,52 @@
 .lower-header p{   
     margin: 0 0.5vw;
     margin-top: 2vh;
+}
+.Extended-Home-items-heading{
+    text-align: center;
+}
+
+
+/* ---------- */
+.Extended-Home-container-card{
+    width: 40vw;
+    height: 57vh;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2rem;
+    border: none;
+}
+.Extended-Home-container-img{
+    width: 100%;
+    height:40vh;
+    overflow: hidden;
+    
+}
+.Extended-Home-container-card-img img{
+    width: 100%;
+    height: 40vh;
+    transition: transform 0.5s ease-in-out;
+    object-fit: cover;
+}
+
+.Extended-Home-container-card-body{
+    padding: 0;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Extended-Home-container-card-body a{
+    display: flex;
+    justify-content: center;
+
+}
+.Extended-Home-container-card-body-button{
+    display: inline-block;
+    width: 30vw;
+    height: 5vh;
+    font-size: 1.1rem;
+    border-radius: 10rem;
 }
 }

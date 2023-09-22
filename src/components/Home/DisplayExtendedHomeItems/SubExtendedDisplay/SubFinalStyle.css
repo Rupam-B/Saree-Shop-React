@@ -1,0 +1,114 @@
+
+/* ------ */
+.Final-Home-main-div{
+    height: 100vh;
+}
+.Final-Home-left-side-Img-div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1rem;
+    width: 30vw;
+    height: 100vh;
+}
+.Final-Home-left-side-Img-div img{
+    width: 30vw;
+    height: 90vh;
+}
+/* ----- */
+.Final-Home-right-upper-img-div{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem 0;
+    width: 46vw;
+    height: 38vh;
+}
+.right-upper-img-1{
+    margin: 0 2vw 0 0;
+    width: 14vw;
+    height: 38vh;
+    border-radius: 5px 5px 0 0;
+}
+.right-upper-img-1 img{
+    width: 14vw;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+/* ------ */
+.Final-Home-Product-Details-div{
+    position: absolute;
+    top: 45vh;
+    right: 0;
+    width: 46vw;
+}
+.Add-to-cart{
+    border: none;
+    border: 1px solid rgb(130, 128, 128,0.5);
+    border-radius: 1rem;
+    padding: 1vh 1vw;
+    transition: 0.5s ease-in-out;
+}
+.Add-to-cart:hover{
+    background-color: rgb(129, 126, 126,0.25);
+}
+
+@media screen and (max-width:500px) {
+    
+    .Final-Home-main-div{
+        height: 140vh;
+    }
+    .Final-Home-left-side-Img-div{
+        position: absolute;
+        left: 5vw;
+        right: 5vw;
+        top: 35vh;
+        margin: 0 1rem;
+        width: 75vw;
+        height: 70vh;
+    }
+    .Final-Home-left-side-Img-div img{
+        width: 75vw;
+        height: 70vh;
+        
+    }
+    /* ----- */
+    .Final-Home-right-upper-img-div{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin:1rem 0;
+        width: 46vw;
+        height: 33vh;
+    }
+    .right-upper-img-1{
+        margin: 0 2vw 0 0;
+        width: 30vw;
+        height: 30vh;
+        border-radius: 5px 5px 0 0;
+    }
+    .right-upper-img-1 img{
+        width: 30vw;
+        height: 100%;
+        cursor: pointer;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+    }
+    /* ------ */
+    .Final-Home-Product-Details-div{
+        position: absolute;
+        top: 110vh;
+        left: 6vw;
+        width: 80vw;
+        text-align: center;
+    }
+    .Add-to-cart{
+        padding: 1vh 2vw;
+    }
+
+    
+}
