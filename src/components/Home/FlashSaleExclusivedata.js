@@ -6,7 +6,8 @@ const FlashSaleExclusiveData = [
         About: "Linen sarees are durable and comfortable, these sarees are extremely skin-friendly. Though cotton saree is very much in vogue, it is one of the oldest fabrics and dated back to 4,000 years ago. Find best linen sarees for online shopping with price in plain, zari borders, printed and block printed art.",
         src: "https://www.bharatsthali.com/cdn/shop/products/final-8_fc20d3dc-0307-4f43-bb8b-ce8a97735321_1800x1800.jpg?v=1659705866",
         src2: "https://www.bharatsthali.com/cdn/shop/products/final-4_20aaae34-6f2c-4e82-9fdd-73f3f950a0a0_1800x1800.jpg?v=1659705866",
-        data: [{
+        // eslint-disable-next-line
+        data: [{ 
             id: 1331,
             SubSareeNameHome: 'NAVY BLUE PURE LINEN SAREE WITH BOX PRINTS',
             Cost: '₹ 4,501.00 INR',
@@ -146,7 +147,8 @@ const FlashSaleExclusiveData = [
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_15954b97-0002-4887-9801-95a22dd0a001_1800x1800.jpg?v=1659718732'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-7_a728fa12-ff86-4da7-9cb5-ee73f3f7ec4c_1800x1800.jpg?v=1659718701'
             ,src3: 'https://www.bharatsthali.com/cdn/shop/products/final-3_32c9e040-4aa5-4b84-b5e5-518b227f1801_1800x1800.jpg?v=1659718801'
-        }]
+        }
+    ]
     }
     ,
     {
@@ -1170,8 +1172,6 @@ const FlashSaleExclusiveData = [
         }
     ]
     },
-
-
     {
         id: 13217,
         HomeSareeName: "Office Wear Saree",
