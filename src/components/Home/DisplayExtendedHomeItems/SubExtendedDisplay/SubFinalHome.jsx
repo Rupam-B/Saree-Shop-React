@@ -1,12 +1,20 @@
 import React, { useState } from 'react'
 import './SubFinalStyle.css'
+import { FlashSaleExclusiveData } from '../../FlashSaleExclusivedata'
+import { useParams } from 'react-router-dom';
+
+const SubHomeData = FlashSaleExclusiveData;
 
 const SubFinalHome = () => {
-    const img1 = "https://www.bharatsthali.com/cdn/shop/products/DSC8164_1800x1800.jpg?v=1634036886" 
-    const img2 = "https://www.bharatsthali.com/cdn/shop/products/DSC8157_1800x1800.jpg?v=1634036896" 
-    const img3 = "https://www.bharatsthali.com/cdn/shop/products/DSC8160_1800x1800.jpg?v=1634036874" 
+
+ const {id, idOne} = useParams()
+ const parsedid = parseInt(id)
+ const parsedidOne = parseInt(idOne)
+
+ const subReqDataFilterd = SubHomeData.find((Subitems)=>Subitems.id===parsedidOne);
+ const RequiredData = subReqDataFilterd.data.find((reqItems)=>reqItems.id===parsedid);
     
-    const [dispImg, setDispImg]= useState(img1)
+    const [dispImg, setDispImg]= useState(RequiredData.src1)
 
 
     // const handleSetImage = (imgsrc)=>{
@@ -15,26 +23,30 @@ const SubFinalHome = () => {
   return (
     <>
     <div className='Final-Home-main-div'>
+      {/* {RequiredData.map((Finalitems) =>( */}
+      {/* <div key={Finalitems.id} className="mapping-div"> */}
         <div className="Final-Home-left-side-Img-div">
             <img src={dispImg} alt="" />
         </div>
         <div className="Final-Home-right-upper-img-div">
             <div className="right-upper-img-1">
-            <img onClick={()=>setDispImg(img1)} src={img1} alt="" />
+            <img onClick={()=>setDispImg(RequiredData.src1)} src={RequiredData.src1} alt="" />
             </div>
             <div className="right-upper-img-1">
-            <img onClick={()=>setDispImg(img2)} src={img2} alt="" />
+            <img onClick={()=>setDispImg(RequiredData.src2)} src={RequiredData.src2} alt="" />
             </div>
             <div className="right-upper-img-1">
-            <img onClick={()=>setDispImg(img3)} src={img3} alt="" />
+            <img onClick={()=>setDispImg(RequiredData.src3)} src={RequiredData.src3} alt="" />
             </div>
         </div>
         <div className="Final-Home-Product-Details-div">
-            <p className='Final-Home-Product-name'>MUSTARD YELLOW COLOR MAHESHWARI SILK HANDLOOM SAREE</p>
-            <p className='Final-Home-Product-price'>Price: 450</p>
+            <p className='Final-Home-Product-name'>{RequiredData.SubSareeNameHome}</p>
+            <p className='Final-Home-Product-price'>Price: {RequiredData.Cost}</p>
             <button className='Add-to-cart'>Add To Cart</button>
 
         </div>
+        {/* </div> */}
+        {/* ))} */}
     </div>
     <hr />
     <footer className="my-5  text-body-secondary text-center text-small">

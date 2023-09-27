@@ -1,49 +1,50 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ExtendedHomeStyle.css'
 import { FlashSaleExclusiveData } from '../FlashSaleExclusivedata'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 const ExtendedHomeData = FlashSaleExclusiveData
 
 const ExtendedHomeItems = () => {
+  let {id} =useParams()
+  const parsedId = parseInt(id)
+
+  
+  const [sendMainId] = useState(parsedId);
+  const reqdata = ExtendedHomeData.find((Extitems)=>Extitems.id===parsedId)
+
+
   return (
     <>
     <div className="Extended-Home-items-main-div">
       <div className="upper-header">Hassle-Free Returns - 7 Days Easy Returns</div>
       <div className="lower-header">
-      <p class="h3">MADE WITH lOVE</p>
+      <p className="h3">MADE WITH lOVE</p>
       <p>Get 10% off (Min Shopping 2500 RS) - Coupon 'Happy10'</p>
-      <p class="btn btn-outline-secondary btn--secondary btn--small btn--tint-border">Shop now</p>
+      <p className="btn btn-outline-secondary btn--secondary btn--small btn--tint-border">Shop now</p>
       </div>
       <div className="Extended-Home-items-heading-div">
         <hr />
         <div className='Extended-Home-items-heading'>
-        <h3>Linen</h3>
+        <h3>{reqdata.HomeSareeName}</h3>
         </div>
         <hr />
       </div>
+      <div className="About-Extended-Home-Items">
+        <p>{reqdata.About}</p>
+      </div>
       <div className="Extended-Home-container">
-          {ExtendedHomeData.map((items) => (
+          {reqdata.data.map((items) => (
             <div key={items.id} className="card Extended-Home-container-card">
               <div className="Extended-Home-container-card-img">
-                <img className="card-img-top" src={items.src} alt="" />
-                {/* <img
-                onMouseEnter={() => handleImageChange(items.id, items.src2)}
-                onMouseLeave={() => handleImageChange(items.id)}
-                  src={
-                    imgChange && particularimgid === items.id && particularimgChange !== undefined
-                      ? particularimgChange
-                      : items.src
-                  }
-                  className="card-img-top"
-                  alt="..."
-                /> */}
+                <img className="card-img-top" src={items.src1} alt="" />
+                
               </div>
               <div className="card-body Extended-Home-container-card-body">
-                <h5 className="card-title">Name</h5>
-                <p className="card-text">Price</p>
+                <h5 className="card-title Extended-Home-container-card-title">{items.SubSareeNameHome}</h5>
+                <p className="card-text">{items.Cost}</p>
                 {/* <button className="flash-sale-container-card-body-button">Buy</button> */}
-                <Link to={'/SubFinalHome'} className="Extended-Home-container-card-body-button">View Details</Link>
+                <Link to={`/SubFinalHome/${items.id}/${sendMainId}`} className="Extended-Home-container-card-body-button">View Details</Link>
                 
               </div>
             </div>

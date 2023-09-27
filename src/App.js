@@ -22,8 +22,8 @@ function App() {
     <div className='changingScreen'>
     <Routes>
     <Route path="/" element={<Home/>}/>
-    <Route path='/ExtendedHomeItems' element={<ExtendedHomeItems/>}/>
-    <Route path='/SubFinalHome' element={<SubFinalHome/>} />
+    <Route path='/ExtendedHomeItems/:id' element={<ExtendedHomeItems/>}/>
+    <Route path='/SubFinalHome/:id/:idOne' element={<SubFinalHome/>} />
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/orders' element={<Orders/>}/>

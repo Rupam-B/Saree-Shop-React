@@ -69,10 +69,7 @@ const Home = () => {
                 />
               </div>
               <div className="card-body flash-sale-container-card-body">
-                {/* <h5 className="card-title">{items.hotelName}</h5>
-                <p className="card-text">{items.rating}</p> */}
-                {/* <button className="flash-sale-container-card-body-button">Buy</button> */}
-                <Link to={'/ExtendedHomeItems'} className="flash-sale-container-card-body-button">See More</Link>
+                <Link to={`/ExtendedHomeItems/${items.id}`} className="flash-sale-container-card-body-button">See More</Link>
               </div>
             </div>
           ))}
