@@ -846,7 +846,7 @@ const FlashSaleExclusiveData = [
             SubSareeNameHome: 'CREAM WITH MULTI COLOR TEMPLE SILK SAMBALPURI HANDLOOM SAREE',
             Cost: '₹ 5,550.00 INR',
             rating: '4.7',
-            src1: 'https://b.zmtcdn.com/data/pictures/chains/3/18731913/c1c31da8a68bf450be8d815fc3b22123_o2_featured_v2.jpg?output-format=webp',
+            src1: 'https://www.bharatsthali.com/cdn/shop/products/final-3_810d518c-b648-4863-a15f-840effad5923_1800x1800.jpg?v=1653204254',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_a34f02fb-37f1-48ab-9aa1-7a8c573c34e6_1800x1800.jpg?v=1653207442',
             src3: 'https://www.bharatsthali.com/cdn/shop/products/final-3_810d518c-b648-4863-a15f-840effad5923_1800x1800.jpg?v=1653204254',
         }, 
