@@ -15,16 +15,10 @@ const SubFinalHome = () => {
  const RequiredData = subReqDataFilterd.data.find((reqItems)=>reqItems.id===parsedid);
     
     const [dispImg, setDispImg]= useState(RequiredData.src1)
-
-
-    // const handleSetImage = (imgsrc)=>{
-    //     setDispImg(imgsrc)
-    // }
   return (
     <>
     <div className='Final-Home-main-div'>
-      {/* {RequiredData.map((Finalitems) =>( */}
-      {/* <div key={Finalitems.id} className="mapping-div"> */}
+    
         <div className="Final-Home-left-side-Img-div">
             <img src={dispImg} alt="" />
         </div>
@@ -45,8 +39,6 @@ const SubFinalHome = () => {
             <button className='Add-to-cart'>Add To Cart</button>
 
         </div>
-        {/* </div> */}
-        {/* ))} */}
     </div>
     <hr />
     <footer className="my-5  text-body-secondary text-center text-small">
