@@ -1,8 +1,10 @@
 import './App.css';
+import { Routes,Route } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar'
-import { Routes,Route } from 'react-router-dom'
 import About from './components/Sidebar/SidebarComponents/About';
 import Contact from './components/Sidebar/SidebarComponents/Contact';
 import Orders from './components/Sidebar/SidebarComponents/Orders';
@@ -17,6 +19,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <ToastContainer />
     <div className='arrangement'>
     <Sidebar/>
     <div className='changingScreen'>

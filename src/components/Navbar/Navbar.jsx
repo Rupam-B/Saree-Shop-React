@@ -2,9 +2,17 @@ import React, { useEffect, useState } from "react";
 import "./NavbarStyle.css";
 import { NavData } from "./NavData";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { AddToCart} from "../../Redux/action";
 
 const Navbar = () => {
   // States-----
+
+  const cartObjectValue = useSelector((state)=>state.AddOrRemoveItems)
+  const cartValue = cartObjectValue.cart.length
+
+  const Navdispatch = useDispatch();
+
   const [newid,setNewid]=useState('')
   const [imgid,setImgid]=useState('')
 
@@ -63,6 +71,7 @@ const Navbar = () => {
               <Link to={'/Authen'}><i className="fa-regular fa-user"></i></Link>
               <i className="fa-solid fa-magnifying-glass mobile-display-none"></i>
               <Link to={'/cart'} style={{textDecoration:'none',color:'black'}}><i className="fa-solid fa-bag-shopping"></i></Link>
+              <div className="cart-value">{cartValue}</div>
             </div>
           </div>
           <div className="nav-items">
@@ -100,7 +109,7 @@ const Navbar = () => {
                             <p className="card-title JamdaniNavData-container-card-body-title-p">{items.subSareeName}</p>
                           </div>
                           <p className="card-text JamdaniNavData-container-card-body-price-p">{items.Cost}</p>
-                          <button className="JamdaniNavData-container-card-body-button">
+                          <button onClick={()=>{Navdispatch(AddToCart(items.id,items.src,items.Cost,items.subSareeName))}} className="JamdaniNavData-container-card-body-button">
                             Buy
                           </button>
                         </div>

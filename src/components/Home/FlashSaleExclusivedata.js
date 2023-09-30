@@ -7,10 +7,11 @@ const FlashSaleExclusiveData = [
         src: "https://www.bharatsthali.com/cdn/shop/products/final-8_fc20d3dc-0307-4f43-bb8b-ce8a97735321_1800x1800.jpg?v=1659705866",
         src2: "https://www.bharatsthali.com/cdn/shop/products/final-4_20aaae34-6f2c-4e82-9fdd-73f3f950a0a0_1800x1800.jpg?v=1659705866",
         // eslint-disable-next-line
-        data: [{ 
+        data: [
+            { 
             id: 1331,
             SubSareeNameHome: 'NAVY BLUE PURE LINEN SAREE WITH BOX PRINTS',
-            Cost: '₹ 4,501.00 INR',
+            Cost: 4501.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_3bb02010-334a-44fe-ae10-e281139edc15_1800x1800.jpg?v=1645516402',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_1bbac1a2-0137-4ac8-97a0-13140de5a9be_1800x1800.jpg?v=1645524304',
@@ -19,7 +20,7 @@ const FlashSaleExclusiveData = [
         {
             id: 1332,
             SubSareeNameHome: 'BLUE WITH ZARI AND BOOTI PURE LINEN SAREE',
-            Cost: '₹ 3,666.00 INR',
+            Cost: 3666.00,
             rating: '4.6',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_e1fa75fc-bbe7-424c-abd6-de4b0c99c38b_1800x1800.jpg?v=1653117404'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_1eb24113-0b5d-400e-b8f1-66b8837db2b0_1800x1800.jpg?v=1653117472'
@@ -27,7 +28,7 @@ const FlashSaleExclusiveData = [
         }, {
             id: 1333,
             SubSareeNameHome: 'GREEN AND RED PURE LINEN HANDLOOM SAREE',
-            Cost: '₹ 4,300.00 INR',
+            Cost: 4300.00,
             rating: '4.5',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/4_3_uvguavadpxicgppj_1800x1800.jpg?v=1618917971'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/3_3_jawnytrcbx1p52pm_1800x1800.jpg?v=1618919904'
@@ -35,7 +36,7 @@ const FlashSaleExclusiveData = [
         }, {
             id: 1334,
             SubSareeNameHome: 'CREAM WITH BLACK LINEN SAREE WITH DIGITAL FLORAL PRINT',
-            Cost: '₹ 3,300.00 INR',
+            Cost: 3300.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-2_909c1c6d-18f0-4e16-a868-9b2936b3e19b_1800x1800.jpg?v=1668864956'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_7b80b892-6d02-4bd2-b950-38821c279884_1800x1800.jpg?v=1668864943'
@@ -43,7 +44,7 @@ const FlashSaleExclusiveData = [
         }, {
             id: 1335,
             SubSareeNameHome: 'BLUE PURE LINEN SAREE WITH ZARI BORDER AND MOTIFS',
-            Cost: '₹ 3,917.13 INR',
+            Cost: 3917.13,
             rating: '4.6',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/30_3_2_klcjnxkmwwwhsqnx_50bfa726-dae9-470f-81d9-7bc521bfdc96_1800x1800.jpg?v=1618919197'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/msbgr2142_m53wc3joqfoanuox_1d1a4a97-7188-4352-9939-4db12fa9376a_1800x1800.jpg?v=1618918793'
@@ -52,7 +53,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1337,
             SubSareeNameHome: 'PINK COLOR PURE LINEN EMBROIDERED HANDLOOM SAREE WITH SILVER ZARI BORDER',
-            Cost: '₹ 4,912.00 INR',
+            Cost: 4912.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_6cdbfd43-96d0-4fc7-a61a-5eaccb0519d2_1800x1800.jpg?v=1644486106'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-6_5a501df6-3838-41c3-9556-0ef479b49e81_1800x1800.jpg?v=1644486126'
@@ -61,7 +62,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1338,
             SubSareeNameHome: 'YELLOW AND SILVER TONED LINEN TISSUE HANDLOOM SAREE',
-            Cost: '₹ 4,000.00 INR',
+            Cost: 4000.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_6aa7ad4b-cfa4-4478-8ec7-187057985b49_1800x1800.jpg?v=1640431825'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/2_32688340-323e-4db8-8321-d0bf267298ef_1800x1800.jpg?v=1640431755'
@@ -70,7 +71,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1339,
             SubSareeNameHome: 'BLUE AND SILVER TONED BANARASI LINEN TISSUE HANDLOOM SAREE',
-            Cost: '₹ 4,000.00 INR',
+            Cost: 4000.00 ,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_19395368-7652-4093-b130-e855dcd4fbb6_1800x1800.jpg?v=1640427825'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/2_9d529842-dc7d-4bde-a8b6-057591c8a946_1800x1800.jpg?v=1640431842'
@@ -79,7 +80,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1340,
             SubSareeNameHome: 'LIGHTBLUE AND RED PURE LINEN SAREE',
-            Cost: '₹ 3,917.00 INR',
+            Cost: 3917.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/scs0315_9spchku3cricfcpm_fadb79ec-454d-4a49-b52b-3c8998c47140_1800x1800.jpg?v=1618916099'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/msbgr2131_dh1mrxcf4i4lngew_d09cdf29-0996-47f9-9871-a435857ad080_1800x1800.jpg?v=1618917026'
@@ -88,7 +89,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1341,
             SubSareeNameHome: 'ROYAL BLUE PURE LINEN SAREE WITH GREY BORDER',
-            Cost: '₹ 4,400.00 INR',
+            Cost: 4400.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/62_3_g1jyyniznkkiq3hw_07302613-2852-4263-b4a2-607929bf9bff_1800x1800.jpg?v=1618918885'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/61_6_zpy97g47l14vq6u9_485995eb-4450-42fe-a248-bbd9f151df6c_1800x1800.jpg?v=1618916474'
@@ -97,7 +98,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1343,
             SubSareeNameHome: 'GREEN AND GOLD COLOR SOLID LINEN TISSUE SAREE',
-            Cost: '₹ 3,900.00 INR',
+            Cost: 3900.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/front-1_b87a437b-43bc-4956-99a4-8421d3747ad3_1800x1800.jpg?v=1644481242'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-6_b1d47d7c-aa97-4c9c-a51e-14fa3abfb4a6_1800x1800.jpg?v=1644481503'
@@ -106,7 +107,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1344,
             SubSareeNameHome: 'CREAM COLOR PURE COTTON WOVEN DESIGN JAMDANI SAREE',
-            Cost: '₹ 3,391.00 INR',
+            Cost: 3391.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/rju1170_1_1800x1800.jpg?v=1649246909'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/rju1170_2_1800x1800.jpg?v=1649254471'
@@ -115,7 +116,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1345,
             SubSareeNameHome: 'BLACK WITH WHITE LINEN SAREE WITH DIGITAL FLORAL PRINT',
-            Cost: '₹ 3,300.00 INR',
+            Cost: 3300.00,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_541e9b40-581c-47b8-a87a-07412ca66384_1800x1800.jpg?v=1668864929'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_b35af538-0550-4bb6-9eb9-4ae0e4b5ccf2_1800x1800.jpg?v=1668865081'
@@ -124,7 +125,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1346,
             SubSareeNameHome: 'LINEN BLACKBERRY HANDLOOM SAREE PRINTS',
-            Cost: '₹ 3,300.00 INR',
+            Cost: 3300.00 ,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_9e4d6bc0-c912-4487-968a-629c06fd2597_1800x1800.jpg?v=1663790555'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_42491054-6c23-4f59-ae8d-1aceb47c165b_1800x1800.jpg?v=1663790033'
@@ -133,7 +134,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1347,
             SubSareeNameHome: 'PUNCH PINK PURE LINEN SAREE WITH SILVER PALLU',
-            Cost: '₹ 4,700.00 INR',
+            Cost: 4700.00 ,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/55_7_hcbfmtmdzsdfynvl_c775b119-d497-42f1-84f0-1a2e7fa92dd7_1800x1800.jpg?v=1618915601'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/56_1__ivpk76mb2s6lm9qx_c16917e9-5afb-4906-b976-2d8d8d833573_1800x1800.jpg?v=1618916315'
@@ -142,7 +143,7 @@ const FlashSaleExclusiveData = [
         , {
             id: 1348,
             SubSareeNameHome: 'RED PURE LINEN HANDLOOM SAREE',
-            Cost: '₹ 5,300.00 INR',
+            Cost: 5300.00 ,
             rating: '4.8',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_15954b97-0002-4887-9801-95a22dd0a001_1800x1800.jpg?v=1659718732'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-7_a728fa12-ff86-4da7-9cb5-ee73f3f7ec4c_1800x1800.jpg?v=1659718701'
@@ -163,7 +164,7 @@ const FlashSaleExclusiveData = [
 
             id: 1401,
             SubSareeNameHome: 'YELLOW AND GOLD COLORED SILK BLEND WOVEN DESIGN BANARASI SAREE',
-            Cost: '₹ 3,600.00 INR',
+            Cost: 3600.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_b03277e9-6dae-4fd6-8f49-692b2074e414_1800x1800.jpg?v=1641286317'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/2_059dabcc-276d-4158-ad7d-add0f1afdf5f_1800x1800.jpg?v=1641284037'
@@ -173,7 +174,7 @@ const FlashSaleExclusiveData = [
 
             id: 1402,
             SubSareeNameHome: 'IVORY AND GREEN PATOLA BANARASI SILK SAREE',
-            Cost: '₹ 11,125.00 INR',
+            Cost: 11125.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-2_aa96ac80-9e37-48f2-b58e-892f1162cad7_1800x1800.jpg?v=1675242964'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_ad3049bc-7721-4897-881b-a7a6b6fc8fd5_1800x1800.jpg?v=1675242990'
@@ -183,7 +184,7 @@ const FlashSaleExclusiveData = [
 
             id: 1403,
             SubSareeNameHome: 'RANI PINK COLOR KATAN SILK WOVEN BANARASI SILK SAREE WITH MEENA WORK',
-            Cost: '₹ 12,900.00 INR',
+            Cost: 12900.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_1de38237-7c17-473c-9c84-c35f78ac6a67_1800x1800.jpg?v=1653217102'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_613e8ad7-d056-4128-ae92-48510bb45ea1_1800x1800.jpg?v=1653218300'
@@ -193,7 +194,7 @@ const FlashSaleExclusiveData = [
 
             id: 1404,
             SubSareeNameHome: 'RED COLOR PURE BANARASI SAREE WITH ALL OVER MINAKARI WORK',
-            Cost: '₹ 13,151.00 INR',
+            Cost: 13151.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_54bab1ac-ba01-4bc7-9694-35457b3a9b9a_1800x1800.jpg?v=1644054739'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_629522fa-9f6b-4320-89e2-325859f71a87_1800x1800.jpg?v=1644068569'
@@ -203,7 +204,7 @@ const FlashSaleExclusiveData = [
 
             id: 1405,
             SubSareeNameHome: 'DARK BROWN PURE BANARASI CHIFFON BANDHEJ SAREE',
-            Cost: '₹ 22,400.00 INR',
+            Cost: 22400.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-4_6450c0ae-96ab-4e96-b877-a14f86086a72_1800x1800.jpg?v=1688291875'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-2_6fa4e2bd-094e-4e5b-b79e-e2af5585c0ba_1800x1800.jpg?v=1688291807'
@@ -213,7 +214,7 @@ const FlashSaleExclusiveData = [
 
             id: 1406,
             SubSareeNameHome: 'YMAGENTA PURE BANARASI CHIFFON BANDHEJ SAREE',
-            Cost: '₹ 22,400.00 INR',
+            Cost: 22400.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-2_30bf8c29-7b22-4d0c-89d3-16f1b6336277_1800x1800.jpg?v=1688291836'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-5_1279a476-0688-4106-8971-d892565284cc_1800x1800.jpg?v=1688291815'
@@ -223,7 +224,7 @@ const FlashSaleExclusiveData = [
 
             id: 1407,
             SubSareeNameHome: 'LIGHT PINK PURE MULBERRY SILK HANDLOOM SAREE',
-            Cost: '₹ 12,250.00 INR',
+            Cost: 12250.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-1_3622c208-e1c5-47ca-ac22-4a34016898fa_1800x1800.jpg?v=1688234432'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-2_eddd45aa-158d-477c-8c89-c7d94e53609a_1800x1800.jpg?v=1688234377'
@@ -233,7 +234,7 @@ const FlashSaleExclusiveData = [
 
             id: 1408,
             SubSareeNameHome: 'CREAM PURE MULBERRY SILK HANDLOOM SAREE',
-            Cost: '₹ 12,250.00 INR',
+            Cost: 12250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-5_2c0919d3-ad7d-43f3-9bbe-651746db8107_1800x1800.jpg?v=1688205426'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-1_1dd1bf1f-0484-4377-851f-3f9ba93ed3a8_1800x1800.jpg?v=1688205360'
@@ -243,7 +244,7 @@ const FlashSaleExclusiveData = [
 
             id: 1409,
             SubSareeNameHome: 'PEACH ORANGE PURE MULBERRY SILK HANDLOOM SAREE',
-            Cost: '₹ 12,250.00 INR',
+            Cost: 12250.00,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-1_4b78be26-72cc-45d1-917a-84e3fa8ea6b7_1800x1800.jpg?v=1688190919'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-4_dacf97d4-b293-4176-8cd2-d2ac4e80527d_1800x1800.jpg?v=1688190949'
@@ -253,7 +254,7 @@ const FlashSaleExclusiveData = [
 
             id: 1410,
             SubSareeNameHome: 'CORAL PINK PURE MULBERRY SILK HANDLOOM SAREE',
-            Cost: '₹ 12,250.00 INR',
+            Cost:   12250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-1_a7539394-ed56-4c1d-9f50-ee318f0ffccb_1800x1800.jpg?v=1688190912'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-3_cd8e9b73-94ab-45cc-b8f0-06fcaa874dfd_1800x1800.jpg?v=1688190928'
@@ -263,7 +264,7 @@ const FlashSaleExclusiveData = [
 
             id: 1411,
             SubSareeNameHome: 'MAROON PURE MULBERRY SILK HANDLOOM SAREE',
-            Cost: '₹ 3,600.00 INR',
+            Cost:   3600.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-1_3e97d044-0aee-4b75-800e-7eabf02e51dc_1800x1800.jpg?v=1687526853'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-3_64b650ad-e597-419e-8e43-711f961b5708_1800x1800.jpg?v=1687526869'
@@ -273,7 +274,7 @@ const FlashSaleExclusiveData = [
 
             id: 1412,
             SubSareeNameHome: 'RED PURE MULBERRY SILK HANDLOOM SAREE',
-            Cost: '₹ 11,900.00 INR',
+            Cost:   11900.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-6_d6c23fcb-99dd-4133-aa6f-6dcd471f01d9_1800x1800.jpg?v=1687516090'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/files/final-1_56ca5b09-1865-4032-9e05-6b1d45bedf1c_1800x1800.jpg?v=1687516058'
@@ -283,7 +284,7 @@ const FlashSaleExclusiveData = [
 
             id: 1413,
             SubSareeNameHome: 'JADE GREEN MULTI COLOR PATOLA BANARASI SILK SAREE',
-            Cost: '₹ 11,125.00 INR',
+            Cost:   11125.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_b415667a-0777-4f87-9906-027fb943f185_1800x1800.jpg?v=1675242925'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_854a97e1-2c27-46fc-aea0-64b74e1b9606_1800x1800.jpg?v=1675242947'
@@ -293,7 +294,7 @@ const FlashSaleExclusiveData = [
 
             id: 1414,
             SubSareeNameHome: 'MUSTARD YELLOW COLOR HANDLOOM PURE BANARASI SILK SAREE',
-            Cost: '₹ 12,900.00 INR',
+            Cost:   12900.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_e8daaaf3-0b10-42ed-930e-58fcf981ff77_1800x1800.jpg?v=1671109999'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_ed6bafcc-06be-4113-b0b9-8e8cab9e1ddd_1800x1800.jpg?v=1671110020'
@@ -303,7 +304,7 @@ const FlashSaleExclusiveData = [
 
             id: 1415,
             SubSareeNameHome: 'MAGENTA COLOR HANDLOOM PURE BANARASI SAREE WITH ZARI WORK',
-            Cost: '₹ 14,950.00 INR',
+            Cost:   14950.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_9b752ef3-ac3f-411d-a77d-d6c940a7363a_1800x1800.jpg?v=1660385997'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_6f2f2ef2-12f7-4dd2-9f8a-cc8821325cd7_1800x1800.jpg?v=1660386237'
@@ -313,7 +314,7 @@ const FlashSaleExclusiveData = [
 
             id: 1416,
             SubSareeNameHome: 'WINE COLOR HANDLOOM PURE BANARASI SAREE',
-            Cost: '₹ 13,965.00 INR',
+            Cost:   13965.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_f88565c8-0a3d-43fc-a8c0-410584352e89_1800x1800.jpg?v=1660386124'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_f25745e4-e737-4d9e-b3bc-cccace884bd3_1800x1800.jpg?v=1660381390'
@@ -334,7 +335,7 @@ const FlashSaleExclusiveData = [
 
             id: 1501,
             SubSareeNameHome: 'MAROON COLOR PURE KANJIVARAM SILK SAREE WITH ZARI WORK',
-            Cost: '₹ 28,606.00 INR',
+            Cost:   28606.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_1b3e9950-bb79-4fe7-acb7-75c27de76dd4_1800x1800.jpg?v=1624793308'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/5_d6664881-8472-42d8-b178-40f20aad3d0e_1800x1800.jpg?v=1624793849'
@@ -344,7 +345,7 @@ const FlashSaleExclusiveData = [
 
             id: 1502,
             SubSareeNameHome: 'RED PURE KANJIVARAM PURE SILK SAREE WITH RICHNESS OF ZARI',
-            Cost: '₹ 35,214.00 INR',
+            Cost:   35214.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/8_61c74783-3c42-43da-ae3c-8408812e7577_1800x1800.jpg?v=1624792042'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/7_0c528c3b-1147-49eb-b2e1-aca68f0708ae_1800x1800.jpg?v=1624792600'
@@ -354,7 +355,7 @@ const FlashSaleExclusiveData = [
 
             id: 1503,
             SubSareeNameHome: 'MAROON COLOR PURE KANJIVARAM SILK SAREE WITH RICHNESS OF ZARI',
-            Cost: '₹ 35,214.00 INR',
+            Cost:   35214.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/2_49baef12-008e-4181-8a8b-909dd7bcc970_1800x1800.jpg?v=1624791341'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/4_6852d372-b47c-4cb4-9fba-d3f4db38662f_1800x1800.jpg?v=1624791126'
@@ -364,7 +365,7 @@ const FlashSaleExclusiveData = [
 
             id: 1504,
             SubSareeNameHome: 'DUAL TONE PINK AND ORANGE PURE KANJIVARAM SILK SAREE WITH RICHNESS OF SILVER ZARI',
-            Cost: '₹ 35,214.00 INR',
+            Cost:   35214.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/2_ae5ec575-741d-42f5-807d-ca83496f7b51_1800x1800.jpg?v=1624790832'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/6_629e1e0a-00b5-4b92-8196-50a621529d92_1800x1800.jpg?v=1624790282'
@@ -374,7 +375,7 @@ const FlashSaleExclusiveData = [
 
             id: 1505,
             SubSareeNameHome: 'ORANGE SAREE WITH PINK PALLU PURE KANJIVARAM SILK SAREE',
-            Cost: '₹ 12,407.00 INR',
+            Cost:   12407.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/3_3c4b789c-0b47-4f53-90b1-71f2db0ea1ce_1800x1800.jpg?v=1624791268'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/6_407990c7-6d3f-48ef-81a3-e1582878f010_1800x1800.jpg?v=1624793576'
@@ -384,7 +385,7 @@ const FlashSaleExclusiveData = [
 
             id: 1506,
             SubSareeNameHome: 'PEACH PURE BANARASI SILK SAREE HANDLOOM WITH RICHNESS OF ZARI',
-            Cost: '₹ 17,520.00 INR',
+            Cost:   17520.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/DSC4404_1800x1800.jpg?v=1624792998'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/DSC4399_1800x1800.jpg?v=1624791961'
@@ -394,7 +395,7 @@ const FlashSaleExclusiveData = [
 
             id: 1507,
             SubSareeNameHome: 'GOLD HANDLOOM PURE SILK SAREE WITH SKY BLUE BORDER WITH ZARI WORK KANJIVARAM SAREE',
-            Cost: '₹ 88,555.00 INR',
+            Cost:   88555.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/DSC4355_1800x1800.jpg?v=1624790945'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/DSC4351_1800x1800.jpg?v=1624793150'
@@ -404,7 +405,7 @@ const FlashSaleExclusiveData = [
 
             id: 1508,
             SubSareeNameHome: 'GREEN SAREE WITH MAROON PALLU WITH ZARI KANJIVARAM SILK SAREE',
-            Cost: '₹ 28,606.00 INR',
+            Cost:   28606.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/DSC4202_1800x1800.jpg?v=1624790519'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/DSC4212_1800x1800.jpg?v=1624793267'
@@ -414,7 +415,7 @@ const FlashSaleExclusiveData = [
 
             id: 1509,
             SubSareeNameHome: 'ALL OVER GOLD WITH MEGENTA BORDER PURE SILK KANJIVARAM SAREE',
-            Cost: '₹ 47,738.00 INR',
+            Cost:   47738.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/dkb1001-1_1800x1800.jpg?v=1624790761'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/dkb1001-3_1800x1800.jpg?v=1624791496'
@@ -424,7 +425,7 @@ const FlashSaleExclusiveData = [
 
             id: 1510,
             SubSareeNameHome: 'PARROT GREEN COLOR KANJIVARAM SILK SAREE',
-            Cost: '₹ 3,990.00 INR',
+            Cost:   3990.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/vam1920_2_1800x1800.jpg?v=1624112832'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/vam1920_1_1800x1800.jpg?v=1624108456'
@@ -434,7 +435,7 @@ const FlashSaleExclusiveData = [
 
             id: 1511,
             SubSareeNameHome: 'GREEN PURE SOFT SILK KANJIVARAM HANDLOOM SAREE',
-            Cost: '₹ 17,675.00 INR',
+            Cost:   17675.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/scs0199_l0wxiseqw02tf3wo_1800x1800.jpg?v=1618917310'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/scs0197_bn6loujartglbsj7_1800x1800.jpg?v=1618917213'
@@ -444,7 +445,7 @@ const FlashSaleExclusiveData = [
 
             id: 1512,
             SubSareeNameHome: 'ADMIRAL BLUE AND MAGENTA PURE KANJIVARAM SILK HANDLOOM SAREE',
-            Cost: '₹ 8,521.00 INR',
+            Cost:   8521.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/ksl1075_jds7dhqqei6vemw7_1800x1800.jpg?v=1618485672'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/scs0564_ougcex0lvwd6a6lg_1800x1800.jpg?v=1618918364'
@@ -454,7 +455,7 @@ const FlashSaleExclusiveData = [
 
             id: 1513,
             SubSareeNameHome: 'BLUE PURE KANJIVARAM SOFT SILK WITH GREEN ZARI PALLU WITH JACQUARD WORK',
-            Cost: '₹ 15,246.44 INR',
+            Cost:   15246.44 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/psl2021_djykfiwxwbbx8m87_efe56683-f29b-4127-9dd9-8a5189f5a703_1800x1800.jpg?v=1618917693'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/57_2_3_pgnfdmclb5nlgnpa_7fa673bc-0492-484d-8a26-f57725bd536d_1800x1800.jpg?v=1618918292'
@@ -464,7 +465,7 @@ const FlashSaleExclusiveData = [
 
             id: 1514,
             SubSareeNameHome: 'BROWN COLOR PURE BANARASI SILK SAREE - WITH RICHNESS OF MINAKARI ZARI WORK',
-            Cost: '₹ 13,151.00 INR',
+            Cost:   13151.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_38c91bfe-4260-48ef-a8b9-bd9b90d1bcbc_1800x1800.jpg?v=1644056808'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-8_0b3e7a7f-371a-4540-96cd-20a58aaa9eaa_1800x1800.jpg?v=1644057392'
@@ -474,7 +475,7 @@ const FlashSaleExclusiveData = [
 
             id: 1515,
             SubSareeNameHome: 'GREEN COLOR LEHERIYA - BANARASI SILK SAREE WITH GOLDEN ZARI BORDER AND PALLU',
-            Cost: '₹ 9,934.00 INR',
+            Cost:   9934.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_f0ddb32c-4b67-41e6-865c-73c35ed40d58_1800x1800.jpg?v=1644057190'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_52685a0c-0284-4897-a373-f571a220368c_1800x1800.jpg?v=1644057400'
@@ -484,7 +485,7 @@ const FlashSaleExclusiveData = [
 
             id: 1516,
             SubSareeNameHome: 'BLACK COLOR WITH MINAKARI WORK - PURE BANARASI SILK SAREE',
-            Cost: '₹ 13,151.00 INR',
+            Cost:   13151.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-2_fee1f8a4-c3a5-47c0-ad87-16a60bca6018_1800x1800.jpg?v=1644057476'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/final-8_3c448eb1-d4ec-4498-a535-90973e33a66d_1800x1800.jpg?v=1644057315'
@@ -504,7 +505,7 @@ const FlashSaleExclusiveData = [
 
             id: 1601,
             SubSareeNameHome: 'MADHURI RED BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/6_49cbc75f-2cb0-40b7-82ba-138f4b4026f0_1800x1800.jpg?v=1624811961',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/1_5da57b4d-66d3-4045-b1ae-da18a003cf1a_1800x1800.jpg?v=1624956522',
@@ -514,7 +515,7 @@ const FlashSaleExclusiveData = [
 
             id: 1602,
             SubSareeNameHome: 'LALITA RED BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_685fd821-06a8-4a8e-8ac2-e01fdc7271a3_1800x1800.jpg?v=1624811988',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/2_daf4e6ce-169e-44d5-bf7c-252c63f67c17_1800x1800.jpg?v=1624956755',
@@ -524,7 +525,7 @@ const FlashSaleExclusiveData = [
 
             id: 1603,
             SubSareeNameHome: 'BASIC BLACK COLLAR BLOUSE',
-            Cost: '₹ 1,770.00 INR',
+            Cost:   1770.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/2_0b955f03-7162-421b-b50b-b1634c3d3253_1800x1800.jpg?v=1625573307',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/4_9f520ba4-d3c7-4bcd-9b77-9b6a3d910a57_1800x1800.jpg?v=1625584043',
@@ -534,7 +535,7 @@ const FlashSaleExclusiveData = [
 
             id: 1604,
             SubSareeNameHome: 'CHARU GOLDEN SQUARE NECK STYLISH BLOUSE',
-            Cost: '₹ 1,840.00 INR',
+            Cost:   1840.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/2_0c0ad01c-a784-4ed5-937b-168d1ddc7a0a_1800x1800.jpg?v=1625573343',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/4_b5a3fa3c-a2d2-4c3f-96af-c9598ad5ad56_1800x1800.jpg?v=1625584749',
@@ -544,7 +545,7 @@ const FlashSaleExclusiveData = [
 
             id: 1605,
             SubSareeNameHome: 'BOAT NECK BLACK BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/8_eb703fb0-c061-4316-b487-6f33288a7869_1800x1800.jpg?v=1624969309',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/2_4a6bf57b-a01f-48a4-acb0-f1592a26df39_1800x1800.jpg?v=1624969973',
@@ -554,7 +555,7 @@ const FlashSaleExclusiveData = [
 
             id: 1606,
             SubSareeNameHome: 'DAMINI BEIGE BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/4_f7e5c5a7-3cc0-4efa-9dae-d0038c80ac73_1800x1800.jpg?v=1624968730',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/5_259e77f2-033b-4797-8f79-e8ebff80ac08_1800x1800.jpg?v=1624969665',
@@ -564,7 +565,7 @@ const FlashSaleExclusiveData = [
 
             id: 1607,
             SubSareeNameHome: 'BARKHA BASIC BLACK BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/5_b4728472-e2e3-462c-b38a-8be15a6ae823_1800x1800.jpg?v=1624967938',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/3_2fba5c72-41a3-4dee-b923-1a311c05e9fb_1800x1800.jpg?v=1624969348',
@@ -574,7 +575,7 @@ const FlashSaleExclusiveData = [
 
             id: 1608,
             SubSareeNameHome: 'CODE BABY PINK BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/2_4b20dad1-d3b9-412f-9adc-3bd3d35e889d_1800x1800.jpg?v=1624811870',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/4_1eb5b166-8024-4d45-8333-3001782e9e40_1800x1800.jpg?v=1624956723',
@@ -584,7 +585,7 @@ const FlashSaleExclusiveData = [
 
             id: 1609,
             SubSareeNameHome: 'BLACK SATIN HALTER BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-2_31ffe945-f5a8-42c0-bd5d-70a072ff337b_1800x1800.jpg?v=1643964646',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_64edcc77-0790-4dd0-82b1-91562dd9ab01_1800x1800.jpg?v=1643964646',
@@ -594,7 +595,7 @@ const FlashSaleExclusiveData = [
 
             id: 1610,
             SubSareeNameHome: 'ROUND NECK FLORAL PRINT BLOUSE',
-            Cost: '₹ 1,980.00 INR',
+            Cost:   1980.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/9_6d0d5d99-ad9e-4ad2-9467-09fbd8313443_1800x1800.jpg?v=1625573270',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/1_8eb47e65-bb5d-42e5-833b-9de659f49a0c_1800x1800.jpg?v=1625585109',
@@ -604,7 +605,7 @@ const FlashSaleExclusiveData = [
 
             id: 1611,
             SubSareeNameHome: 'ROUND NECK SOPHIA MAGENTA BLOUSE',
-            Cost: '₹ 1,770.00 INR',
+            Cost:   1770.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/6_af1c3b0f-cce3-4729-9687-1ab482bc23f1_1800x1800.jpg?v=1625573211',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/8_f92128b6-75e3-4d1c-9f1f-d2bfc0a7d75f_1800x1800.jpg?v=1625584101',
@@ -614,7 +615,7 @@ const FlashSaleExclusiveData = [
 
             id: 1612,
             SubSareeNameHome: 'RAW SILK PARTY WEAR GREY BLOUSE',
-            Cost: '₹ 2,330.00 INR',
+            Cost:   2330.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/6_4362ca95-1cd3-4f48-a6f1-e1add806c528_1800x1800.jpg?v=1625573283',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/8_00f52617-9907-482a-87fa-30666d3d6ab1_1800x1800.jpg?v=1625584955',
@@ -624,7 +625,7 @@ const FlashSaleExclusiveData = [
 
             id: 1613,
             SubSareeNameHome: 'KALAMKARI PRINTED STRAP BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/7_996df43b-20c0-434b-8880-4c7155c0fe12_1800x1800.jpg?v=1625584370',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/9_ff8d0d3b-ccda-43d5-9c1e-e63070b790ed_1800x1800.jpg?v=1625585123',
@@ -634,7 +635,7 @@ const FlashSaleExclusiveData = [
 
             id: 1614,
             SubSareeNameHome: 'HARPER STYLISH RED BOUSE',
-            Cost: '₹ 2,050.00 INR',
+            Cost:   2050.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/9_c3229072-623d-43b0-bf7d-1c81867b04ae_1800x1800.jpg?v=1625573278',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/1_ad9c8294-c9a6-41bf-b2d5-fb8b3e12212d_1800x1800.jpg?v=1625585049',
@@ -644,7 +645,7 @@ const FlashSaleExclusiveData = [
 
             id: 1615,
             SubSareeNameHome: 'STYLISH V NECK BANDHEJ BLOUSE',
-            Cost: '₹ 1,980.00 INR',
+            Cost:   1980.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_7550bf55-4226-4694-8795-75d1acbce2bf_1800x1800.jpg?v=1625573215',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/2_9cbe155c-6852-4ba9-b842-7241f55fd7ec_1800x1800.jpg?v=1625584887',
@@ -654,7 +655,7 @@ const FlashSaleExclusiveData = [
 
             id: 1616,
             SubSareeNameHome: 'V NECK MAROON STRAP BLOUSE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/7_b534412d-3fa7-4b64-9cd3-a162878190cf_1800x1800.jpg?v=1624969358',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/1_16edbd0e-ed88-429d-9e05-b453a25a65ae_1800x1800.jpg?v=1624969853',
@@ -674,7 +675,7 @@ const FlashSaleExclusiveData = [
 
             id: 1701,
             SubSareeNameHome: 'ROYAL BLUE SOFT COTTON SILK SAREES FLORAL DIGITAL PRINT KALAMKARI',
-            Cost: '₹ 3,185.00 INR',
+            Cost:   3185.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_eaab04d7-d292-4270-a310-2d64501fefd8_1800x1800.jpg?v=1663790120',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_569cbafe-0c81-4d36-aecf-279de7b0c74d_1800x1800.jpg?v=1663789821',
@@ -684,7 +685,7 @@ const FlashSaleExclusiveData = [
 
             id: 1702,
             SubSareeNameHome: 'BEIGE WITH BLUE SAREE WITH KALAMKARI PRINTS BENGALI SILK SAREE',
-            Cost: '₹ 4,500.00 INR',
+            Cost:   4500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_0ba5f23d-aa3a-45dc-8d92-92ea2af1cb93_1800x1800.jpg?v=1663790079',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_a1485c22-6360-4ee0-97f4-bec0675f16fa_1800x1800.jpg?v=1663790513',
@@ -694,7 +695,7 @@ const FlashSaleExclusiveData = [
 
             id: 1703,
             SubSareeNameHome: 'BEIGE WITH BLACK SAREE WITH KALAMKARI PRINTS BENGALI SILK SAREE',
-            Cost: '₹ 4,500.00 INR',
+            Cost:   4500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_57aa6048-a041-4b9f-ae06-8f7250c0a143_1800x1800.jpg?v=1663790191',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-1_cf7e3156-6950-49e1-a6fe-8220752290db_1800x1800.jpg?v=1663789734',
@@ -704,7 +705,7 @@ const FlashSaleExclusiveData = [
 
             id: 1704,
             SubSareeNameHome: 'BEIGE COLOR SOFT COTTON SILK SAREES DIGITAL PRINT KALAMKARI',
-            Cost: '₹ 3,185.00 INR',
+            Cost:   3185.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-6_8d9888f7-66dc-4450-8c26-acd748cd5103_1800x1800.jpg?v=1663790538',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-1_cda28047-e473-42db-8e03-85b26385592d_1800x1800.jpg?v=1662702179',
@@ -714,7 +715,7 @@ const FlashSaleExclusiveData = [
 
             id: 1705,
             SubSareeNameHome: 'PEACH COLOR PURE COTTON WOVEN DESIGN KALAMKARI HANDLOOM SAREE',
-            Cost: '₹ 4,200.00 INR',
+            Cost:   4200.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/rju1148_3_1800x1800.jpg?v=1624109299',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/rju1148_1_1800x1800.jpg?v=1624111743',
@@ -724,7 +725,7 @@ const FlashSaleExclusiveData = [
 
             id: 1706,
             SubSareeNameHome: 'DARK GREY COLOR SOFT CREPE MIX COLOR SAREE DIGITAL PRINT WITH KALAMKARI',
-            Cost: '₹ 3,100.00 INR',
+            Cost:   3100.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-3_70759415-61d5-43b9-85a9-3e66d892251e_1800x1800.jpg?v=1663790777',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-1_887d3656-5260-4e69-83fe-a40f30f2cc5f_720x.jpg?v=1662817894',
@@ -734,7 +735,7 @@ const FlashSaleExclusiveData = [
 
             id: 1707,
             SubSareeNameHome: 'BEIGE WITH MUSTARD SAREE WITH KALAMKARI PRINTS BENGALI SILK SAREE',
-            Cost: '₹ 4,500.00 INR',
+            Cost:   4500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-4_d7e5ff9f-766f-41c0-9316-482d96f49677_1800x1800.jpg?v=1663790585',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-1_57d02b2e-cebf-46cd-adf2-e8f3d59e71af_1800x1800.jpg?v=1663789683',
@@ -744,7 +745,7 @@ const FlashSaleExclusiveData = [
 
             id: 1708,
             SubSareeNameHome: 'PINK COLOR SOFT COTTON SILK SAREES FLORAL DIGITAL PRINT KALAMKARI',
-            Cost: '₹ 3,185.00 INR',
+            Cost:   3185.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_2eea3554-1190-4f29-962a-4a2d895847f6_1800x1800.jpg?v=1663790626',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-8_2a53609b-e83d-4465-a3f3-ed1f232209f0_1800x1800.jpg?v=1662707626',
@@ -754,7 +755,7 @@ const FlashSaleExclusiveData = [
 
             id: 1709,
             SubSareeNameHome: 'BEIGE COLOR SILK COTTON EMBROIDERED KALAMKARI HANDLOOM SAREE',
-            Cost: '₹ 3,799.00 INR',
+            Cost:   3799.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/6_cae6d451-bb1a-40da-94ba-a1cab6801f97_1800x1800.jpg?v=1624881231',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/2_fc1dd9dd-91cf-4bc6-851a-966eebc719e0_720x.jpg?v=1624881183',
@@ -764,7 +765,7 @@ const FlashSaleExclusiveData = [
 
             id: 1710,
             SubSareeNameHome: 'ORANGE COLOR SILK COTTON WOVEN DESIGN MADHUBANI PRINT SAREE',
-            Cost: '₹ 4,832.00 INR',
+            Cost:   4832.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/bgk1213_2_bb1f66ca-2047-450a-9d50-470415597cd5_1800x1800.jpg?v=1624115429',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/bgk1213_1_a3dc0ff3-a2de-4697-91e5-d0cb7ad73ec6_1800x1800.jpg?v=1624109984',
@@ -774,7 +775,7 @@ const FlashSaleExclusiveData = [
 
             id: 1711,
             SubSareeNameHome: 'BLUE AND SKY BLUE HANDLOOM ',
-            Cost: '₹ 1,590.00 INR',
+            Cost:   1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-2_87caf462-8896-46bf-a593-6523e016e036_1800x1800.jpg?v=1653305310',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_cbf83e08-8d57-4b1b-9010-8b57afb258b7_1800x1800.jpg?v=1653305302',
@@ -784,7 +785,7 @@ const FlashSaleExclusiveData = [
 
             id: 1712,
             SubSareeNameHome: 'GREY COLOR PURE COTTON',
-            Cost: '₹ 1,590.00 INR',
+            Cost:   1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-6_390e58e3-e052-4009-9f62-f91d82c5f28a_1800x1800.jpg?v=1653914424',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_8330c8ef-d9e8-4a7a-84b3-9b2cfcc51cb2_1800x1800.jpg?v=1653914424',
@@ -794,7 +795,7 @@ const FlashSaleExclusiveData = [
 
             id: 1713,
             SubSareeNameHome: 'MUSTARD COLOR HANDLOOM',
-            Cost: '₹ 1,590.00 INR',
+            Cost:   1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_95e126de-26b9-4d82-83eb-f16a1c0f87a8_1800x1800.jpg?v=1649242553',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_a3b590ff-c08d-47be-94eb-40b8882270ed_1800x1800.jpg?v=1649242553',
@@ -804,7 +805,7 @@ const FlashSaleExclusiveData = [
 
             id: 1714,
             SubSareeNameHome: 'BLUE COLOR PURE COTTON',
-            Cost: '₹ 3,500.00 INR',
+            Cost:   3500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_e17730b1-1e1a-40db-aa20-f868d8d1378f_1800x1800.jpg?v=1648031415',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_73ec5f4b-261b-4286-aa2c-0b9122850d57_1800x1800.jpg?v=1648030094',
@@ -814,7 +815,7 @@ const FlashSaleExclusiveData = [
 
             id: 1715,
             SubSareeNameHome: 'YELLOW AND GREY HANDLOOM',
-            Cost: '₹ 1,690.00 INR',
+            Cost:   1690.00 ,
             rating: '4.7',
             src1: 'https://b.zmtcdn.com/data/pictures/chains/0/93970/ae0a71b4d560c4bcf7f52761c614fcc1_o2_featured_v2.jpg?output-format=webp',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_d8cec373-6070-4579-9b0a-0fb424570414_1800x1800.jpg?v=1653305328',
@@ -824,7 +825,7 @@ const FlashSaleExclusiveData = [
 
             id: 1716,
             SubSareeNameHome: 'GREEN BLUE COLOR HANDLOOM ',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/TRI3D__bagss1004__silk_set3_pujitha_back__2020-9-4-13-31-14__1080X1440_80ba85f5-00b6-4ee6-a365-79ceec0e59ca_1800x1800.jpg?v=1626857027',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/TRI3D__bagss1004__silk_set112_juhi_front__2020-9-4-13-29-55__1080X1440_6b080ecb-6ca1-44df-9ab1-6f12388b5ba9_1800x1800.jpg?v=1626857018',
@@ -844,7 +845,7 @@ const FlashSaleExclusiveData = [
 
             id: 1801,
             SubSareeNameHome: 'CREAM WITH MULTI COLOR TEMPLE SILK SAMBALPURI HANDLOOM SAREE',
-            Cost: '₹ 5,550.00 INR',
+            Cost:   5550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-3_810d518c-b648-4863-a15f-840effad5923_1800x1800.jpg?v=1653204254',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_a34f02fb-37f1-48ab-9aa1-7a8c573c34e6_1800x1800.jpg?v=1653207442',
@@ -854,7 +855,7 @@ const FlashSaleExclusiveData = [
 
             id: 1802,
             SubSareeNameHome: 'VIOLET COLOR WITH WHITE SHIBORI PRINT SAREE',
-            Cost: '₹ 1,590.00 INR',
+            Cost:   1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_bff9fbfd-e1cc-4d31-b3ca-6a8d59d642f1_1800x1800.jpg?v=1649242760',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_460e074f-b4ff-4289-bb12-ec6252e022e3_1800x1800.jpg?v=1649242760',
@@ -864,7 +865,7 @@ const FlashSaleExclusiveData = [
 
             id: 1803,
             SubSareeNameHome: 'PINK COLOR LINEN TISSUE HANDLOOM SAREE',
-            Cost: '₹ 2,950.00 INR',
+            Cost:   2950.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_9960530a-7b03-4985-a042-79e1d480e3ea_1800x1800.jpg?v=1648042315',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/2_0ba6caba-174c-41d4-9aa3-10df2e705bb6_1800x1800.jpg?v=1648042324',
@@ -874,7 +875,7 @@ const FlashSaleExclusiveData = [
 
             id: 1804,
             SubSareeNameHome: 'GREY COLOR PURE HANDLOOM COTTON TIE AND DYE PRINTED SAREE',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/bagss1268_3_1800x1800.jpg?v=1638349807',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/bagss1268_4_1800x1800.jpg?v=1638349700',
@@ -884,7 +885,7 @@ const FlashSaleExclusiveData = [
 
             id: 1805,
             SubSareeNameHome: 'RED COLOR SILK COTTON PRINTED VENKATAGIRI HANDLOOM SAREE',
-            Cost: '₹ 3,586.00 INR',
+            Cost:   3586.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/rju1913_2_1800x1800.jpg?v=1629456265',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/rju1913_3_720x.jpg?v=1629455592',
@@ -894,7 +895,7 @@ const FlashSaleExclusiveData = [
 
             id: 1806,
             SubSareeNameHome: 'PURE COTTON SAREES JAIPURI PRINTS',
-            Cost: '₹ 1,590.00 INR',
+            Cost:   1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-3_177e7fa9-bf9f-4b43-a81c-22be7714f1ce_1800x1800.jpg?v=1653049026',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-1_1c9fd464-065f-48c0-889a-68240749c4ae_1800x1800.jpg?v=1653043028',
@@ -904,7 +905,7 @@ const FlashSaleExclusiveData = [
 
             id: 1807,
             SubSareeNameHome: 'BLUE COLOR PURE COTTON PRINTED HANDLOOM SAREE',
-            Cost: '₹ 1,490.00 INR',
+            Cost:   1490.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_1d125ca0-f0aa-4834-a182-39357f2d874c_1800x1800.jpg?v=1649242450',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_e9cdc137-12f9-47d0-95a5-976a85a1c6d5_1800x1800.jpg?v=1649242457',
@@ -914,7 +915,7 @@ const FlashSaleExclusiveData = [
 
             id: 1808,
             SubSareeNameHome: 'RED COLOR SILK COTTON PRINTED NARAYAN PETH HANDLOOM SAREE',
-            Cost: '₹ 3,200.00 INR',
+            Cost:   3200.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_a8572814-fc97-4b11-a184-f908ed064e4b_1800x1800.jpg?v=1649764624',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_df506e57-d6f9-4b4d-b837-ff44bcc2797f_1800x1800.jpg?v=1649762508',
@@ -924,7 +925,7 @@ const FlashSaleExclusiveData = [
 
             id: 1809,
             SubSareeNameHome: 'BLUE COLOR PURE COTTON PRINTED HANDLOOM SAREE',
-            Cost: '₹ 1,550.00 INR',
+            Cost:   1550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/bagss1048a_1_1800x1800.jpg?v=1624114618',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/bagss1048a_3_1800x1800.jpg?v=1624111358',
@@ -934,7 +935,7 @@ const FlashSaleExclusiveData = [
 
             id: 1810,
             SubSareeNameHome: 'CREAM COLOR PURE COTTON PRINTED HANDLOOM SAREE',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_ac2ab43e-9de7-4b58-9d9e-8e7f415f2ea8_1800x1800.jpg?v=1648719593',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_848263d5-0e5a-40c0-8e3e-9305519f86af_1800x1800.jpg?v=1648715995',
@@ -944,7 +945,7 @@ const FlashSaleExclusiveData = [
 
             id: 1811,
             SubSareeNameHome: 'ORANGE COLOR PURE HANDLOOM COTTON PRINTED SAREE',
-            Cost: '₹ 1,590.00 INR',
+            Cost:   1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_d9afbb22-2bf8-43ee-a3b1-30cb2499907b_1800x1800.jpg?v=1649310633',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_0747ecd6-fccf-4d52-b7ab-bc2250352967_1800x1800.jpg?v=1649310605',
@@ -954,7 +955,7 @@ const FlashSaleExclusiveData = [
 
             id: 1812,
             SubSareeNameHome: 'MAGENTA COLOR COLOR WOVEN DESIGN STRIPED HANDLOOM SAREE WITH SEQUENCE PALLU',
-            Cost: '₹ 2,800.00 INR',
+            Cost:   2800.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/1_3e371656-f2ac-4006-9fab-f99225d0b308_1800x1800.jpg?v=1644922633',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/2_d0f13db3-f52e-4e94-80fb-d169d259f307_1800x1800.jpg?v=1644913148',
@@ -964,7 +965,7 @@ const FlashSaleExclusiveData = [
 
             id: 1813,
             SubSareeNameHome: 'ORANGE COLOR SILK COTTON PRINTED VENKATAGIRI HANDLOOM SAREE',
-            Cost: '₹ 3,399.00 INR',
+            Cost:   3399.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_c3ffb661-6313-466d-8aec-eeda82f1cd55_1800x1800.jpg?v=1649760983',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_ad4f4700-f5ed-442e-9f75-621a5aa876b7_1800x1800.jpg?v=1649764729',
@@ -974,7 +975,7 @@ const FlashSaleExclusiveData = [
 
             id: 1814,
             SubSareeNameHome: 'WHITE WITH BLACK COLOR HANDLOOM PURE COTTON PRINT SAREE',
-            Cost: 'Sale price₹ 1,590.00 INR',
+            Cost: 1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_7f628375-9601-47df-8740-db876bc757d5_1800x1800.jpg?v=1649242717',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_d6909b2c-17fa-4f23-bce8-18aad6ae600d_1800x1800.jpg?v=1649242720',
@@ -984,7 +985,7 @@ const FlashSaleExclusiveData = [
 
             id: 1815,
             SubSareeNameHome: 'BLACK COLOR PURE COTTON HANDLOOM PRINTED SAREE',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_7ca92c1c-cda4-430a-9f39-a95258a0dbc5_1800x1800.jpg?v=1653914239',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_21f454d3-6c54-4c40-9b80-028d815e9276_1800x1800.jpg?v=1653914239',
@@ -994,7 +995,7 @@ const FlashSaleExclusiveData = [
 
             id: 1816,
             SubSareeNameHome: 'GREEN AND BLACK HANDLOOM PURE COTTON PRINT SAREE',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_338b5c57-ec07-4496-b60a-fff8961a55a2_1800x1800.jpg?v=1649254518',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-6_7910b746-da43-4446-b485-e0c6b0ebdbde_1800x1800.jpg?v=1649254774',
@@ -1014,7 +1015,7 @@ const FlashSaleExclusiveData = [
 
             id: 1901,
             SubSareeNameHome: 'TEAL GREEN CHECKED PURE MAHESHWARI SAREE WITH GOLDEN ZARI PALLU AND BORDERS',
-            Cost: '₹ 9,250.00 INR',
+            Cost:   9250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-6_f387fd66-be31-4863-b7de-a49e6a89075e_1800x1800.jpg?v=1679212287',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_38bc9ac6-c2a3-4d7d-8146-2200b6de35fc_1800x1800.jpg?v=1679212352',
@@ -1024,7 +1025,7 @@ const FlashSaleExclusiveData = [
 
             id: 1902,
             SubSareeNameHome: 'KHAKHI BROWN PURE MAHESHWARI SAREE WITH GOLDEN ZARI WORK',
-            Cost: '₹ 7,700.00 INR',
+            Cost:   7700.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/files/final-1_e1cddb03-6b9c-4d35-875a-0829609543ed_1800x1800.jpg?v=1683662324',
             src2: 'https://www.bharatsthali.com/cdn/shop/files/final-2_02077f25-6f37-4b3f-bae4-f7dc490d13be_1800x1800.jpg?v=1683662366',
@@ -1034,7 +1035,7 @@ const FlashSaleExclusiveData = [
 
             id: 1903,
             SubSareeNameHome: 'BLACK PURE MAHESHWARI SAREE WITH THREAD MOTIFS AND SILVER ZARI PALLU',
-            Cost: '₹ 10,150.00 INR',
+            Cost:   10150.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_8cb04188-f2e0-4172-8294-447ed36f851d_1800x1800.jpg?v=1679237796',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-5_fe809ca0-0a39-41c8-93af-847ca322c633_1800x1800.jpg?v=1679237877',
@@ -1044,7 +1045,7 @@ const FlashSaleExclusiveData = [
 
             id: 1904,
             SubSareeNameHome: 'ROSE PINK PURE MAHESHWARI SAREE WITH MOTIFS AND GOLDEN ZARI PALLU',
-            Cost: '₹ 10,375.00 INR',
+            Cost:   10375.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_29f69149-50d9-4522-8b98-f6fc537a3d65_1800x1800.jpg?v=1679237719',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_d7eb9b72-9391-435c-874c-e0d57e212495_1800x1800.jpg?v=1679237841',
@@ -1054,7 +1055,7 @@ const FlashSaleExclusiveData = [
 
             id: 1905,
             SubSareeNameHome: 'SANGRIA PURPLE PURE MAHESHWARI SAREE WITH MOTIFS AND GOLDEN ZARI PALLU',
-            Cost: '₹ 10,375.00 INR',
+            Cost:   10375.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-6_865b2727-2e8e-4492-8f81-1b04bd6bc7a1_1800x1800.jpg?v=1679237843',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_b0478639-0d0f-45d2-a061-8c1015116251_1800x1800.jpg?v=1679237821',
@@ -1064,7 +1065,7 @@ const FlashSaleExclusiveData = [
 
             id: 1906,
             SubSareeNameHome: 'BLACK AND RED PURE MAHESHWARI SAREE WITH THREAD MOTIFS AND GOLDEN ZARI PALLU',
-            Cost: '₹ 12,250.00 INR',
+            Cost:   12250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_9318fb96-f158-4234-91a7-d979d3e5330e_1800x1800.jpg?v=1679237857',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-6_7aa9760b-fba7-4050-bbe5-fd20978a08a9_1800x1800.jpg?v=1679237749',
@@ -1074,7 +1075,7 @@ const FlashSaleExclusiveData = [
 
             id: 1907,
             SubSareeNameHome: 'MUSTARD YELLOW AND RED PURE MAHESHWARI SAREE WITH THREAD WORK',
-            Cost: '₹ 12,250.00 INR',
+            Cost:   12250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-2_1d3935bd-cff0-49b9-bf7f-24ceb989afd8_1800x1800.jpg?v=1679237815',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_9f293755-28ca-4335-b08e-f142fc71d756_1800x1800.jpg?v=1679237825',
@@ -1084,7 +1085,7 @@ const FlashSaleExclusiveData = [
 
             id: 1908,
             SubSareeNameHome: 'ORANGE PURE MAHESHWARI SAREE WITH GOLDEN ZARI PALLU AND BORDERS',
-            Cost: '₹ 8,875.00 INR',
+            Cost:   8875.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_b6dd23eb-7806-4d93-897c-36d5e7d772b1_1800x1800.jpg?v=1679223440',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-5_b174a6a0-7a19-44a4-a1de-26acf3fd9d94_720x.jpg?v=1679223560',
@@ -1094,7 +1095,7 @@ const FlashSaleExclusiveData = [
 
             id: 1909,
             SubSareeNameHome: 'CLAY ORANGE PURE MAHESHWARI SAREE WITH GOLDEN ZARI PALLU AND BORDER',
-            Cost: '₹ 8,500.00 INR',
+            Cost:   8500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_4789b8b2-2000-4634-b177-0adc6cc07cfb_1800x1800.jpg?v=1679223434',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_18357237-b62b-49ec-bc3c-42e9d3bd3318_1800x1800.jpg?v=1679223554',
@@ -1104,7 +1105,7 @@ const FlashSaleExclusiveData = [
 
             id: 1910,
             SubSareeNameHome: 'MAROON PURE MAHESHWARI SAREE WITH GOLDEN ZARI PALLU AND BORDERS',
-            Cost: '₹ 8,500.00 INR',
+            Cost:   8500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_5cebd091-6d39-4354-8bd4-fee860b0571d_1800x1800.jpg?v=1679223467',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_7123921f-ba48-4f66-bd32-41188250f877_1800x1800.jpg?v=1679223414',
@@ -1114,7 +1115,7 @@ const FlashSaleExclusiveData = [
 
             id: 1911,
             SubSareeNameHome: 'PEACOCK GREEN PURE MAHESHWARI SAREE WITH GOLDEN ZARI PALLU AND BORDERS',
-            Cost: '₹ 8,500.00 INR',
+            Cost:   8500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_f450d285-e61f-43eb-8795-84ae89d039a3_1800x1800.jpg?v=1679223557',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_63d73f35-9118-4196-873e-b6de2334ccb8_1800x1800.jpg?v=1679223404',
@@ -1124,7 +1125,7 @@ const FlashSaleExclusiveData = [
 
             id: 1912,
             SubSareeNameHome: 'PERSIAN BLUE PURE MAHESHWARI SAREE WITH GOLDEN ZARI PALLU AND BORDER',
-            Cost: '₹ 8,500.00 INR',
+            Cost:   8500.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-2_8c3bc398-6893-43aa-9045-ba45601da1ef_1800x1800.jpg?v=1679223460',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-6_a174f17d-997b-492e-bd91-e6a21998bcf6_1800x1800.jpg?v=1679223541',
@@ -1134,7 +1135,7 @@ const FlashSaleExclusiveData = [
 
             id: 1913,
             SubSareeNameHome: 'GREY AND RED PURE MAHESHWARI SAREE WITH THREAD WORK MOTIFS AND ZARI WORK',
-            Cost: '₹ 9,250.00 INR',
+            Cost:   9250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_ccae0448-f15a-4623-b4b8-857ebabb7db2_1800x1800.jpg?v=1679223454',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-5_f476266a-7603-437b-a443-f8c2fda3c6fb_1800x1800.jpg?v=1679223567',
@@ -1144,7 +1145,7 @@ const FlashSaleExclusiveData = [
 
             id: 1914,
             SubSareeNameHome: 'GREEN AND RED PURE MAHESHWARI SAREE WITH THREAD WORK MOTIFS AND ZARI WORK',
-            Cost: '₹ 9,250.00 INR',
+            Cost:   9250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_d60303e0-7c7c-4986-bee9-e40b2338d500_1800x1800.jpg?v=1679223498',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_edc801f0-1443-43d5-a9da-b1e6a8aeab54_1800x1800.jpg?v=1679223517',
@@ -1154,7 +1155,7 @@ const FlashSaleExclusiveData = [
 
             id: 1915,
             SubSareeNameHome: 'BLACK AND RED CHECKED PURE MAHESHWARI SAREE WITH ZARI PALLU AND BORDERS',
-            Cost: '₹ 9,250.00 INR',
+            Cost:   9250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-4_429c992b-cb51-45fd-a764-2bc3e73a50f3_1800x1800.jpg?v=1679212306',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-5_7169a57a-2265-4e60-a650-951f79548b2f_1800x1800.jpg?v=1679212359',
@@ -1164,7 +1165,7 @@ const FlashSaleExclusiveData = [
 
             id: 1916,
             SubSareeNameHome: 'BLUE AND RED PURE MAHESHWARI SAREE WITH THREAD WORK MOTIFS',
-            Cost: '₹ 12,250.00 INR',
+            Cost:   12250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_5e02ea91-b552-4219-a6bc-dd251ab3c252_1800x1800.jpg?v=1679148306',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-5_457458ac-6ac0-4dfb-a634-c9e39bfbe075_1800x1800.jpg?v=1679148334',
@@ -1183,7 +1184,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1201,
             SubSareeNameHome: 'CREAM AND NAVY BLUE SILK SAMBALPURI HANDLOOM SAREE TEMPLE BORDER',
-            Cost: '₹ 5,550.00 INR',
+            Cost:   5550.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_a145b1f8-7fab-45e8-9fc0-5f4f8544ec10_1800x1800.jpg?v=1653207389',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_e69f33a6-9756-43ae-bddd-ba9b3bf7c7e2_1800x1800.jpg?v=1653207475',
@@ -1192,7 +1193,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1202,
             SubSareeNameHome: 'PURE COTTON SAREES',
-            Cost: '₹ 1,690.00 INR',
+            Cost:   1690.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-3_4ca1cdd4-2939-4bb5-83c6-422c7386a2d3_1800x1800.jpg?v=1648719684',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_85e23c3c-9525-463e-bff0-1f12153b6a76_1800x1800.jpg?v=1648719641',
@@ -1201,7 +1202,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1203,
             SubSareeNameHome: 'MUSTARD COLOR PURE COTTON PRINTED NARAYAN PETH HANDLOOM SAREE',
-            Cost: '₹ 3,300.00 INR',
+            Cost:   3300.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/rju1722_1_1800x1800.jpg?v=1624108477',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/rju1722_3_1800x1800.jpg?v=1624114865',
@@ -1210,7 +1211,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1204,
             SubSareeNameHome: 'PURE COTTON SAREES JAIPURI PRINTS',
-            Cost: '₹ 1,590.00 INR',
+            Cost:   1590.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-3_177e7fa9-bf9f-4b43-a81c-22be7714f1ce_1800x1800.jpg?v=1653049026',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-1_1c9fd464-065f-48c0-889a-68240749c4ae_1800x1800.jpg?v=1653043028',
@@ -1219,7 +1220,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1205,
             SubSareeNameHome: 'PURE COTTON SAREES',
-            Cost: '₹ 1,490.00 INR',
+            Cost:   1490.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_aff9daf5-c71a-469a-8308-71fe038ba212_1800x1800.jpg?v=1648715825',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-6_1bf4b70f-2399-485e-86d1-29d716cd756c_1800x1800.jpg?v=1648715843',
@@ -1228,7 +1229,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1206,
             SubSareeNameHome: 'BLACK COLOR PURE COTTON PRINTED SAREE',
-            Cost: '₹ 1,490.00 INR',
+            Cost:   1490.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_32006363-e5af-4a77-b417-68304d4a9ab9_1800x1800.jpg?v=1649254590',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-6_c1b5e189-b139-4c31-a2c4-f6c16da70be0_1800x1800.jpg?v=1649254318',
@@ -1237,7 +1238,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1207,
             SubSareeNameHome: 'RUST RED WITH BLACK COLOR PURE BENGALI MUL-MUL COTTON SAREE',
-            Cost: '₹ 3,250.00 INR',
+            Cost:   3250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-7_77b2c8df-3339-4689-877a-c8d13247b5e9_1800x1800.jpg?v=1654342756',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_295613e2-d63d-4af2-8d5a-4085d4f02ba3_1800x1800.jpg?v=1654334038',
@@ -1246,7 +1247,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1208,
             SubSareeNameHome: 'PINK COLOR PURE COTTON SOLID MAHESHWARI HANDLOOM SAREE',
-            Cost: '₹ 3,326.00 INR',
+            Cost:   3326.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_b54935b7-433a-496c-adf9-b4238a250f2b_1800x1800.jpg?v=1647346033',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-5_c3184bb6-63e5-4035-b135-7cdbf5e58872_1800x1800.jpg?v=1647346296',
@@ -1255,7 +1256,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1209,
             SubSareeNameHome: 'RED COLOR PURE COTTON HANDLOOM SAREE',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-5_9344781c-af42-459f-b38d-fef1b3b0ca96_1800x1800.jpg?v=1649242953',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_de1c4134-b3aa-4e93-a724-d374750ffb56_1800x1800.jpg?v=1649254424',
@@ -1264,7 +1265,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1210,
             SubSareeNameHome: 'WHITE COLOR PURE COTTON PRINTED HANDLOOM SAREE',
-            Cost: '₹ 1,490.00 INR',
+            Cost:   1490.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/bagss1371_2_af781dbf-30c9-4dbc-97ca-8b2d9dc78479_1800x1800.jpg?v=1637066188',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/bagss1371_1_1800x1800.jpg?v=1637141839',
@@ -1273,7 +1274,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1211,
             SubSareeNameHome: 'RED HANDLOOM PURE COTTON PRINT SAREE',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/bagss1033a_1_1800x1800.jpg?v=1630753622',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/bagss1033a_2_1800x1800.jpg?v=1630742954',
@@ -1282,7 +1283,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1212,
             SubSareeNameHome: 'MAROON & GREEN COLOR PURE BENGALI COTTON SAREE',
-            Cost: '₹ 3,250.00 INR',
+            Cost:   3250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-4_0d9e790a-0774-4cb4-8686-4b5bea87ee44_1800x1800.jpg?v=1652544520',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_c778dbea-0a4a-42a6-8467-1abbf9c9934f_1800x1800.jpg?v=1652445887',
@@ -1291,7 +1292,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1213,
             SubSareeNameHome: 'MAGENTA COLOR PURE COTTON PRINTED HANDLOOM SAREE',
-            Cost: '₹ 1,450.00 INR',
+            Cost:   1450.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/bagss1364_1_37370f2f-da26-4543-944d-29994248039e_1800x1800.jpg?v=1637066072',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/bagss1364_2_1800x1800.jpg?v=1637066087',
@@ -1300,7 +1301,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1214,
             SubSareeNameHome: 'WHITE COLOR PURE COTTON PRINTED HANDLOOM SAREE',
-            Cost: '₹ 1,490.00 INR',
+            Cost:   1490.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_e239cef5-1db9-47e7-8e0c-c097f98f2651_1800x1800.jpg?v=1648817928',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_77b65a91-45d7-4766-9311-ab13c528d7e7_1800x1800.jpg?v=1648809301',
@@ -1309,7 +1310,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1215,
             SubSareeNameHome: 'ROYAL BLUE WITH COPPER COLOR PURE BENGALI MUL-MUL COTTON SAREE',
-            Cost: '₹ 3,250.00 INR',
+            Cost:   3250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-4_d483d382-1b12-458f-8de1-5c748473dc5f_1800x1800.jpg?v=1654342834',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-1_d8306ee7-f85f-4d28-b476-71945a83c853_1800x1800.jpg?v=1654334816',
@@ -1318,7 +1319,7 @@ const FlashSaleExclusiveData = [
             {
             id: 1216,
             SubSareeNameHome: 'LEAF GREEN & PURPLE SOLID PURE COTTON SAREE',
-            Cost: '₹ 3,250.00 INR',
+            Cost:   3250.00 ,
             rating: '4.7',
             src1: 'https://www.bharatsthali.com/cdn/shop/products/final-1_e85d7088-c25b-4354-85dd-bf40ddaac1f0_1800x1800.jpg?v=1652444692',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-4_95f86450-bac4-40cf-88f3-fe0ffb3dfd21_1800x1800.jpg?v=1652444692',

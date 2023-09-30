@@ -190,6 +190,17 @@
     color: green;
 }
 
+.cart-value{
+    position: absolute;
+    top: 6vh;
+    right: 4vw;
+    height: 3.5vh;
+    width: 1.7vw;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+
 
 
 
@@ -355,6 +366,17 @@
         bottom: 5vh;
         color: green;
     }
+    .cart-value{
+        position: absolute;
+        top: 4.5vh;
+        right: 1vw;
+        height: 4vh;
+        width: 5vw;
+        background-color: blue;
+        color: white;
+        border-radius: 50%;
+    }
+    
 
 
     

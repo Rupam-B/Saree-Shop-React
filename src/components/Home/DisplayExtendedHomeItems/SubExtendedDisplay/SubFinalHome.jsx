@@ -2,14 +2,19 @@ import React, { useState } from 'react'
 import './SubFinalStyle.css'
 import { FlashSaleExclusiveData } from '../../FlashSaleExclusivedata'
 import { useParams } from 'react-router-dom';
+import { AddToCart} from '../../../../Redux/action';
+import { useDispatch } from 'react-redux';
 
 const SubHomeData = FlashSaleExclusiveData;
 
 const SubFinalHome = () => {
 
+  const dispatch = useDispatch();
+
  const {id, idOne} = useParams()
  const parsedid = parseInt(id)
  const parsedidOne = parseInt(idOne)
+
 
  const subReqDataFilterd = SubHomeData.find((Subitems)=>Subitems.id===parsedidOne);
  const RequiredData = subReqDataFilterd.data.find((reqItems)=>reqItems.id===parsedid);
@@ -36,7 +41,7 @@ const SubFinalHome = () => {
         <div className="Final-Home-Product-Details-div">
             <p className='Final-Home-Product-name'>{RequiredData.SubSareeNameHome}</p>
             <p className='Final-Home-Product-price'>Price: {RequiredData.Cost}</p>
-            <button className='Add-to-cart'>Add To Cart</button>
+            <button onClick={()=>{dispatch(AddToCart(parsedid,RequiredData.src1,RequiredData.Cost,RequiredData.SubSareeNameHome))}} className='Add-to-cart'>Add To Cart</button>
 
         </div>
     </div>

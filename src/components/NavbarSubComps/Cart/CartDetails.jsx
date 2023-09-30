@@ -1,22 +1,84 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import './cartStyle.css'
+import { RemoveFromCart } from '../../../Redux/action'
 
 const CartDetails = () => {
-  // const [isValid, setIsValid] = useState(false);
-  // const [fillName ,setFillName] = useState('fillDetails.newname')
-  // const [fillUserName,setFillUserName] = useState('fillDetails.newname')
-  // const [fillEmail ,setFillEmail] = useState('fillDetails.email')
+
+  const cartItems = useSelector((state)=>state.AddOrRemoveItems)
+   const removeDispatch = useDispatch();
+  
+  
+  const [isValid, setIsValid] = useState(false);
+  const [fillName ,setFillName] = useState('')
+  const [fillUserName,setFillUserName] = useState('')
+  const [fillEmail ,setFillEmail] = useState('')
   
 
-  // const handleFormSubmit = (event) => {
-  //   if (!event.target.checkValidity()) {
-  //     setIsValid(false);
-  //     event.preventDefault();
-  //   }
-  //    else{  
-  //     setIsValid(true)
-  //     event.preventDefault();
-  //   }
-  // }
+    // Razor Pay Setup----------
+    const loadScript = (src)=>{
+      return new Promise ((resolve) => {
+        const script = document.createElement('script')
+        script.src = src
+  
+        script.onload = () =>{
+          resolve(true)
+        }
+        script.onerror = () =>{
+          resolve(false)
+        }
+  
+        document.body.appendChild(script)
+      })
+    }
+  
+    const handleFormSubmit = (event) => {
+      if (!event.target.checkValidity()) {
+        setIsValid(false);
+        event.preventDefault();
+      }
+       else{  
+        setIsValid(true)
+        event.preventDefault();
+      }
+    }
+    
+   const displayRazorpay = async (amount)=>{
+    
+  
+    const res = await loadScript('https://checkout.razorpay.com/v1/checkout.js')
+    if(!res){
+      alert('You are offline... failed to load Razorpay SDK')
+      return
+    }
+  
+     
+  
+    const options = {
+      key : 'rzp_test_raMrvMzHnIWOLu',
+      currency : "INR",
+      amount : amount * 100,
+      name : 'Subhra Saree House',
+      description : 'Thanks For Purchasing',
+      image : 'https://img.perniaspopupshop.com/catalog/product/d/a/DARC0422142_1.jpg?impolicy=detailimageprod',
+      
+      handler : function (response) {
+        // alert(response.razorpay_payment_id)
+        // alert('Payment Successfull !')
+        window.location.assign('/orders')
+      },
+      prefill :{
+        // name : fillDetails.newname,
+        name: 'Rupam'
+      }
+    };
+  
+   const paymentObject = new window.Razorpay(options)
+   paymentObject.open()
+  
+   }
+     
+    // ---------End Razorpay Setup
   return (
     <div className='page-container'>
 
@@ -33,30 +95,30 @@ const CartDetails = () => {
               <div style={{padding:'1rem'}} className="col-md-5 col-lg-4 order-md-last">
                 <h4 className="d-flex justify-content-between align-items-center mb-3">
                   <span className="text-primary your-cart">Your cart</span>
-                  {/* <span className="badge bg-primary rounded-pill your-cart">{cart.length}</span> */}
-                  <span className="badge bg-primary rounded-pill your-cart">0</span>
+                  <span className="badge bg-primary rounded-pill your-cart">{cartItems.cart.length}</span>
                 </h4>
                 <ul className="list-group mb-3">
-                  {/* {cart.map((menu)=>(
+                  {cartItems.cart.map((menu)=>(
                     <li key={menu.id} className="list-group-item d-flex justify-content-between lh-sm">
 
                     <div className='d-flex align-items-center'>
-                      <img className='cart-show-img' src={menu.src} alt="" />
-                      <h6 style={{width:'8rem'}} className="my-0">{menu.FoodName}</h6>
+                      <img className='cart-show-img' src={menu.imgsrc} alt="" />
+                      <h6 className="Product-Name my-0">{menu.ProductName}</h6>
                     </div>
-                    <div className='text-set d-flex'>
-                    <span className=" cost-span "> {menu.Cost}.00 ({menu.quantity})</span>
-                    <span onClick={()=>removeCartItem(menu.id)} className="text-body-secondary  text-red"><i className="fa-solid txt-red fa-trash"></i></span>
+                    <div className='cart-text-set d-flex'>
+                    <span className="cart-cost-span"> {menu.Cost}.00 ({menu.quantity})</span>
+                    <span 
+                    onClick={()=>{removeDispatch(RemoveFromCart(menu.id))}} 
+                    className="text-body-secondary  text-red"><i className="fa-solid cart-delete-txt-red fa-trash"></i></span>
       
                       </div>
                   </li>
 
-                  ))} */}
+                  ))}
                 </ul>
-                <div className="total-set">
+                <div className="cart-total-set">
                   <h6 className="my-0">Total</h6>
-                  {/* <h6 className="my-0">{total_amount}.00</h6> */}
-                  <h6 className="my-0">00</h6>
+                  <h6 className="my-0">INR {cartItems.total_amount}.00</h6>
 
                   </div>
               
@@ -64,14 +126,14 @@ const CartDetails = () => {
               <div className="col-md-7 col-lg-8">
                 <h4 className="mb-3">Billing address</h4>
                 <form 
-                // onSubmit={handleFormSubmit} 
+                onSubmit={handleFormSubmit} 
                 className="needs-validation">
                   <div className="row g-3">
                     <div className="col-sm-6">
                       <label htmlFor="firstName" className="form-label">First name</label>
                       <input autoComplete='on' type="text" 
-                      // value={fillName} 
-                      // onChange={(e)=>setFillName(e.target.value)}
+                      value={fillName} 
+                      onChange={(e)=>setFillName(e.target.value)}
                        className="form-control" id="firstName" placeholder=""  required/>
                       <div className="invalid-feedback">
                         Valid first name is required.
@@ -91,8 +153,8 @@ const CartDetails = () => {
                       <div className="input-group has-validation">
                         <span className="input-group-text">@</span>
                         <input autoComplete='on' type="text" 
-                        // value={fillUserName} 
-                        // onChange={(e)=>setFillUserName(e.target.value)}
+                        value={fillUserName} 
+                        onChange={(e)=>setFillUserName(e.target.value)}
                          className="form-control" id="username" placeholder="Username" required/>
                         <div className="invalid-feedback">
                           Your username is required.
@@ -103,8 +165,8 @@ const CartDetails = () => {
                     <div className="col-12">
                       <label htmlFor="email" className="form-label">Email <span className="text-body-secondary">(Optional)</span></label>
                       <input autoComplete='on' type="email" 
-                      // value={fillEmail} 
-                      // onChange={(e)=>setFillEmail(e.target.value)}
+                      value={fillEmail} 
+                      onChange={(e)=>setFillEmail(e.target.value)}
                        className="form-control" id="email" placeholder="you@example.com" required/>
                       <div className="invalid-feedback">
                         Please enter a valid email address for shipping updates.
@@ -176,8 +238,8 @@ const CartDetails = () => {
 
                   
                   
-                  {/* <button type='submit' onClick={() => {if (isValid) {displayRazorpay(total_amount)}}} className="w-100 btn btn-primary btn-lg">Proceed to Pay <span className='Check-out-span'>(INR {total_amount}.00)</span></button> */}
-                  <button className="w-100 btn btn-primary btn-lg">Proceed to Pay <span className='Check-out-span'>500</span></button>
+                  <button type='submit' onClick={() => {if (isValid) {displayRazorpay(cartItems.total_amount)}}} className="w-100 btn btn-primary btn-lg">Proceed to Pay <span className='cart-Check-out-span'>(INR {cartItems.total_amount}.00)</span></button>
+                  {/* <button className="w-100 btn btn-primary btn-lg">Proceed to Pay <span className='cart-Check-out-span'>{cartItems.total_amount}</span></button> */}
                 </form>
               </div>
             </div>
