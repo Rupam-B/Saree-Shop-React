@@ -266,11 +266,11 @@
         display: none;
     }
     .mobile-display-right-user{
-        right: -2vw;
+        right: -3.5vw;
     }
     .mobile-display-left-cart{
         
-        right: 10vw;
+        right: 8.5vw;
     }
 
 
@@ -375,8 +375,8 @@
     .cart-value{
         position: absolute;
         top: 4.5vh;
-        right: 9.5vw;
-        height: 3.5vh;
+        right: 8vw;
+        height: 3.2vh;
         width: 5vw;
         background-color: red;
         color: white;
