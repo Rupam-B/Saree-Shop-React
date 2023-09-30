@@ -68,9 +68,9 @@ const Navbar = () => {
             <h1>SUBHRA SAREE HOUSE</h1>
             <div className="Navbar-sub-div-icons">
               <Link to={'/favourites'}><i className="fa-regular fa-heart mobile-display-none"></i></Link>
-              <Link to={'/Authen'}><i className="fa-regular fa-user"></i></Link>
+              <Link to={'/Authen'}><i className="fa-regular fa-user mobile-display-right-user"></i></Link>
               <i className="fa-solid fa-magnifying-glass mobile-display-none"></i>
-              <Link to={'/cart'} style={{textDecoration:'none',color:'black'}}><i className="fa-solid fa-bag-shopping"></i></Link>
+              <Link to={'/cart'} style={{textDecoration:'none',color:'black'}}><i className="fa-solid fa-bag-shopping mobile-display-left-cart"></i></Link>
               <div className="cart-value">{cartValue}</div>
             </div>
           </div>

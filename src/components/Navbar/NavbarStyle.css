@@ -265,7 +265,13 @@
     .Navbar-sub-div-icons i.mobile-display-none{
         display: none;
     }
-    
+    .mobile-display-right-user{
+        right: -2vw;
+    }
+    .mobile-display-left-cart{
+        
+        right: 10vw;
+    }
 
 
     
@@ -369,10 +375,10 @@
     .cart-value{
         position: absolute;
         top: 4.5vh;
-        right: 1vw;
-        height: 4vh;
+        right: 9.5vw;
+        height: 3.5vh;
         width: 5vw;
-        background-color: blue;
+        background-color: red;
         color: white;
         border-radius: 50%;
     }
