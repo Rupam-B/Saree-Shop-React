@@ -1,3 +1,5 @@
+
+// Add or Remove Cart Actions ----------------
 export const AddToCart = (id,imgsrc,Cost,ProductName) =>{
     return{
         type:"ADD-TO-CART",
@@ -14,5 +16,27 @@ export const RemoveFromCart = (removid) =>{
     return{
         type:"REMOVE-FROM-CART",
         payload:removid
+    }
+}
+
+
+// Authentication Actions -------------------
+
+export const AuthenticationSignUP = (sendArr)=>{
+
+    return {
+        type:"SIGN-UP",
+        payload : sendArr
+    }
+}
+export const AuthenticationLogin = (checkArr)=>{
+    return {
+        type:"LOG-IN",
+        payload:checkArr
+    }
+}
+export const AuthenticationLogOut = ()=>{
+    return {
+        type:"LOG-OUT",
     }
 }

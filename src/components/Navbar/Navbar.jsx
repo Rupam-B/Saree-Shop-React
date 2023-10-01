@@ -9,6 +9,10 @@ const Navbar = () => {
   // States-----
 
   const cartObjectValue = useSelector((state)=>state.AddOrRemoveItems)
+  const AuthObject = useSelector((state)=>state.AuthenticationReducer)
+
+
+
   const cartValue = cartObjectValue.cart.length
 
   const Navdispatch = useDispatch();
@@ -42,14 +46,9 @@ const Navbar = () => {
           <p className="p2 pernia-white-color text-center">
             <i className="fa-solid fa-hands-praying"></i>
             <span className="pernia-black-color">
-              <a
-                href="https://api.whatsapp.com/send?phone=917000771487&amp;text=Hi!%20Could%20you%20help%20me%20with%20a%20few%20queries!"
-                className="pernia-color-red"
-              >
-                {" "}
-                Welcome{" "}
-              </a>
+              <span style={{marginLeft:'0.5vw'}} className="pernia-color-red">{" "} Welcome {" "} </span>
             </span>
+            <span style={{color:'white', marginRight:'0.5vw'}}>{AuthObject.checkArr.newname? AuthObject.checkArr.newname:''}</span>
             <i className="fa-solid fa-hands-praying"></i>
           </p>
         </div>
@@ -69,6 +68,7 @@ const Navbar = () => {
             <div className="Navbar-sub-div-icons">
               <Link to={'/favourites'}><i className="fa-regular fa-heart mobile-display-none"></i></Link>
               <Link to={'/Authen'}><i className="fa-regular fa-user mobile-display-right-user"></i></Link>
+              <div className={AuthObject.checkArr.newname?"user-signed-symbol-green":"user-signed-symbol-white"}>✓</div>
               <i className="fa-solid fa-magnifying-glass mobile-display-none"></i>
               <Link to={'/cart'} style={{textDecoration:'none',color:'black'}}><i className="fa-solid fa-bag-shopping mobile-display-left-cart"></i></Link>
               <div className="cart-value">{cartValue}</div>

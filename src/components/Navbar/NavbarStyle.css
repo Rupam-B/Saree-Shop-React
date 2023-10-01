@@ -200,6 +200,15 @@
     color: white;
     border-radius: 50%;
 }
+.user-signed-symbol-white{
+    display: none;
+}
+.user-signed-symbol-green{
+    position: absolute;
+    top: 5.8vh;
+    right: 10.8vw;
+    color: green;
+}
 
 
 
@@ -381,6 +390,14 @@
         background-color: red;
         color: white;
         border-radius: 50%;
+    }
+    .user-signed-symbol-white{
+        display: none;
+    }
+    .user-signed-symbol-green{
+        top: 5vh;
+        right: 3.2vw;
+        color: green;
     }
     
 
