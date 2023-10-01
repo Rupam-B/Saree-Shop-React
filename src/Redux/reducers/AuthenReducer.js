@@ -60,6 +60,7 @@ const AuthenticationReducer = (state=AutheninitialState, action)=>{
         }
         else{
             toast.success('Log In Succesfull !')
+            window.location.assign('/')
         return {
             ...state,
             checkArr:passArr

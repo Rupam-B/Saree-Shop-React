@@ -2,12 +2,27 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
+const getLocalCartData = () => {
+    let localCartSareeData = localStorage.getItem("localStoredSareeCart");
+    if (localCartSareeData == null) {
+      return [];
+    } else {
+      return JSON.parse(localCartSareeData);
+    }
+  };
+  const getLocalAmountData = () => {
+    let localAmountSareeData = localStorage.getItem("localStoredSareeAmount");
+    if (localAmountSareeData == null) {
+      return 0;
+    } else {
+      return JSON.parse(localAmountSareeData);
+    }
+  };
+
+
 const initialState = {
-    // cart: getLocalCartData(),
-    cart: [],
-    total_item: 0,
-    total_amount: 0,
-    // total_amount: getLocalAmountData(),
+    cart: getLocalCartData(),
+    total_amount: getLocalAmountData(),
 }
 
 const AddOrRemoveItems = (state=initialState,action)=>{

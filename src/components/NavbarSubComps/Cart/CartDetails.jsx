@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import './cartStyle.css'
 import { RemoveFromCart } from '../../../Redux/action'
@@ -63,8 +63,6 @@ const CartDetails = () => {
       image : 'https://img.perniaspopupshop.com/catalog/product/d/a/DARC0422142_1.jpg?impolicy=detailimageprod',
       
       handler : function (response) {
-        // alert(response.razorpay_payment_id)
-        // alert('Payment Successfull !')
         window.location.assign('/orders')
       },
       prefill :{
@@ -79,6 +77,11 @@ const CartDetails = () => {
    }
      
     // ---------End Razorpay Setup
+
+    useEffect(()=>{
+      localStorage.setItem("localStoredSareeCart", JSON.stringify(cartItems.cart));
+      localStorage.setItem("localStoredSareeAmount",JSON.stringify(cartItems.total_amount));
+    },[cartItems.cart,cartItems.total_amount])
   return (
     <div className='page-container'>
 
