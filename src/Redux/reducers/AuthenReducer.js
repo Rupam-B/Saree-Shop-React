@@ -1,9 +1,8 @@
 
-import { useNavigate } from 'react-router-dom';
+
+
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-const navigate = useNavigate
 
 const getLocalUserDetails = () => {
     let localUserSareeDetails = localStorage.getItem("localStoredSareeUserDetails");
@@ -63,7 +62,7 @@ const AuthenticationReducer = (state=AutheninitialState, action)=>{
         }
         else{
             toast.success('Log In Succesfull !')
-            navigate("/")
+            window.location.assign("/")
         return {
             ...state,
             checkArr:passArr
