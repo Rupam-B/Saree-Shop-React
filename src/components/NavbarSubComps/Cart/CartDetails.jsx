@@ -2,10 +2,19 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import './cartStyle.css'
 import { RemoveFromCart } from '../../../Redux/action'
+import { AddOrder } from '../../../Redux/action'
+import { EmptyCart } from '../../../Redux/action'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom'
+
 
 const CartDetails = () => {
 
+  const navigate =useNavigate();
+
   const cartItems = useSelector((state)=>state.AddOrRemoveItems)
+  
    const removeDispatch = useDispatch();
   
   
@@ -63,7 +72,12 @@ const CartDetails = () => {
       image : 'https://img.perniaspopupshop.com/catalog/product/d/a/DARC0422142_1.jpg?impolicy=detailimageprod',
       
       handler : function (response) {
-        window.location.assign('/orders')
+        
+        removeDispatch(EmptyCart())
+        removeDispatch(AddOrder(cartItems))
+        toast.success("Order Placed Succesfully!")
+        navigate('/orders')
+        
       },
       prefill :{
         // name : fillDetails.newname,

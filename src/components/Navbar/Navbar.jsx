@@ -12,7 +12,6 @@ const Navbar = () => {
   const AuthObject = useSelector((state)=>state.AuthenticationReducer)
 
 
-
   const cartValue = cartObjectValue.cart.length
 
   const Navdispatch = useDispatch();

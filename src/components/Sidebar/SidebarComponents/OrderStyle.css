@@ -1,6 +1,7 @@
 .Order-main-div{
-    height: 73vh;
+    height: 100%;
     background-color: rgba(215, 163, 163, 0.1);
+    
     
 }
 .order-container{
@@ -8,14 +9,128 @@
 }
 .order-section{
     border: 1px solid rgb(12, 12, 12,0.1);
-    width: 80vw;
-    height: 10vh;
+    width: 78vw;
+    height: 25vh;
     margin-top: 1rem;
     border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 2vw;
+}
+.order-heading-yes{
+    color: green;
+    font-weight: bolder;
+    text-align: center;
+}
+.order-heading-No{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+.number-of-orders{
+    height: 4vh;
+    width: 4vw;
+    background-color:wheat;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 2vw;
+    position: relative;
+    top: 9vh;
+    color:green;
+    font-weight: bolder;
+    padding: 0.2rem;
+}
+.order-img-div{
+    display: flex;
+    width: 10vw;
+}
+.order-img-div img{
+    height: 22vh;
+    width: 8vw;
+    /* object-fit: cover; */
+    margin: 0 1vw 0 0;
+    border-radius: 5px;
+}
+.Order-more-image-dot{
+  position: relative;
+  top: 16.5vh;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(11, 11, 11,0.4);
+}
+.mobile-display-amount-order-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.total-Order-items{
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: bold;
+    margin-right: 3vw;
+}
+.total-Order-items span{
+    color: red;
+}
+.total-order-amount{
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: bold;
+    margin-left: 3vw;
+
+}
+.total-order-amount span{
+    color: red;
+
+}
+.see-order-details{
+    color: green;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+    background-color: transparent;
+}
+.see-order-details:hover{
+    transform: scale(1.2);
 }
 
-@media screen and (max-width:500px) {.Order-main-div{
-    height: 90vh;
+@media screen and (max-width:500px) {
+    
+.order-section{
+    width: 86vw;
+    height: 20vh;
+}
+.number-of-orders{
+    height: 3.8vh;
+    width: 4.8vw;
+    top: 6vh;
+    padding: 0 0.8vw;
+}
+.order-img-div{
+   
+    width: 32vw;
+}
+.order-img-div img{
+    height: 16vh;
+    width: 15vw;
+}
+.Order-more-image-dot{
+    top: 10vh;
+  }
+.mobile-display-amount-order-div{
+    display: flex;
+    flex-direction: column;
+}
+.total-Order-items{
+    font-size: 0.8rem;
+    margin-right: 0;
+    margin-bottom: 1vh;
+}
+.total-order-amount{
+    font-size: 0.7rem;
+    margin-left: 0;
+    margin-top: 1vh;
 }
     
 }

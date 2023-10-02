@@ -18,6 +18,11 @@ export const RemoveFromCart = (removid) =>{
         payload:removid
     }
 }
+export const EmptyCart = () =>{
+    return{
+        type:"EMPTY-CART",
+    }
+}
 
 
 // Authentication Actions -------------------
@@ -38,5 +43,14 @@ export const AuthenticationLogin = (checkArr)=>{
 export const AuthenticationLogOut = ()=>{
     return {
         type:"LOG-OUT",
+    }
+}
+
+// Order Actions -------------------
+
+export const AddOrder =(cartItems)=>{
+    return{
+        type:'ADD-NEW-ORDER',
+        payload:cartItems
     }
 }

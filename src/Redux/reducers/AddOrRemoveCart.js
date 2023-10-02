@@ -55,6 +55,8 @@ const AddOrRemoveItems = (state=initialState,action)=>{
 
         }
 
+        
+
        else {
         toast.success("Item Added to cart");
         let NewProduct = {id, ProductName, imgsrc, Cost, quantity}
@@ -85,6 +87,14 @@ const AddOrRemoveItems = (state=initialState,action)=>{
             total_amount,
             cart:newArr
         }
+    }
+
+    else if(action.type==="EMPTY-CART"){
+      return{
+        ...state,
+        cart:[],
+        total_amount:0
+      }
     }
 
 
