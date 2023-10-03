@@ -65,7 +65,7 @@ const Navbar = () => {
             </div>
             <h1>SUBHRA SAREE HOUSE</h1>
             <div className="Navbar-sub-div-icons">
-              <Link to={'/favourites'}><i className="fa-regular fa-heart mobile-display-none"></i></Link>
+              <Link to={'/favourites'}><i className="fa-regular fa-heart  mobile-display-favourites"></i></Link>
               <Link to={'/Authen'}><i className="fa-regular fa-user mobile-display-right-user"></i></Link>
               <div className={AuthObject.checkArr.newname?"user-signed-symbol-green":"user-signed-symbol-white"}>✓</div>
               <i className="fa-solid fa-magnifying-glass mobile-display-none"></i>

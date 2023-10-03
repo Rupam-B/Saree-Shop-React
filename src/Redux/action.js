@@ -63,3 +63,17 @@ export const ShowOrder = (items)=>{
         payload:items
     }
 }
+// Favorite  Actions -------------------
+
+export const AddFavItems = (items)=>{
+    return {
+        type: "ADD-FAV-ITEM",
+        payload:items
+    }
+}
+export const DeleteFavItems = (delid)=>{
+    return {
+        type: "DEL-FAV-ITEM",
+        payload:delid
+    }
+}

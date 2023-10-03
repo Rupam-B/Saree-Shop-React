@@ -123,6 +123,25 @@
     color: white;
     z-index: 1;
 }
+.Extended-Home-container-card-heart-inactive{
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    /* color: wheat; */
+    color: wheat;
+}
+.Extended-Home-container-card-heart-active{
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color:red;
+}
 
 @media screen and (max-width:500px) {
     

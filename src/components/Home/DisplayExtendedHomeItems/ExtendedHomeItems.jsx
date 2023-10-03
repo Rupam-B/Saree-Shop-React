@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './ExtendedHomeStyle.css'
 import { FlashSaleExclusiveData } from '../FlashSaleExclusivedata'
 import { Link, useParams } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { AddFavItems } from '../../../Redux/action'
 
 const ExtendedHomeData = FlashSaleExclusiveData
 
@@ -9,9 +11,19 @@ const ExtendedHomeItems = () => {
   let {id} =useParams()
   const parsedId = parseInt(id)
 
+  const favDispatch = useDispatch();
+
   
   const [sendMainId] = useState(parsedId);
   const reqdata = ExtendedHomeData.find((Extitems)=>Extitems.id===parsedId)
+
+  const [toggleFavourite, setToggleFavourite]=useState(false)
+  const [favouriteId, setFavouriteId] = useState('')
+
+  const handleFavToggle = (favid)=>{
+    setFavouriteId(favid)
+    setToggleFavourite(!toggleFavourite)
+  }
 
 
   return (
@@ -46,6 +58,15 @@ const ExtendedHomeItems = () => {
                 <Link to={`/SubFinalHome/${items.id}/${sendMainId}`} className="Extended-Home-container-card-body-button">View Details</Link>
                 
               </div>
+              <button onClick={()=>{
+                if (toggleFavourite) {
+                  handleFavToggle(items.id);
+                } else {
+                  favDispatch(AddFavItems(items));
+                  handleFavToggle(items.id);
+                }
+              } }
+                className={toggleFavourite&&favouriteId===items.id?'Extended-Home-container-card-heart-active':'Extended-Home-container-card-heart-inactive'}><i className="fa-solid fa-heart"></i></button>
             </div>
           ))}
         </div>

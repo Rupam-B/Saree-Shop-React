@@ -817,7 +817,7 @@ const FlashSaleExclusiveData = [
             SubSareeNameHome: 'YELLOW AND GREY HANDLOOM',
             Cost:   1690.00 ,
             rating: '4.7',
-            src1: 'https://b.zmtcdn.com/data/pictures/chains/0/93970/ae0a71b4d560c4bcf7f52761c614fcc1_o2_featured_v2.jpg?output-format=webp',
+            src1: 'https://www.bharatsthali.com/cdn/shop/products/final-6_0e328c4f-9b05-4766-8e7e-e53d5e37a8b5_1800x1800.jpg?v=1653305517',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-3_d8cec373-6070-4579-9b0a-0fb424570414_1800x1800.jpg?v=1653305328',
             src3: 'https://www.bharatsthali.com/cdn/shop/products/final-6_0e328c4f-9b05-4766-8e7e-e53d5e37a8b5_1800x1800.jpg?v=1653305517'
         },

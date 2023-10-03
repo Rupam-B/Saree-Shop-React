@@ -403,6 +403,10 @@
         right: 3.2vw;
         color: green;
     }
+    .mobile-display-favourites{
+        position: absolute;
+        right: 3vw;
+    }
     
 
 
