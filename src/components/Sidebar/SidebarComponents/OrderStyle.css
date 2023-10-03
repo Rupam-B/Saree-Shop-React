@@ -102,6 +102,7 @@
     height: 18vh;
 }
 .number-of-orders{
+    background: transparent;
     height: 3.6vh;
     width: 5vw;
     top: 6vh;
@@ -116,7 +117,7 @@
     width: 16vw;
 }
 .Order-more-image-dot{
-    top: 12vh;
+    top: 10vh;
   }
 .mobile-display-amount-order-div{
     display: flex;
