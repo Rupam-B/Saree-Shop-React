@@ -20,8 +20,10 @@ const FavItemsAdd = (state=favInitialState,action)=>{
   const favoriteElement = action.payload;
     if(action.type==="ADD-FAV-ITEM"){
 
-      const reqfavid = favoriteElement.id
-      const existingFavItem = state.favArr.find((items)=>items.id===reqfavid)
+      let {favid,favimgsrc,favCost,favProductName} = action.payload;
+
+      let newFavProduct = {favid,favimgsrc,favCost,favProductName}
+      const existingFavItem = state.favArr.find((items)=>items.id===favid)
 
       if(existingFavItem){
         toast.error("Item already Exist in Favourites!")
@@ -34,13 +36,13 @@ const FavItemsAdd = (state=favInitialState,action)=>{
       toast.success('Added to Favourites !')
         return{
             ...state,
-            favArr:[...state.favArr,favoriteElement]
+            favArr:[...state.favArr,newFavProduct]
         }
       }
     }
     else if(action.type==="DEL-FAV-ITEM"){
       const reqDelArr = [...state.favArr]
-      const delArr = reqDelArr.filter((remvitem) => remvitem.id !== favoriteElement)
+      const delArr = reqDelArr.filter((remvitem) => remvitem.favid !== favoriteElement)
 
       return{
         ...state,

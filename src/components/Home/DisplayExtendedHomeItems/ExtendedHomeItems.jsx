@@ -62,7 +62,11 @@ const ExtendedHomeItems = () => {
                 if (toggleFavourite) {
                   handleFavToggle(items.id);
                 } else {
-                  favDispatch(AddFavItems(items));
+                  favDispatch(AddFavItems(
+                    items.id,
+                    items.src1,
+                    items.Cost
+                    ,items.SubSareeNameHome));
                   handleFavToggle(items.id);
                 }
               } }

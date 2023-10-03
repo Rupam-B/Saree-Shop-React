@@ -65,10 +65,15 @@ export const ShowOrder = (items)=>{
 }
 // Favorite  Actions -------------------
 
-export const AddFavItems = (items)=>{
+export const AddFavItems = (favid,favimgsrc,favCost,favProductName)=>{
     return {
         type: "ADD-FAV-ITEM",
-        payload:items
+        payload:{
+            favid,
+            favimgsrc,
+            favCost,
+            favProductName
+        }
     }
 }
 export const DeleteFavItems = (delid)=>{

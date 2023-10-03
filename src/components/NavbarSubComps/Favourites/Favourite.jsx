@@ -8,6 +8,8 @@ const Favourite = () => {
   const getFavItems = useSelector((state)=>state.FavItemsAdd)
   const receivedFavItems = getFavItems.favArr
 
+  console.log(receivedFavItems)
+
   const favouriteDispatch = useDispatch();
 
 
@@ -24,16 +26,16 @@ const Favourite = () => {
       </div>
       <div className="favourite-sub-div">
       {receivedFavItems.map((items) => (
-            <div key={items.id} className="card favourite-sub-container-card">
+            <div key={items.favid} className="card favourite-sub-container-card">
               <div className="favourite-sub-container-card-img">
-                <img className="card-img-top" src={items.src1} alt="" />
+                <img className="card-img-top" src={items.favimgsrc} alt="" />
                 
               </div>
               <div className="card-body favourite-sub-container-card-body">
-                <h5 className="card-title favourite-sub-container-card-title">{items.SubSareeNameHome}</h5>
-                <p className="card-text favourite-sub-container-card-PRICE">INR {items.Cost}.00</p>  
-              <button onClick={()=>{favouriteDispatch(AddToCart(items.id,items.src1,items.Cost,items.SubSareeNameHome))}} className='favourite-sub-container-button' >Add to Cart</button>
-              <button onClick={()=>{favouriteDispatch(DeleteFavItems(items.id))}} className='favourite-sub-container-button-cross'><i className="fa-solid fa-xmark"></i></button>
+                <h5 className="card-title favourite-sub-container-card-title">{items.favProductName}</h5>
+                <p className="card-text favourite-sub-container-card-PRICE">INR {items.favCost}.00</p>  
+              <button onClick={()=>{favouriteDispatch(AddToCart(items.favid,items.favimgsrc,items.favCost,items.favProductName))}} className='favourite-sub-container-button' >Add to Cart</button>
+              <button onClick={()=>{favouriteDispatch(DeleteFavItems(items.favid))}} className='favourite-sub-container-button-cross'><i className="fa-solid fa-xmark"></i></button>
               </div>
             </div>
           ))}

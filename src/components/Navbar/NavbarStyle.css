@@ -213,6 +213,26 @@
     right: 10.8vw;
     color: green;
 }
+.Extended-Nav-container-card-heart-active{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: transparent;
+    color:red;
+    font-size: 1.5rem;
+    
+}
+.Extended-Nav-container-card-heart-inactive{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: transparent;
+    color: wheat;
+    font-size: 1.5rem;
+
+}
 
 
 
@@ -407,6 +427,15 @@
         position: absolute;
         right: 1vw;
     }
+    .Extended-Nav-container-card-heart-active{
+        font-size: 1rem;
+        
+    }
+    .Extended-Nav-container-card-heart-inactive{
+        font-size: 1rem;
+    
+    }
+    
     
 
 

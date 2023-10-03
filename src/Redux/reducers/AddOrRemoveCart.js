@@ -27,8 +27,6 @@ const initialState = {
 
 const AddOrRemoveItems = (state=initialState,action)=>{
     if(action.type === 'ADD-TO-CART'){
-
-      console.log(state.total_amount,state.cart,"state")
         
         let {id,ProductName,imgsrc,Cost, quantity} = action.payload;
 
