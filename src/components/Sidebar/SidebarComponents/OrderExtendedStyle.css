@@ -1,3 +1,86 @@
 .Order-Extended-main-div{
     height: 100%;
+    padding: 1rem;
+    background-color: rgba(215, 163, 163, 0.1);
+}
+.Order-Extended-Sub-div-first{
+    display: flex;
+    justify-content: space-between;
+}
+.Order-Extended-total-order-items{
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    margin-left: 2.5vw;
+}
+.Order-Extended-total-order-items span{
+    color: red;
+}
+.Order-Extended-total-order-amount{
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-right: 1.8vw;
+}
+.Order-Extended-total-order-amount span{
+    color: red;
+    position: relative;
+    right: -30%;
+}
+
+
+.Order-Extended-Sub-div-section{
+    border: 1px solid rgb(12, 12, 12,0.1);
+    width: 78vw;
+    height: 25vh;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 2vw;
+}
+.Order-Extended-Sub-img-div img{
+    height: 22vh;
+    width: 8vw;
+    margin: 0 1vw 0 0;
+    border-radius: 5px;
+}
+.Order-Extended-sub-Product-details{
+    width: 30vw;
+}
+.Order-Extended-sub-quantity-details{
+    color: rgb(48, 48, 2);
+    font-weight: bolder;
+}
+.Order-Extended-sub-amount-details{
+    color:green;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:500px) {
+
+    .Order-Extended-total-order-items{
+        font-size: 1rem;
+    }
+    .Order-Extended-total-order-amount{
+        font-size: 1rem;
+        margin-right: 1vw;
+    }
+    .Order-Extended-Sub-div-section{
+        width: 86vw;
+        height: 18vh;
+        
+    }
+    .Order-Extended-Sub-img-div img{
+        height: 16vh;
+        width: 16vw;
+        margin: 0 1vw 0 0;
+        border-radius: 5px;
+    }
+    .Order-Extended-sub-Product-details{
+        width: 26vw;
+        font-size: 0.7rem;
+    }
+    
 }

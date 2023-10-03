@@ -27,6 +27,8 @@ const initialState = {
 
 const AddOrRemoveItems = (state=initialState,action)=>{
     if(action.type === 'ADD-TO-CART'){
+
+      console.log(state.total_amount,state.cart,"state")
         
         let {id,ProductName,imgsrc,Cost, quantity} = action.payload;
 
@@ -54,6 +56,7 @@ const AddOrRemoveItems = (state=initialState,action)=>{
             }
 
         }
+        
 
         
 
@@ -89,16 +92,18 @@ const AddOrRemoveItems = (state=initialState,action)=>{
         }
     }
 
-    else if(action.type==="EMPTY-CART"){
+    if(action.type==="EMPTY-CART"){
       return{
         ...state,
         cart:[],
         total_amount:0
       }
     }
-
+   
 
     else return state;
+
+    
 }
 
 export default AddOrRemoveItems;

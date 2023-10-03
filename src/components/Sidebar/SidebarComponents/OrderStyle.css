@@ -99,24 +99,24 @@
     
 .order-section{
     width: 86vw;
-    height: 20vh;
+    height: 18vh;
 }
 .number-of-orders{
-    height: 3.8vh;
-    width: 4.8vw;
+    height: 3.6vh;
+    width: 5vw;
     top: 6vh;
-    padding: 0 0.8vw;
+    padding: 0 1vw;
 }
 .order-img-div{
    
     width: 32vw;
 }
 .order-img-div img{
-    height: 16vh;
-    width: 15vw;
+    height: 15vh;
+    width: 16vw;
 }
 .Order-more-image-dot{
-    top: 10vh;
+    top: 12vh;
   }
 .mobile-display-amount-order-div{
     display: flex;
@@ -130,7 +130,8 @@
 .total-order-amount{
     font-size: 0.7rem;
     margin-left: 0;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh
 }
     
 }

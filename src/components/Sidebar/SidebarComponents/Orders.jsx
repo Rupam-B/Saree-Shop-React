@@ -1,11 +1,15 @@
 
 import React, { useEffect } from 'react';
 import './OrderStyle.css'
-import { useSelector } from 'react-redux';
-// import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { ShowOrder } from '../../../Redux/action';
 
 const Orders = () => {
+
       const orderReducerData =useSelector((state)=>state.AddOrderObject)
+
+      const orderDispatch = useDispatch();
 
       const mapThisArr = orderReducerData.recvArr
   
@@ -34,8 +38,8 @@ const Orders = () => {
           <div className="total-Order-items">Total items : <br /><span>{items.cart.length}</span></div>
           <div className="total-order-amount">Total Amount : <br />  <span>INR {items.total_amount}.00</span> </div>
           </div>
-          {/* <Link to={'/OrderExtended'} className="see-order-details"><i className="fa-solid fa-circle-arrow-right"></i></Link> */}
-          <button className="see-order-details"><i className="fa-solid fa-circle-arrow-right"></i></button>
+
+          <Link onClick={()=>{orderDispatch(ShowOrder(items))}} to={'/OrderExtended'} className="see-order-details"><i className="fa-solid fa-circle-arrow-right"></i></Link>
         </div>
         ))}
       </div>

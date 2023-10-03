@@ -54,3 +54,12 @@ export const AddOrder =(cartItems)=>{
         payload:cartItems
     }
 }
+
+// Extended Order Actions -------------------
+
+export const ShowOrder = (items)=>{
+    return {
+        type: "SHOW-ORDERS",
+        payload:items
+    }
+}

@@ -95,7 +95,7 @@ const CartDetails = () => {
     useEffect(()=>{
       localStorage.setItem("localStoredSareeCart", JSON.stringify(cartItems.cart));
       localStorage.setItem("localStoredSareeAmount",JSON.stringify(cartItems.total_amount));
-    },[cartItems.cart,cartItems.total_amount])
+    },[cartItems.cart,cartItems.total_amount]) 
   return (
     <div className='page-container'>
 
