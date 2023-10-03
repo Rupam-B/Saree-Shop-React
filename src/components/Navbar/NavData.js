@@ -59,7 +59,7 @@ const NavData = [
         }, {
             id: 3013,
             subSareeName: 'PINK AND WHITE PURE LINEN SAREE WITH CHECKS',
-            Cost:  3915.63  ,
+            Cost:  3915.00  ,
             rating: '4.5',
             src: 'https://www.bharatsthali.com/cdn/shop/products/msbgr2150_vafljlhfpimi8kzw_17ce2e19-0012-49ee-b7ce-5b894ca57682_1800x1800.jpg?v=1618915190'
             ,src2: 'https://www.bharatsthali.com/cdn/shop/products/7_9_2juan7cevukviweh_cc181fd7-88fe-42d6-8d2d-81db6fb3e6a3_1800x1800.jpg?v=1618917867'
@@ -82,7 +82,7 @@ const NavData = [
             {
 
             id: 3021,
-            subSareeName: 'GREEN COLOR SILK COTTON WOVEN DESIGN MAHESHWARI HANDLOOM SAREE',
+            subSareeName: 'GREEN COLOR SILK COTTON WOVEN DESIGN MAHESHWARI HANDLOOM',
             Cost:  3550.00  ,
             rating: '4.7',
             src: 'https://www.bharatsthali.com/cdn/shop/products/final-1_f76d1bb3-db04-4d57-a357-40d5945f8350_1800x1800.jpg?v=1648294501'
@@ -154,14 +154,14 @@ const NavData = [
             {
 
             id: 3041,
-            subSareeName: 'MAGENTA COLOR MAHESHWARI SILK HANDLOOM SAREE CONTAINS 1 GRAM PURE GOLD',
+            subSareeName: 'MAGENTA COLOR MAHESHWARI SILK CONTAINS 1 GRAM PURE GOLD',
             Cost:  45500.00  ,
             rating: '4.7',
             src: 'https://www.bharatsthali.com/cdn/shop/products/final-1_d79a8221-a5ae-456b-8969-dd1dc8081b17_1800x1800.jpg?v=1671200378',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_9fe4b6de-84d4-4fdc-b899-498edc132934_1800x1800.jpg?v=1671200298'
         }, {
             id: 3042,
-            subSareeName: 'YELLOW AND RED PURE COIMBATORE SILK HANDLOOM SAREE CONTAINS 1 GRAM PURE GOLD',
+            subSareeName: 'YELLOW AND RED COIMBATORE CONTAINS 1 GRAM PURE GOLD',
             Cost:  45500.00  ,
             rating: '4.6',
             src: 'https://www.bharatsthali.com/cdn/shop/files/final-1_1f023d78-3f98-4cad-b70c-67ada489d968_1800x1800.jpg?v=1688219828',
@@ -204,7 +204,7 @@ const NavData = [
             src2: 'https://www.bharatsthali.com/cdn/shop/products/final-2_f1e21ab1-b93c-4502-baf5-eba3f6b8c3fb_1800x1800.jpg?v=1662880888',
         }, {
             id: 3053,
-            subSareeName: 'DARK GREY COLOR SOFT CREPE MIX COLOR SAREE DIGITAL PRINT WITH KALAMKARI',
+            subSareeName: 'DARK GREY COLOR SOFT CREPE MIX COLOR KALAMKARI',
             Cost:  3100.00  ,
             rating: '4.5',
             src: 'https://www.bharatsthali.com/cdn/shop/products/final-3_70759415-61d5-43b9-85a9-3e66d892251e_1800x1800.jpg?v=1663790777',
@@ -240,7 +240,7 @@ const NavData = [
             src2: 'https://www.bharatsthali.com/cdn/shop/files/final-5_e7425ab6-d357-4f8e-8458-97f664fc976f_1800x1800.jpg?v=1687278288',
         }, {
             id: 3063,
-            subSareeName: 'GREEN COLOR COTTON SILK WOVEN DESIGN MANGALAGIRI HANDLOOM SAREE',
+            subSareeName: 'GREEN COLOR COTTON SILK WOVEN DESIGN MANGALAGIRI',
             Cost:  42002.00  ,
             rating: '4.5',
             src: 'https://www.bharatsthali.com/cdn/shop/products/final-1_2b20686b-fa76-4df4-a302-85c50f4c2245_1800x1800.jpg?v=1642587274',
@@ -263,14 +263,14 @@ const NavData = [
 
             id: 3071,
             subSareeName: 'FIRE YELLOW WITH BLUE PALLU AND BORDER PURE SOFT SILK SAREE',
-            Cost:  19061.73  ,
+            Cost:  19061.00  ,
             rating: '4.7',
             src: 'https://www.bharatsthali.com/cdn/shop/products/16_1_2_fk9xnkxudnxljxf5_1800x1800.jpg?v=1618917206',
             src2: 'https://www.bharatsthali.com/cdn/shop/products/12_6_2_txeyjpdeslmdhzpm_1800x1800.jpg?v=1618915632',
             
         }, {
             id: 3072,
-            subSareeName: 'BLOOD RED COLOR PURE KANJIVARAM SILK SAREE WITH RICHNESS OF GOLDEN ZARI',
+            subSareeName: 'BLOOD RED COLOR PURE KANJIVARAM SILK GOLDEN ZARI',
             Cost:  34106.00  ,
             rating: '4.6',
             src: 'https://www.bharatsthali.com/cdn/shop/products/3_4fa12701-de25-4e77-b0bf-8c3415257d92_1800x1800.jpg?v=1624792008',

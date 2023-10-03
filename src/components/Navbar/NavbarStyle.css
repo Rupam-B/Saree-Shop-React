@@ -145,6 +145,7 @@
     width: 100%;
     /* height:40vh; */
     overflow: hidden;
+    height: 38vh;
 }
 .JamdaniNavData-container-card-img img{
     width: 100%;
@@ -164,14 +165,17 @@
     width: 8vw;
     height: 4vh;
     font-size: 1.2rem;
-    background-color:rgb(246, 224, 185,0.8);
-    color: rgb(13, 11, 11);
-    border-radius: 10rem;
+    background-color:blue;
+    color:white;
     margin-bottom: 2vh;
-    padding-bottom: 1vh;
     border: none;
     position: absolute;
     bottom: -0.6rem;
+    border-radius: 1rem;
+}
+.JamdaniNavData-container-card-body-button:hover{
+    background-color:rgb(42, 2, 79);
+    color:white;
 }
 .JamdaniNavData-container-card-body-title-p{
     font-size: 0.7rem;

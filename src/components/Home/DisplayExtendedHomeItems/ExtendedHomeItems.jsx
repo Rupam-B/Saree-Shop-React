@@ -42,7 +42,7 @@ const ExtendedHomeItems = () => {
               </div>
               <div className="card-body Extended-Home-container-card-body">
                 <h5 className="card-title Extended-Home-container-card-title">{items.SubSareeNameHome}</h5>
-                <p className="card-text">{items.Cost}</p>
+                <p className="card-text Extended-Home-container-card-PRICE">INR {items.Cost}.00</p>
                 <Link to={`/SubFinalHome/${items.id}/${sendMainId}`} className="Extended-Home-container-card-body-button">View Details</Link>
                 
               </div>

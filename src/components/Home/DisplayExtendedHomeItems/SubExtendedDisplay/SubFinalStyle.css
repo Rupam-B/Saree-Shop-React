@@ -60,24 +60,28 @@
     color: white;
     border: 1px solid black;
 }
+.Final-Home-Product-price{
+    color: green;
+    font-weight: bolder;
+}
 
 @media screen and (max-width:500px) {
     
     .Final-Home-main-div{
-        height: 140vh;
+        height: 130vh;
     }
     .Final-Home-left-side-Img-div{
         position: absolute;
         left: 5vw;
         right: 5vw;
-        top: 35vh;
+        top: 32vh;
         margin: 0 1rem;
         width: 75vw;
         height: 70vh;
     }
     .Final-Home-left-side-Img-div img{
         width: 75vw;
-        height: 70vh;
+        height: 60vh;
         
     }
     /* ----- */
@@ -88,12 +92,12 @@
         left: 0;
         margin:1rem 0;
         width: 46vw;
-        height: 33vh;
+        height: 30vh;
     }
     .right-upper-img-1{
         margin: 0 2vw 0 0;
         width: 30vw;
-        height: 30vh;
+        height: 27vh;
         border-radius: 5px 5px 0 0;
     }
     .right-upper-img-1 img{
@@ -106,7 +110,7 @@
     /* ------ */
     .Final-Home-Product-Details-div{
         position: absolute;
-        top: 110vh;
+        top: 97vh;
         left: 6vw;
         width: 80vw;
         text-align: center;

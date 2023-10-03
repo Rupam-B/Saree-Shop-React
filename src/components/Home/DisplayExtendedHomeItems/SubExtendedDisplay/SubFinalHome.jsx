@@ -40,7 +40,7 @@ const SubFinalHome = () => {
         </div>
         <div className="Final-Home-Product-Details-div">
             <p className='Final-Home-Product-name'>{RequiredData.SubSareeNameHome}</p>
-            <p className='Final-Home-Product-price'>Price: {RequiredData.Cost}</p>
+            <p className='Final-Home-Product-price'>INR {RequiredData.Cost}.00</p>
             <button onClick={()=>{dispatch(AddToCart(parsedid,RequiredData.src1,RequiredData.Cost,RequiredData.SubSareeNameHome))}} className='Add-to-cart'>Add To Cart</button>
 
         </div>

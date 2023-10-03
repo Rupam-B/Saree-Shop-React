@@ -77,25 +77,15 @@ const Navbar = () => {
             <ul>
               {NavData.map((mainData, index) => (
                 <div  key={mainData.id}>
-                  <li
-                   
-                    onMouseEnter={()=>handleHover(mainData.id)}
-                    onMouseLeave={()=>handleMouseLeave(mainData.id)}
-                  >
+                  <li onMouseEnter={()=>handleHover(mainData.id)} onMouseLeave={()=>handleMouseLeave(mainData.id)}>
                     {mainData.sareeName}
                   </li>
 
-                  <div
-                    onMouseEnter={()=>handleHover(mainData.id)}
-                    onMouseLeave={()=>handleMouseLeave(mainData.id)}
+                  <div onMouseEnter={()=>handleHover(mainData.id)} onMouseLeave={()=>handleMouseLeave(mainData.id)}
                     className={newid===mainData.id ? "JamdaniNavData-container JamdaniNavData-container-active":
-                    "JamdaniNavData-container JamdaniNavData-container-Not-active"}
-                  >
+                    "JamdaniNavData-container JamdaniNavData-container-Not-active"}>
                     {NavData[index].sareeData.map((items) => (
-                      <div
-                        key={items.id}
-                        className="card JamdaniNavData-container-card"
-                      >
+                      <div key={items.id}className="card JamdaniNavData-container-card">
                         <div className="JamdaniNavData-container-card-img">
                           <img onMouseEnter={()=>handleNavImagesin(items.id)} onMouseLeave={handleNavImagesOut}
                             src={imgid===items.id?items.src2:items.src}
@@ -107,7 +97,7 @@ const Navbar = () => {
                           <div className="JamdaniNavData-container-card-body-p-title">
                             <p className="card-title JamdaniNavData-container-card-body-title-p">{items.subSareeName}</p>
                           </div>
-                          <p className="card-text JamdaniNavData-container-card-body-price-p">{items.Cost}</p>
+                          <p className="card-text JamdaniNavData-container-card-body-price-p">INR {items.Cost}.00</p>
                           <button onClick={()=>{Navdispatch(AddToCart(items.id,items.src,items.Cost,items.subSareeName))}} className="JamdaniNavData-container-card-body-button">
                             Buy
                           </button>
