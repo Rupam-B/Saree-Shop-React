@@ -88,8 +88,8 @@ color: rgb(38, 34, 34);
   .side-bar-container-mobile {
     display: block;
     position: fixed;
-    left: 0.6rem;
-    margin-top: 0.6rem;
+    left: 0.8vw;
+    margin-top: 2vh;
     z-index: 2;
     top: 5.5vh;
   }

@@ -250,7 +250,7 @@
     }
     .Navbar-main-sub-div h1{
         font-size: 1.5rem;
-        margin-left: 1.5rem;
+        margin-left: 5vw;
         margin-right: 0.5rem;
         margin-top: 0.5rem;
     
@@ -279,11 +279,11 @@
         display: none;
     }
     .mobile-display-right-user{
-        right: -3.5vw;
+        right: -4.5vw;
     }
     .mobile-display-left-cart{
         
-        right: 8.5vw;
+        right: 7vw;
     }
 
 
@@ -400,12 +400,12 @@
     }
     .user-signed-symbol-green{
         top: 5vh;
-        right: 3.2vw;
+        right: 2.5vw;
         color: green;
     }
     .mobile-display-favourites{
         position: absolute;
-        right: 3vw;
+        right: 1vw;
     }
     
 
