@@ -6,13 +6,16 @@ export const Sidebar = () => {
 
   const [toggleSidebar,setToggleSidebar] = useState(false)
 
-  const toggleSidebarfunc = ()=>{
-    setToggleSidebar(!toggleSidebar)
+  const toggleSidebarfuncOn = ()=>{
+    setToggleSidebar(true)
+  }
+  const toggleSidebarfuncOff = ()=>{
+    setToggleSidebar(false)
   }
   return (
     <>
     <div className="side-bar-container-mobile">
-              <button onClick={toggleSidebarfunc} className={toggleSidebar? "side-bar-mobile side-bar-mobile-active-background" :"side-bar-mobile" }><i className="fa-solid fa-bars"></i></button>
+              <button onMouseEnter={toggleSidebarfuncOn} onMouseLeave={toggleSidebarfuncOff} className={toggleSidebar? "side-bar-mobile side-bar-mobile-active-background" :"side-bar-mobile" }><i className="fa-solid fa-bars"></i></button>
             </div>
 
     <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-show" :"sidebar-main-div hide-to-right" }>
