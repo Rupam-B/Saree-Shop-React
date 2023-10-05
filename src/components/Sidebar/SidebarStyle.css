@@ -123,10 +123,10 @@ color: rgb(38, 34, 34);
   }
   .sidebar-items ul li a{
     text-decoration: none;
-    padding-left: 4vw;
-    margin-top: 1vh;
-    
+    padding-left: 4.5vw;
+    margin-top: 0.2vh;
     color: wheat;
+    position: absolute;
     }
     .favourite-pc-display-none{
       display: block;
