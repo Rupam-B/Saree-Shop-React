@@ -14,7 +14,7 @@ const Search = () => {
   const [showSearching, setShowSearching] = useState(false);
   const [searchedItems, setSearchedItems] = useState([]);
 
-  const performSearch = (searchQuery) => {
+  const performSearch = () => {
     setShowSearching(true);
 
     setTimeout(() => {
@@ -29,13 +29,14 @@ const Search = () => {
 
 const handleInputChange = (e) => {
   const newQuery = e.target.value;
-  setQuery(newQuery);
+  const capitalizedQuery = newQuery.charAt(0).toUpperCase() + newQuery.slice(1);
+  setQuery(capitalizedQuery);
 
   if (showSearching) {
     clearTimeout(showSearching);
   }
   setTimeout(() => {
-    performSearch(newQuery);
+    performSearch();
   }, 500);
 };
 

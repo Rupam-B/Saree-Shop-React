@@ -25,6 +25,14 @@ const ExtendedHomeItems = () => {
     setToggleFavourite(!toggleFavourite)
   }
 
+  // const scrollToPosition =()=> {
+  //   const targetY = window.scrollY + 300;
+  //   window.scrollTo({
+  //     top: targetY,
+  //     behavior: 'smooth',
+  //   });
+  // }
+
 
   return (
     <>
@@ -33,7 +41,7 @@ const ExtendedHomeItems = () => {
       <div className="lower-header">
       <p className="h3">MADE WITH lOVE</p>
       <p>Get 10% off (Min Shopping 2500 RS) - Coupon 'Happy10'</p>
-      <p className="btn btn-outline-secondary btn--secondary btn--small btn--tint-border">Shop now</p>
+      <p onClick={()=>{window.scrollTo(0,850)}} className="btn btn-outline-secondary btn--secondary btn--small btn--tint-border">Shop now</p>
       </div>
       <div className="Extended-Home-items-heading-div">
         <hr />

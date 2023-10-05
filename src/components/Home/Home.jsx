@@ -1,11 +1,13 @@
 import React, { useCallback, useEffect, useState } from "react";
 import "./HomeStyle.css";
 import { FlashSaleExclusiveData } from "./FlashSaleExclusivedata";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const FlashSale = FlashSaleExclusiveData;
 
 const Home = () => {
+const HomeNavigate = useNavigate()
+
   const [imgChange, setimgChange] = useState(false);
   const [mainimgChange, setMainimgChange] = useState(false);
   const [particularimgChange, setParticularimgChange] = useState("");
@@ -81,8 +83,8 @@ const Home = () => {
           <h1>LUXURY SILK SAREE STORE</h1>
           <h6>Here are the sarees that are meant for every sphere of your life. We have sarees for everyone at Subhra Saree.</h6>
           <div className="Luxury-Section-Content-Button">
-          <button>SHOP THIS</button> 
-          <button>BROWSE MORE</button>
+        <button onClick={()=>{window.scrollTo(0, 300)}}>SHOP THIS</button> 
+          <button onClick={()=>{HomeNavigate('/Search')}}>BROWSE MORE</button>
           </div>
         </div>
       </div>
