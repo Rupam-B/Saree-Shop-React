@@ -109,7 +109,7 @@
 /* --------Li Display----- */
 .JamdaniNavData-container{
     position: absolute;
-    top: 18vh;
+    top: 19vh;
     width: 100vw;
     height: 58vh;
     background-color: white;
@@ -331,7 +331,7 @@
     /* ------Drop down li----- */
     .JamdaniNavData-container{
         position: absolute;
-        top: 15vh;
+        top: 16vh;
         width: 100vw;
         height: 33vh;
         background-color: white;
