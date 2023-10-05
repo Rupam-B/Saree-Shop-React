@@ -21,10 +21,11 @@ export const Sidebar = () => {
     <div className={toggleSidebar? "sidebar-main-div sidebar-main-div-show" :"sidebar-main-div hide-to-right" }>
       <div className="sidebar-items">
         <ul>
-          <li><i className="fa-solid fa-house"></i><Link to={'/'}>Home</Link></li>
-          <li><i className="fa-solid fa-address-card"></i><Link to={'/about'}>About</Link></li>
-          <li><i className="fa-solid fa-phone"></i><Link to={'/contact'}>Contact</Link></li>
-          <li><i className="fa-brands fa-first-order-alt"></i><Link to={'/orders'}>Orders</Link></li>
+          <li className='Sidebar-Home'><i className="fa-solid fa-house"></i><Link to={'/'}>Home</Link></li>
+          <li className='Sidebar-About'><i className="fa-solid fa-address-card"></i><Link to={'/about'}>About</Link></li>
+          <li className='Sidebar-contact'><i className="fa-solid fa-phone"></i><Link to={'/contact'}>Contact</Link></li>
+          <li className='Sidebar-Orders'><i class="fa-solid fa-gift"></i><Link to={'/orders'}>Orders</Link></li>
+          <li className='favourite-pc-display-none'><i className="fa-solid fa-heart "></i><Link to={'/favourites'}>Favourites</Link></li>
         </ul>
         </div>
         </div>

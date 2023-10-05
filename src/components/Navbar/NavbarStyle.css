@@ -299,11 +299,11 @@
         display: none;
     }
     .mobile-display-right-user{
-        right: -4.5vw;
+        right: -3.5vw;
     }
     .mobile-display-left-cart{
         
-        right: 7vw;
+        right: 8.2vw;
     }
 
 
@@ -408,7 +408,7 @@
     .cart-value{
         position: absolute;
         top: 4.5vh;
-        right: 8vw;
+        right: 9.2vw;
         height: 3.2vh;
         width: 5vw;
         background-color: red;
@@ -420,12 +420,8 @@
     }
     .user-signed-symbol-green{
         top: 5vh;
-        right: 2.5vw;
+        right: 3.6vw;
         color: green;
-    }
-    .mobile-display-favourites{
-        position: absolute;
-        right: 1vw;
     }
     .Extended-Nav-container-card-heart-active{
         font-size: 1rem;

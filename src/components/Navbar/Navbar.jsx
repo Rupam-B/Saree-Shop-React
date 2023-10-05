@@ -80,7 +80,7 @@ const Navbar = () => {
             <h1>SUBHRA SAREE HOUSE</h1>
             <div className="Navbar-sub-div-icons">
               <Link to={"/favourites"}>
-                <i className="fa-regular fa-heart  mobile-display-favourites"></i>
+                <i className="fa-regular fa-heart  mobile-display-none"></i>
               </Link>
               <Link to={"/Authen"}>
                 <i className="fa-regular fa-user mobile-display-right-user"></i>

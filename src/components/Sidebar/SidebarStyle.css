@@ -54,6 +54,22 @@ padding-left: 0.5vw;
 color: rgb(38, 34, 34);
 }
 
+.favourite-pc-display-none{
+  display: none;
+}
+.Sidebar-contact i{
+  color: rgb(0, 140, 255);
+}
+.Sidebar-Orders i{
+  color:orange;
+}
+.Sidebar-About i{
+  color:rgb(240, 4, 126);
+}
+.Sidebar-Home i{
+  color:rgb(173, 173, 14);
+}
+
 @media screen and (max-width: 500px) {
   .hide-to-right{
     background-color: rgb(44, 40, 40,0.9);
@@ -73,8 +89,8 @@ color: rgb(38, 34, 34);
     position: fixed;
     color: wheat;
     border-radius: 0 ;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     left: 0;
     top: 18vh;
     height: 100%;
@@ -88,7 +104,7 @@ color: rgb(38, 34, 34);
   .side-bar-container-mobile {
     display: block;
     position: fixed;
-    left: 0.8vw;
+    left: 2vw;
     margin-top: 2vh;
     z-index: 2;
     top: 4.7vh;
@@ -102,10 +118,32 @@ color: rgb(38, 34, 34);
     background-color: rgb(44, 40, 40,0.9) ;
     color: wheat;
   }
+  .sidebar-items ul{
+    padding-left: 1rem;
+  }
   .sidebar-items ul li a{
     text-decoration: none;
-    padding-left: 4.5vw;
+    padding-left: 4vw;
+    margin-top: 1vh;
     
     color: wheat;
+    }
+    .favourite-pc-display-none{
+      display: block;
+    }
+    .favourite-pc-display-none i{
+      color: red;
+    }
+    .Sidebar-contact i{
+      color: rgb(0, 140, 255);
+    }
+    .Sidebar-Orders i{
+      color:orange;
+    }
+    .Sidebar-About i{
+      color:rgb(240, 4, 126);
+    }
+    .Sidebar-Home i{
+      color:rgb(173, 173, 14);
     }
 }
