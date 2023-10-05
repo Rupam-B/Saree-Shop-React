@@ -31,12 +31,9 @@ const handleInputChange = (e) => {
   const newQuery = e.target.value;
   setQuery(newQuery);
 
-  // Clear the previous timeout if user continues typing
   if (showSearching) {
     clearTimeout(showSearching);
   }
-
-  // Perform the search after 0.5 seconds of inactivity
   setTimeout(() => {
     performSearch(newQuery);
   }, 500);
