@@ -57,6 +57,9 @@ color: rgb(38, 34, 34);
 .favourite-pc-display-none{
   display: none;
 }
+.Search-pc-display-none{
+  display: none;
+}
 .Sidebar-contact i{
   color: rgb(0, 140, 255);
 }
@@ -130,6 +133,12 @@ color: rgb(38, 34, 34);
     }
     .favourite-pc-display-none{
       display: block;
+    }
+    .Search-pc-display-none{
+      display: block;
+    }
+    .Search-pc-display-none i{
+      color: white;
     }
     .favourite-pc-display-none i{
       color: red;

@@ -1,0 +1,148 @@
+.Search-main-Input{
+    width: 60%;
+    border-radius: 1rem;
+    height: 5vh;
+    text-align: center;
+}
+.Search-input-div{
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0 10vh 0; 
+}
+
+/* ////////// */
+
+.Search-Sub-div{
+    display: flex;
+    flex-wrap: wrap;
+  
+    margin-top: 1rem;
+}
+.Search-Sub-container-card{
+    width: 18vw;
+    height: 65vh;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+.Search-Sub-container-card-img{
+    width: 100%;
+    height:45vh;
+    overflow: hidden;
+}
+.Search-Sub-container-card-img img{
+    width: 100%;
+    height:45vh;
+    transition: 0.5s ease;
+}
+.Search-Sub-container-card-body{
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Search-Sub-container-card-title{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+.Search-Sub-container-card-PRICE{
+    color: green;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 5vh;
+}
+.Search-Sub-container-button{
+    border: none;
+    height: 5vh;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 1vh;
+    padding: 0 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(10, 10, 10,0.7);
+}
+.Search-Sub-container-button:hover{
+    background-color: blue;
+    color: white;
+}
+.Search-Action{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: blue;
+}
+.No-matched{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .favourite-main-div{
+        object-fit: cover;
+        margin-left: 0;
+        padding: 0 3vw;
+    }
+
+    .favourite-bg-image img{
+        width: 93vw;
+        height: 100%;
+        border-radius: 50%;
+        top: 0;
+        left:0;
+    }
+    .Search-Sub-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Search-Sub-container-card{
+        width: 40vw;
+        height: 47vh;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+    .Search-Sub-container-card-img{
+        width: 100%;
+        height:30vh;
+        overflow: hidden;
+    }
+    .Search-Sub-container-card-img img{
+        width: 100%;
+        height:30vh;
+        transition: 0.5s ease;
+    }
+    .Search-Sub-container-card-title{
+        font-size: 0.55rem;
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .Search-Sub-container-card-PRICE{
+        color: green;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 5vh;
+    }
+    .Search-Sub-container-button{
+        border: none;
+        height: 5vh;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: 1vh;
+        padding: 0 1rem;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(10, 10, 10,0.7);
+    }
+    
+}

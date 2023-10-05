@@ -8,8 +8,6 @@ const Favourite = () => {
   const getFavItems = useSelector((state)=>state.FavItemsAdd)
   const receivedFavItems = getFavItems.favArr
 
-  console.log(receivedFavItems)
-
   const favouriteDispatch = useDispatch();
 
 

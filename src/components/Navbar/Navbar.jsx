@@ -94,7 +94,7 @@ const Navbar = () => {
               >
                 ✓
               </div>
-              <i className="fa-solid fa-magnifying-glass mobile-display-none"></i>
+              <Link to={'/Search'} ><i className="fa-solid fa-magnifying-glass mobile-display-none"></i></Link>
               <Link
                 to={"/cart"}
                 style={{ textDecoration: "none", color: "black" }}

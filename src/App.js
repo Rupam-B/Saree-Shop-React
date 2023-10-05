@@ -14,6 +14,7 @@ import CartDetails from './components/NavbarSubComps/Cart/CartDetails';
 import ExtendedHomeItems from './components/Home/DisplayExtendedHomeItems/ExtendedHomeItems';
 import SubFinalHome from './components/Home/DisplayExtendedHomeItems/SubExtendedDisplay/SubFinalHome';
 import OrderExtended from './components/Sidebar/SidebarComponents/OrderExtended';
+import Search from './components/NavbarSubComps/Search/Search';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
     <Route path='/authen' element={<Authen/>}/>
     <Route path='/Cart' element={<CartDetails/>}/>
     <Route path='/OrderExtended' element={<OrderExtended/>} />
+    <Route path='/Search' element={<Search/>}/>
     </Routes>
     </div>
     </div>
